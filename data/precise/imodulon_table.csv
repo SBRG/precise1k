@@ -1,0 +1,93 @@
+,regulator_readable,function,category,n_genes,exp_var,precision,recall,category_num
+YieP,,Unknown,Regulator Discovery,11,0.0009784732511322058,,,7
+GlpR,GlpR,Glycerol catabolism,Carbon Source Utilization,9,0.006170446633884552,1.0,1.0,0
+YgbI,,Unknown Function,Regulator Discovery,9,0.0027104696629091096,,,7
+efeU-repair,,Accounts for repair and expression of efeU operon,Genomic Alterations,8,0.003119783492965822,,,9
+ydcI-KO,,Accounts for ydcI knock-out,Genomic Alterations,3,0.0008642576187813944,,,9
+BW25113,,Transcriptional difference between BW25113 and MG1655,Genomic Alterations,17,0.005115872508725916,,,9
+proVWX,,Glycine betaine transport,Biological Enrichment,4,0.009594595637473002,,,8
+DhaR/Mlc,DhaR or Mlc,Dihydroxyacetone kinase and phosphotransferase systems,Carbon Source Utilization,11,0.002908199911677678,0.7272727273,0.5714285714,0
+ArgR,ArgR,Arginine biosynthesis,Amino Acid and Nucleotide Biosynthesis,13,0.007616368212478242,0.9230769231,0.0983606557,1
+YneJ,,Unknown Function,Regulator Discovery,5,0.001118053241172201,,,7
+NarL,NarL,Nitrate respiration,Energy Metabolism,29,0.0144604214969134,0.9310344828,0.2288135593,2
+e14-deletion,,Removal of e14 prophage,Genomic Alterations,11,0.004556027353938452,,,9
+MalT,MalT,Maltose catabolism,Carbon Source Utilization,9,0.008424151189027618,0.8888888889000001,0.8,0
+OxyR,OxyR,Peroxide reductases,Stress Response,8,0.0020727500854880176,1.0,0.170212766,6
+Crp-2,Crp,Various carbon source catabolism,Carbon Source Utilization,40,0.016542524743851095,0.7000000000000001,0.0477001704,0
+AtoC,AtoC,Acetoacetate degradation,Miscellaneous Metabolism,6,0.0019196495602212815,0.6666666667000001,1.0,4
+PurR-1,PurR,Purine Biosynthesis,Amino Acid and Nucleotide Biosynthesis,16,0.008680048635027249,0.8125,0.3611111111,1
+yheO-KO,,Accounts for yheO knock-out,Genomic Alterations,16,0.0006315331496776766,,,9
+CsqR,CsqR,Sulfoquinovose catabolism,Miscellaneous Metabolism,10,0.004719517267360307,0.5,1.0,4
+MetJ,MetJ,Methionine biosynthesis,Amino Acid and Nucleotide Biosynthesis,17,0.004988046663392698,0.6470588235,0.7333333333000001,1
+entC-menF-KO,,Accounts for entC and menF knock-outs,Genomic Alterations,3,0.0024406031836055053,,,9
+uncharacterized-6,,Unknown Function,Uncharacterized,54,0.006949174925222623,,,10
+PurR-2,PurR,Pyrimidine biosynthesis,Amino Acid and Nucleotide Biosynthesis,10,0.01755975576153279,0.7000000000000001,0.1944444444,1
+Cbl+CysB,Cbl and CysB,Aliphatic sulfonate utilization,Miscellaneous Metabolism,10,0.003929793548827609,0.8,0.8888888889000001,4
+GlcC,GlcC,Glycolate catabolism,Carbon Source Utilization,6,0.007006514474298675,1.0,0.8571428571,0
+Crp-1,Crp,Miscellaneous functions,Miscellaneous Metabolism,60,0.018617568981103894,0.4833333333,0.0494037479,4
+YiaJ,PlaR,Ascorbate utilization,Carbon Source Utilization,10,0.0018946382074714885,1.0,0.9090909091,0
+GcvA,GcvA,Glycine cleavage system,Miscellaneous Metabolism,4,0.0025062317126504086,0.75,0.75,4
+XylR,XylR,Xylose catabolism,Carbon Source Utilization,13,0.007030819281805711,0.4615384615,0.8571428571,0
+fur-KO,,Accounts for fur knock-out,Genomic Alterations,13,0.0017882171075779274,,,9
+RpoH,RpoH,Heat shock response,Stress Response,13,0.0027365739238367492,1.0,0.0955882353,6
+GadEWX,GadE and GadW and GadX,Acid stress response,Stress Response,17,0.015096183767697058,0.5882352941,0.9090909091,6
+translation,,Enriched in translation machinery,Biological Enrichment,24,0.014842085912537772,,,8
+PrpR,PrpR,Propionate catabolism,Carbon Source Utilization,6,0.006171138301423018,0.6666666667000001,0.8,0
+GadWX,GadX and GadW,Acid stress response,Stress Response,8,0.005650573538439563,1.0,0.5333333333,6
+fimbriae,,Fimbriae assembly,Biological Enrichment,8,0.00509441053824955,,,8
+CecR,CecR,Related to antibiotic sensitivity,Stress Response,5,0.0010704754721694298,1.0,1.0,6
+uncharacterized-4,,Unknown Function,Uncharacterized,10,0.008295276509937999,,,10
+ArcA-1,ArcA,Anaerobic response,Energy Metabolism,50,0.017905814912563822,0.66,0.0726872247,2
+nitrate-related,,Nitric oxide response,Biological Enrichment,14,0.002897109618493654,,,8
+Fnr,Fnr,Anaerobic response,Energy Metabolism,40,0.03485506800162741,0.85,0.0770975057,2
+CdaR,CdaR,Glucarate catabolism,Carbon Source Utilization,10,0.00834627300486701,0.9,1.0,0
+Pyruvate,BtsR or PyrR or PdhR,Pyruvate transport and metabolism,Carbon Source Utilization,8,0.0026137807678748848,0.5,0.09302326,0
+SrlR+GutM,SrlR and GutM,Sorbitol catabolism,Carbon Source Utilization,5,0.00220225815224262,1.0,0.7142857143,0
+NagC/TyrR,NagC or TyrR,N-acetylglucosamine catabolism and tyrosine biosynthesis,Carbon Source Utilization,17,0.0026691498369226796,0.9411764706,0.3265306122,0
+CpxR,CpxR,Various stress responses,Stress Response,17,0.0027405612833638626,0.4705882353,0.1290322581,6
+thrA-KO,,Accounts for thrA knock-out,Genomic Alterations,3,0.001217839735395576,,,9
+Lrp,Lrp,Amino acid and peptide transport,Amino Acid and Nucleotide Biosynthesis,37,0.010140389589744947,0.8648648649,0.16,1
+deletion-1,,Large deletion of 39 genes during evolution,Genomic Alterations,41,0.00529014281013962,,,9
+Leu/Ile,Ile-tRNA or IlvY or Leu-tRNA,Branched-chain amino acid biosynthesis,Amino Acid and Nucleotide Biosynthesis,14,0.0046250863091654715,0.9285714286,0.7647058824,1
+deletion-2,,Large deletion of 171 genes during evolution,Genomic Alterations,110,0.003180596893296861,,,9
+Fur-1,Fur,Iron homeostasis,Metal Homeostasis,48,0.020543915423589576,0.8958333333,0.2457142857,3
+uncharacterized-5,,Unknown Function,Uncharacterized,4,0.032859215041966205,,,10
+Thiamine,Thiamine diphosphate,Thiamine biosynthesis,Miscellaneous Metabolism,11,0.004897294243523587,1.0,1.0,4
+CysB,CysB,Inorganic sulfate assimilation,Amino Acid and Nucleotide Biosynthesis,21,0.0077075960430037505,0.7619047619,0.5161290323000001,1
+FliA,FliA,Chemotaxis,Structural Components,30,0.034258923579562395,0.9666666667,0.4461538462,5
+PuuR,PuuR,Putrescine catabolism,Miscellaneous Metabolism,7,0.01146083937042619,1.0,1.0,4
+NikR,NikR,Nickel homeostasis,Metal Homeostasis,6,0.006052552649155052,0.8333333333,0.8333333333,3
+NtrC+RpoN,NtrC and RpoN,Nitrogen starvation response,Stress Response,56,0.01678450871897963,0.5714285714,0.6666666667000001,6
+RcsAB,RcsAB,Colanic acid capsule formation,Structural Components,28,0.006958187046275599,0.3571428571,0.625,5
+His-tRNA,His-tRNA,Histidine biosynthesis,Amino Acid and Nucleotide Biosynthesis,9,0.004500263323237497,0.8888888889000001,1.0,1
+Fur-2,Fur,Iron homeostasis,Metal Homeostasis,27,0.0069543994253825625,0.8148148148000001,0.1257142857,3
+Copper,CusR or HprR or CueR,Copper homeostasis,Metal Homeostasis,8,0.008327432890209763,1.0,0.4210526316,3
+AllR/AraC/FucR,AllR or AraC or FucR,"Allantoin, glyoxylate, L-arabinose, and L-fucose catabolism",Carbon Source Utilization,18,0.004094590277068599,1.0,0.6000000000000001,0
+Cra,Cra,Central carbon metabolism,Carbon Source Utilization,15,0.005878582673913613,0.8,0.0888888889,0
+ArcA-2,ArcA,Electron Transport Chain,Energy Metabolism,25,0.004937396734492561,0.84,0.0462555066,2
+EvgA,EvgA,Acid and osmotic stress response,Stress Response,20,0.006838776549796366,0.5,0.625,6
+uncharacterized-2,,Unknown Function,Uncharacterized,42,0.004968117583440512,,,10
+Zinc,ZntR or Zur,Zinc homeostasis,Metal Homeostasis,12,0.009272020891802346,0.5833333333,1.0,3
+SoxS,SoxS,Oxidative stress response,Stress Response,41,0.002647205141320441,0.5609756098,0.4339622642,6
+Nac,Nac,Nitrogen starvation response,Stress Response,37,0.00375708139864106,0.8648648649,0.0617760618,6
+Tryptophan,L-tryptophan or TrpR or Trp-tRNA,Tryptophan Biosynthesis,Amino Acid and Nucleotide Biosynthesis,11,0.0031302308675007495,0.8181818182,0.5,1
+curli,,Curli assembly,Biological Enrichment,4,0.002809840243144235,,,8
+gadWX-KO,,Accounts for gadW and gadX knock-outs,Genomic Alterations,2,0.0007468058078433648,,,9
+flu-yeeRS,,Genes in CP4-44 prophage,Biological Enrichment,8,0.0031411694471910057,,,8
+uncharacterized-1,,Unknown Function,Uncharacterized,15,0.0035995434001379056,,,10
+FadR/IclR,FadR or IclR,Fatty acid degradation,Miscellaneous Metabolism,13,0.0026756240149633514,0.7692307692,0.4,4
+lipopolysaccharide,,Lipopolysaccharide biosynthesis,Biological Enrichment,36,0.009103039002889446,,,8
+FlhDC,FlhDC,Flagella assembly,Structural Components,41,0.04217993001284981,0.9268292683,0.4871794872,5
+crp-KO,,Accounts for crp knock-out,Genomic Alterations,14,0.01086878902922328,,,9
+GntR/TyrR,GntR or TyrR,Gluconate catabolism and tyrosine biosynthesis,Carbon Source Utilization,15,0.002368725900413593,0.8666666667,0.5416666667,0
+purR-KO,,Accounts for purR knock-out,Genomic Alterations,3,0.002089768575840756,,,9
+RpoS,RpoS,General stress response,Stress Response,107,0.043241501035047425,0.3738317757,0.1320132013,6
+membrane,,Enriched in membrane-bound proteins,Biological Enrichment,15,0.004521713763763424,,,8
+duplication-1,,Large duplication of 129 genes during evolution,Genomic Alterations,84,0.0026758184600117474,,,9
+uncharacterized-3,,Unknown Function,Uncharacterized,2,0.005407276749374246,,,10
+ExuR/FucR,ExuR or FucR,D-galacturonate and L-fucose catabolism,Carbon Source Utilization,15,0.005038621598049464,0.6666666667000001,0.625,0
+FecI,FecI,Ferric citrate transport,Metal Homeostasis,10,0.001550016047545233,0.5,1.0,3
+iron-related,,Related to iron metabolism,Biological Enrichment,20,0.007258384758011438,,,8
+RbsR,RbsR,D-ribose catabolism,Carbon Source Utilization,6,0.00421309446243745,0.8333333333,0.5555555556,0
+sgrT,,Contains single dominating gene: sgrT,Biological Enrichment,4,0.0034885214862282465,,,8
+insertion,,IS2 insertion element after laboratory evolution,Genomic Alterations,9,0.0013624559556465465,,,9

@@ -1,0 +1,2492 @@
+# Copies and Copyright-Notice
+#
+#      RegulonDB is free for academic/noncommercial use
+#
+#      User is not entitled to change or erase data sets of the RegulonDB
+#      database or to eliminate copyright notices from RegulonDB. Furthermore,
+#      User is not entitled to expand RegulonDB or to integrate RegulonDB partly
+#      or as a whole into other databank systems, without prior written consent
+#      from CCG-UNAM.
+#
+#      Please check the license at http://regulondb.ccg.unam.mx/menu/download/full_version/terms_and_conditions.jsp
+#
+# Citation
+#
+#      Santos-Zavaleta A et al. (2019). RegulonDB v 10.5: tackling challenges to unify classic and high throughput knowledge of gene regulation in E. coli K-12.,
+#      Nucleic Acids Res. 2019 Jan 8;47(D1):D212-D220. doi: 10.1093/nar/gky1077.
+#
+#
+# Contact
+#
+#      Person: RegulonDB Team
+#      Web Page: http://regulondb.ccg.unam.mx/menu/about_regulondb/contact_us/index.jsp
+#          (regulondb@ccg.unam.mx)
+#
+#
+# Release: 10.7 Date: 05/04/2020
+# ___________________________________________________________________________
+#
+# Columns:
+#  (1) Sigma Factor name
+#  (2) Gene regulated by the Sigma Factor (regulated gene)
+#  (3) Regulatory effect of the TF on the regulated gene (+ activator, - repressor, +- dual, ? unknown)
+#  (4) Evidence that supports the existence of the regulatory interaction
+#  (5) Evidence Type [Weak, Strong, Confirmed] For details see: http://regulondb.ccg.unam.mx/evidenceclassification
+#
+Sigma24	ahpF	activator	[AIPP, TIM]	Strong
+Sigma24	apaG	activator	[NAS, TASES]	Weak
+Sigma24	apaH	activator	[NAS, TASES]	Weak
+Sigma24	bacA	activator	[AIPP, TIM]	Strong
+Sigma24	bamA	activator	[AIPP, HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma24	bamB	activator	[AIPP, TIM]	Strong
+Sigma24	bamC	activator	[HIPP, TIM]	Strong
+Sigma24	bamD	activator	[AIPP, HIPP, TIM]	Strong
+Sigma24	bamE	activator	[AIPP, TIM]	Strong
+Sigma24	bepA	activator	[AIPP, TIM]	Strong
+Sigma24	bhsA	activator	[HTIM]	Strong
+Sigma24	cca	activator	[AIPP, TIM]	Strong
+Sigma24	clpX	activator	[AIPP, RS-EPT-CBR, TIM]	Strong
+Sigma24	degP	activator	[HIPP, TIM]	Strong
+Sigma24	der	activator	[AIPP, TIM]	Strong
+Sigma24	dnaE	activator	[AIPP, RS-EPT-CBR, TIM]	Strong
+Sigma24	dsbC	activator	[AIPP, HIPP, TIM]	Strong
+Sigma24	ecpR	activator	[ICWHO]	Weak
+Sigma24	essD	activator	[AIPP, TIM]	Strong
+Sigma24	fabZ	activator	[AIPP, HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma24	fadM	activator	[ICWHO]	Weak
+Sigma24	fkpA	activator	[AIPP, IHBCE, RS-EPT-CBR, TIM]	Strong
+Sigma24	ftnB	activator	[AIPP, TIM]	Strong
+Sigma24	fusA	activator	[AIPP, TIM]	Strong
+Sigma24	greA	activator	[AIPP, TIM]	Strong
+Sigma24	gspA	activator	[AIPP, TIM]	Strong
+Sigma24	gspB	activator	[AIPP, TIM]	Strong
+Sigma24	hcp	activator	[AIPP, TIM]	Strong
+Sigma24	hcr	activator	[AIPP, TIM]	Strong
+Sigma24	hokE	activator	[AIPP]	Weak
+Sigma24	hpf	activator	[AIPP, TIM]	Strong
+Sigma24	ibaG	activator	[HIPP, ICWHO]	Weak
+Sigma24	insK	activator	[HIPP]	Weak
+Sigma24	lgoR	activator	[ICWHO]	Weak
+Sigma24	lhr	activator	[AIPP, TIM]	Strong
+Sigma24	lon	activator	[AIPP, RS-EPT-CBR, TIM]	Strong
+Sigma24	lptA	activator	[HIPP, IDA, IMP, TIM]	Strong
+Sigma24	lptB	activator	[AIPP, HIPP, IDA, IMP, TIM]	Strong
+Sigma24	lptD	activator	[HIPP, TIM]	Strong
+Sigma24	lpxA	activator	[AIPP, HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma24	lpxB	activator	[AIPP, RS-EPT-CBR, TIM]	Strong
+Sigma24	lpxD	activator	[AIPP, HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma24	lpxP	activator	[AIPP, HIPP, TIM]	Strong
+Sigma24	lyxK	activator	[AIPP, TIM]	Strong
+Sigma24	malQ	activator	[AIPP, TIM]	Strong
+Sigma24	micA	activator	[HIPP, TIM]	Strong
+Sigma24	micL	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma24	mscM	activator	[AIPP, TIM]	Strong
+Sigma24	mzrA	activator	[HIPP, TIM]	Strong
+Sigma24	narV	activator	[AIPP, TIM]	Strong
+Sigma24	narW	activator	[AIPP, TIM]	Strong
+Sigma24	pdxA	activator	[HIPP, NAS, TASES, TIM]	Strong
+Sigma24	phoQ	activator	[ICWHO]	Weak
+Sigma24	plsB	activator	[AIPP, IEP, TIM]	Strong
+Sigma24	prfB	activator	[AIPP, TIM]	Strong
+Sigma24	psd	activator	[AIPP, TIM]	Strong
+Sigma24	ptsN	activator	[AIPP, TIM]	Strong
+Sigma24	rapZ	activator	[AIPP, TIM]	Strong
+Sigma24	rclA	activator	[ICWHO]	Weak
+Sigma24	rclB	activator	[ICWHO]	Weak
+Sigma24	rclC	activator	[ICWHO]	Weak
+Sigma24	recJ	activator	[AIPP, TIM]	Strong
+Sigma24	recR	activator	[AIPP, TIM]	Strong
+Sigma24	rfaD	activator	[HIPP, TIM]	Strong
+Sigma24	rnhB	activator	[AIPP, RS-EPT-CBR, TIM]	Strong
+Sigma24	rnlB	activator	[AIPP, RS-EPT-CBR, TIM]	Strong
+Sigma24	rpoD	activator	[AIPP, TIM]	Strong
+Sigma24	rpoH	activator	[AIPP, HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma24	rpoN	activator	[AIPP, TIM]	Strong
+Sigma24	rrrD	activator	[AIPP, TIM]	Strong
+Sigma24	rseA	activator	[AIPP, TIM]	Strong
+Sigma24	rseB	activator	[AIPP, TIM]	Strong
+Sigma24	rseC	activator	[AIPP, TIM]	Strong
+Sigma24	rseP	activator	[HIPP, TIM]	Strong
+Sigma24	rsmA	activator	[NAS, TASES]	Weak
+Sigma24	rutR	activator	[AIPP, TIM]	Strong
+Sigma24	rybB	activator	[HIPP, IDA, RS-EPT-CBR, TIM]	Strong
+Sigma24	rzpD	activator	[AIPP, TIM]	Strong
+Sigma24	sbmA	activator	[AIPP, HIPP, TIM]	Strong
+Sigma24	sgbE	activator	[AIPP, TIM]	Strong
+Sigma24	sgbH	activator	[AIPP, TIM]	Strong
+Sigma24	sgbU	activator	[AIPP, TIM]	Strong
+Sigma24	skp	activator	[AIPP, HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma24	surA	activator	[HIPP, NAS, TASES, TIM]	Strong
+Sigma24	tufA	activator	[AIPP, TIM]	Strong
+Sigma24	uspD	activator	[AIPP, TIM]	Strong
+Sigma24	waaC	activator	[HIPP, TIM]	Strong
+Sigma24	waaF	activator	[HIPP, TIM]	Strong
+Sigma24	waaL	activator	[HIPP, TIM]	Strong
+Sigma24	wza	activator	[AIPP, TIM]	Strong
+Sigma24	wzb	activator	[AIPP, TIM]	Strong
+Sigma24	wzc	activator	[AIPP, TIM]	Strong
+Sigma24	yaiW	activator	[AIPP, HIPP, TIM]	Strong
+Sigma24	ybaB	activator	[AIPP, TIM]	Strong
+Sigma24	ybfG	activator	[AIPP, TIM]	Strong
+Sigma24	ydhI	activator	[AIPP, TIM]	Strong
+Sigma24	ydhJ	activator	[AIPP, TIM]	Strong
+Sigma24	ydhK	activator	[AIPP, TIM]	Strong
+Sigma24	ydiV	activator	[AIPP]	Weak
+Sigma24	yeaY	activator	[AIPP, HIPP, TIM]	Strong
+Sigma24	yfeK	activator	[AIPP, TIM]	Strong
+Sigma24	yfeS	activator	[AIPP, TIM]	Strong
+Sigma24	yfeX	activator	[AIPP, TIM]	Strong
+Sigma24	yfeY	activator	[AIPP, TIM]	Strong
+Sigma24	yfgD	activator	[AIPP, TIM]	Strong
+Sigma24	yggN	activator	[HIPP, TIM]	Strong
+Sigma24	yghF	activator	[HIPP, TIM]	Strong
+Sigma24	ygiM	activator	[AIPP, HIPP, TIM]	Strong
+Sigma24	yhjJ	activator	[AIPP, TIM]	Strong
+Sigma24	yiaK	activator	[AIPP, TIM]	Strong
+Sigma24	yiaL	activator	[AIPP, TIM]	Strong
+Sigma24	yiaM	activator	[AIPP, TIM]	Strong
+Sigma24	yiaN	activator	[AIPP, TIM]	Strong
+Sigma24	yiaO	activator	[AIPP, TIM]	Strong
+Sigma24	yicI	activator	[AIPP, TIM]	Strong
+Sigma24	yicJ	activator	[AIPP, TIM]	Strong
+Sigma24	yidQ	activator	[HIPP, TIM]	Strong
+Sigma24	yieE	activator	[AIPP, TIM]	Strong
+Sigma24	yieF	activator	[AIPP, TIM]	Strong
+Sigma24	yiiS	activator	[AIPP, TIM]	Strong
+Sigma24	yoaC	activator	[ICWHO]	Weak
+Sigma24	yqjA	activator	[HIPP, TIM]	Strong
+Sigma24	yraP	activator	[AIPP, HIPP, TIM]	Strong
+Sigma24	ytfJ	activator	[HIPP, TIM]	Strong
+Sigma24, Sigma70	eptB	activator	[TIM]	Strong
+Sigma24, Sigma70, Sigma38	cyaR	activator	[AIPP, HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma28	aer	activator	[HIPP, TIM]	Strong
+Sigma28	cheA	activator	[HIPP]	Weak
+Sigma28	cheB	activator	[HIPP, TIM]	Strong
+Sigma28	cheR	activator	[HIPP, TIM]	Strong
+Sigma28	cheW	activator	[HIPP]	Weak
+Sigma28	cheY	activator	[HIPP, TIM]	Strong
+Sigma28	cheZ	activator	[HIPP, TIM]	Strong
+Sigma28	crfC	activator	[HIPP]	Weak
+Sigma28	flgK	activator	[HIPP]	Weak
+Sigma28	flgL	activator	[HIPP]	Weak
+Sigma28	flgM	activator	[GEA, HIPP]	Weak
+Sigma28	flgN	activator	[GEA, HIPP]	Weak
+Sigma28	fliA	activator	[HIPP, TIM]	Strong
+Sigma28	fliC	activator	[HIPP, RPF]	Strong
+Sigma28	fliD	activator	[HIPP, RPF]	Strong
+Sigma28	fliE	activator	[HIPP]	Weak
+Sigma28	fliF	activator	[HIPP]	Weak
+Sigma28	fliG	activator	[HIPP]	Weak
+Sigma28	fliH	activator	[HIPP]	Weak
+Sigma28	fliI	activator	[HIPP]	Weak
+Sigma28	fliJ	activator	[HIPP]	Weak
+Sigma28	fliK	activator	[HIPP]	Weak
+Sigma28	fliL	activator	[HIPP, TIM]	Strong
+Sigma28	fliM	activator	[HIPP, TIM]	Strong
+Sigma28	fliN	activator	[HIPP, TIM]	Strong
+Sigma28	fliO	activator	[HIPP, TIM]	Strong
+Sigma28	fliP	activator	[HIPP, TIM]	Strong
+Sigma28	fliQ	activator	[HIPP, TIM]	Strong
+Sigma28	fliR	activator	[HIPP, TIM]	Strong
+Sigma28	fliS	activator	[HIPP, RPF]	Strong
+Sigma28	fliT	activator	[HIPP, RPF]	Strong
+Sigma28	fliZ	activator	[HIPP, TIM]	Strong
+Sigma28	flxA	activator	[AIPP, HIPP]	Weak
+Sigma28	hemL	activator	[HIPP, IEP, TIM]	Strong
+Sigma28	ispE	activator	[HIPP]	Weak
+Sigma28	lolB	activator	[HIPP]	Weak
+Sigma28	modA	activator	[AIPP, HIPP]	Weak
+Sigma28	modB	activator	[AIPP, HIPP]	Weak
+Sigma28	modC	activator	[AIPP, HIPP]	Weak
+Sigma28	motA	activator	[HIPP]	Weak
+Sigma28	motB	activator	[HIPP]	Weak
+Sigma28	oppA	activator	[AIPP, NAS]	Weak
+Sigma28	oppB	activator	[AIPP, NAS]	Weak
+Sigma28	oppC	activator	[AIPP, NAS]	Weak
+Sigma28	oppD	activator	[AIPP, NAS]	Weak
+Sigma28	oppF	activator	[AIPP, NAS]	Weak
+Sigma28	pdeH	activator	[AIPP, HIPP]	Weak
+Sigma28	ppdA	activator	[HIPP]	Weak
+Sigma28	ppdB	activator	[HIPP]	Weak
+Sigma28	ppdC	activator	[HIPP]	Weak
+Sigma28	prs	activator	[HIPP]	Weak
+Sigma28	recC	activator	[HIPP]	Weak
+Sigma28	tap	activator	[HIPP, TIM]	Strong
+Sigma28	tar	activator	[HIPP, TIM]	Strong
+Sigma28	tcyJ	activator	[HIPP, TIM]	Strong
+Sigma28	trg	activator	[HIPP, HTIM]	Strong
+Sigma28	tsr	activator	[HIPP, TIM]	Strong
+Sigma28	ves	activator	[TIM]	Strong
+Sigma28	yafW	activator	[HIPP]	Weak
+Sigma28	yafX	activator	[HIPP]	Weak
+Sigma28	ycgR	activator	[AIPP, HIPP]	Weak
+Sigma28	yecF	activator	[HIPP]	Weak
+Sigma28	ygbK	activator	[HIPP]	Weak
+Sigma28	ygdB	activator	[HIPP]	Weak
+Sigma28	yhiL	activator	[HIPP]	Weak
+Sigma28	yjcS	activator	[HIPP]	Weak
+Sigma28	yjcZ	activator	[HIPP]	Weak
+Sigma28	ykfB	activator	[HIPP]	Weak
+Sigma28	ykfF	activator	[HIPP]	Weak
+Sigma28	ykfG	activator	[HIPP]	Weak
+Sigma28	ykfH	activator	[HIPP]	Weak
+Sigma28	ykfI	activator	[HIPP]	Weak
+Sigma28	ynjH	activator	[AIPP, HIPP]	Weak
+Sigma32	ackA	activator	[AIPP]	Weak
+Sigma32	adiC	activator	[ICWHO]	Weak
+Sigma32	alaA	activator	[ICWHO]	Weak
+Sigma32	bssS	activator	[AIPP, IDA, IEP, TIM]	Strong
+Sigma32	cas1	activator	[IDA, IEP]	Strong
+Sigma32	cas2	activator	[AIPP, IDA, IEP, TIM]	Strong
+Sigma32	casD	activator	[IDA, IEP]	Strong
+Sigma32	casE	activator	[IDA, IEP]	Strong
+Sigma32	clpP	activator	[IDA, IEP, RS-EPT-CBR, TIM]	Strong
+Sigma32	clpX	activator	[IDA, IEP, RS-EPT-CBR, TIM]	Strong
+Sigma32	cnoX	activator	[AIPP, IDA, IEP]	Strong
+Sigma32	cra	activator	[ICWHO]	Weak
+Sigma32	creA	activator	[HIPP, TIM]	Strong
+Sigma32	creB	activator	[HIPP, TIM]	Strong
+Sigma32	creC	activator	[HIPP, TIM]	Strong
+Sigma32	crr	activator	[TIM]	Strong
+Sigma32	dnaJ	activator	[HIPP, IDA, IEP, RS-EPT-CBR, TIM]	Strong
+Sigma32	dnaK	activator	[HIPP, IDA, IEP, RS-EPT-CBR, TIM]	Strong
+Sigma32	fkpB	activator	[AIPP, RS-EPT-CBR, TIM]	Strong
+Sigma32	ftsH	activator	[AIPP, HIPP, IDA, IEP, TIM]	Strong
+Sigma32	fxsA	activator	[AIPP, HIPP, IDA, IEP, TIM]	Strong
+Sigma32	gapA	activator	[AIPP, HIPP, IDA, TIM]	Strong
+Sigma32	grpE	activator	[AIPP, HIPP, IDA, IEP, RS-EPT-CBR, TIM]	Strong
+Sigma32	hemW	activator	[AIPP, TIM]	Strong
+Sigma32	hflC	activator	[HIPP, IDA, IEP, TIM]	Strong
+Sigma32	hflK	activator	[HIPP, IDA, IEP, TIM]	Strong
+Sigma32	hflX	activator	[HIPP, IDA, IEP, TIM]	Strong
+Sigma32	hfq	activator	[HIPP, IDA, IEP, TIM]	Strong
+Sigma32	holC	activator	[AIPP, IDA, IEP, TIM]	Strong
+Sigma32	hslO	activator	[AIPP, TIM]	Strong
+Sigma32	hslR	activator	[AIPP, IDA, IEP, TIM]	Strong
+Sigma32	hslU	activator	[AIPP, HIPP, IDA, IEP, TIM]	Strong
+Sigma32	hslV	activator	[AIPP, HIPP, IDA, IEP, TIM]	Strong
+Sigma32	hspQ	activator	[IDA, IEP]	Strong
+Sigma32	htpG	activator	[AIPP, HIPP, IDA, IEP, TIM]	Strong
+Sigma32	htpX	activator	[AIPP, HIPP, IDA, IEP, RS-EPT-CBR, TIM]	Strong
+Sigma32	ibpA	activator	[AIPP, HIPP, IDA, IEP, TIM]	Strong
+Sigma32	ibpB	activator	[AIPP, HIPP, IDA, IEP, TIM]	Strong
+Sigma32	ileS	activator	[AIPP, RS-EPT-CBR, TIM]	Strong
+Sigma32	ispH	activator	[AIPP, RS-EPT-CBR, TIM]	Strong
+Sigma32	ldhA	activator	[AIPP, IDA, IEP]	Strong
+Sigma32	lnt	activator	[AIPP, IDA, IEP, RS-EPT-CBR, TIM]	Strong
+Sigma32	lspA	activator	[AIPP, RS-EPT-CBR, TIM]	Strong
+Sigma32	mbiA	activator	[HIPP, TIM]	Strong
+Sigma32	metA	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma32	mhpT	activator	[AIPP]	Weak
+Sigma32	miaA	activator	[HIPP, IDA, IEP, TIM]	Strong
+Sigma32	mngA	activator	[HIPP, IC]	Weak
+Sigma32	mngB	activator	[HIPP, IC]	Weak
+Sigma32	mpaA	activator	[ICWHO]	Weak
+Sigma32	mutL	activator	[HIPP, IDA, IEP, TIM]	Strong
+Sigma32	mutM	activator	[AIPP, TIM]	Strong
+Sigma32	narP	activator	[AIPP, IDA, IEP, TIM]	Strong
+Sigma32	nfuA	activator	[AIPP, RS-EPT-CBR, TIM]	Strong
+Sigma32	nusB	activator	[AIPP, RS-EPT-CBR, TIM]	Strong
+Sigma32	osmF	activator	[IDA, IEP]	Strong
+Sigma32	pgpA	activator	[AIPP, RS-EPT-CBR, TIM]	Strong
+Sigma32	pgpC	activator	[AIPP]	Weak
+Sigma32	phoP	activator	[AIPP, IDA, IEP, TIM]	Strong
+Sigma32	phoQ	activator	[AIPP, IDA, IEP, TIM]	Strong
+Sigma32	pncC	activator	[HIPP, TIM]	Strong
+Sigma32	pphA	activator	[AIPP, TIM]	Strong
+Sigma32	ppiD	activator	[HIPP, TIM]	Strong
+Sigma32	prlC	activator	[AIPP, IDA, IEP, RS-EPT-CBR]	Strong
+Sigma32	ptsH	activator	[TIM]	Strong
+Sigma32	ptsI	activator	[TIM]	Strong
+Sigma32	raiA	activator	[IDA, IEP]	Strong
+Sigma32	rdgB	activator	[AIPP, TIM]	Strong
+Sigma32	rfaD	activator	[TIM]	Strong
+Sigma32	ribE	activator	[AIPP, RS-EPT-CBR, TIM]	Strong
+Sigma32	rlmE	activator	[AIPP, HIPP, IDA, IEP, TIM]	Strong
+Sigma32	rnlA	activator	[AIPP, IDA]	Strong
+Sigma32	rpmE	activator	[HTIM, IDA, IEP]	Strong
+Sigma32	rpoD	activator	[HIPP, IDA, IEP, IMP, TIM]	Strong
+Sigma32	rsmJ	activator	[AIPP, IDA, IEP, RS-EPT-CBR]	Strong
+Sigma32	sdaA	activator	[HIPP, IDA, IEP, TIM]	Strong
+Sigma32	sdsR	activator	[AIPP, TIM]	Strong
+Sigma32	slt	activator	[ICWHO]	Weak
+Sigma32	tadA	activator	[AIPP]	Weak
+Sigma32	thiL	activator	[AIPP, RS-EPT-CBR, TIM]	Strong
+Sigma32	topA	activator	[AIPP, HIPP, IMP, TIM]	Strong
+Sigma32	tpke11	activator	[HIPP, IDA, IEP, RS-EPT-CBR, TIM]	Strong
+Sigma32	trmA	activator	[HIPP, TIM]	Strong
+Sigma32	tyrR	activator	[AIPP, IDA, IEP, TIM]	Strong
+Sigma32	valS	activator	[AIPP, IDA, IEP, TIM]	Strong
+Sigma32	waaC	activator	[TIM]	Strong
+Sigma32	waaF	activator	[TIM]	Strong
+Sigma32	waaL	activator	[TIM]	Strong
+Sigma32	yafD	activator	[AIPP, IDA, IEP, TIM]	Strong
+Sigma32	yafE	activator	[AIPP, IDA, IEP, TIM]	Strong
+Sigma32	yafU	activator	[IDA, IEP]	Strong
+Sigma32	ybeX	activator	[AIPP, IDA, IEP, RS-EPT-CBR, TIM]	Strong
+Sigma32	ybeY	activator	[AIPP, IDA, IEP, RS-EPT-CBR, TIM]	Strong
+Sigma32	ybeZ	activator	[AIPP, IDA, IEP, RS-EPT-CBR, TIM]	Strong
+Sigma32	ybfE	activator	[AIPP]	Weak
+Sigma32	yccE	activator	[IDA, IEP]	Strong
+Sigma32	ycjF	activator	[AIPP, IDA, IEP, TIM]	Strong
+Sigma32	ycjX	activator	[AIPP, IDA, IEP, TIM]	Strong
+Sigma32	ycjY	activator	[ICWHO]	Weak
+Sigma32	ydeO	activator	[IDA, IEP]	Strong
+Sigma32	ydhQ	activator	[AIPP, IDA, IEP, TIM]	Strong
+Sigma32	yeaD	activator	[AIPP, HIPP, IDA, TIM]	Strong
+Sigma32	yehR	activator	[IDA, IEP]	Strong
+Sigma32	yehW	activator	[IDA, IEP]	Strong
+Sigma32	yehX	activator	[IDA, IEP]	Strong
+Sigma32	yehY	activator	[IDA, IEP]	Strong
+Sigma32	yfbR	activator	[ICWHO]	Weak
+Sigma32	yfjV	activator	[IDA, IEP]	Strong
+Sigma32	yhdN	activator	[AIPP, IDA, IEP, TIM]	Strong
+Sigma32	yiaA	activator	[IDA, IEP]	Strong
+Sigma32	yibA	activator	[IDA, IEP]	Strong
+Sigma32	yjaZ	activator	[HIPP, TIM]	Strong
+Sigma32	yjhB	activator	[ICWHO]	Weak
+Sigma32	yjhC	activator	[ICWHO]	Weak
+Sigma32	yjhG	activator	[IDA, IEP]	Strong
+Sigma32	yjhH	activator	[IDA, IEP]	Strong
+Sigma32	yjhI	activator	[IDA, IEP]	Strong
+Sigma32	yjiT	activator	[IDA, IEP]	Strong
+Sigma32	ymjC	activator	[ICWHO]	Weak
+Sigma32	ymjD	activator	[ICWHO]	Weak
+Sigma32	yrdA	activator	[IDA, IEP]	Strong
+Sigma32	yrfG	activator	[IDA, IEP]	Strong
+Sigma32	zntR	activator	[AIPP, IDA, IEP, TIM]	Strong
+Sigma32, Sigma70	alaT	activator	[HIPP]	Weak
+Sigma32, Sigma70	alaU	activator	[HIPP, TIM]	Strong
+Sigma32, Sigma70	alaV	activator	[HIPP, HTIM]	Strong
+Sigma32, Sigma70	can	activator	[AIPP, HTIM, IDA, RS-EPT-CBR]	Strong
+Sigma32, Sigma70	clpB	activator	[AIPP, HIPP, IDA, IEP, RS-EPT-CBR, TIM]	Strong
+Sigma32, Sigma70	crr	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma32, Sigma70	dsbC	activator	[HIPP, IDA]	Strong
+Sigma32, Sigma70	glnS	activator	[IDA]	Strong
+Sigma32, Sigma70	gltT	activator	[HIPP, TIM]	Strong
+Sigma32, Sigma70	gltU	activator	[AIPP, HIPP]	Weak
+Sigma32, Sigma70	gltV	activator	[HIPP]	Weak
+Sigma32, Sigma70	gltW	activator	[HIPP]	Weak
+Sigma32, Sigma70	groL	activator	[AIPP, HIPP, IDA, IEP, RS-EPT-CBR]	Strong
+Sigma32, Sigma70	groS	activator	[AIPP, HIPP, IDA, IEP, RS-EPT-CBR]	Strong
+Sigma32, Sigma70	ileT	activator	[HIPP]	Weak
+Sigma32, Sigma70	ileU	activator	[HIPP, TIM]	Strong
+Sigma32, Sigma70	ileV	activator	[HIPP, HTIM]	Strong
+Sigma32, Sigma70	lapA	activator	[AIPP, IDA, IEP, TIM]	Strong
+Sigma32, Sigma70	lapB	activator	[AIPP, IDA, IEP, TIM]	Strong
+Sigma32, Sigma70	lipB	activator	[HIPP, IDA, IEP, RS-EPT-CBR]	Strong
+Sigma32, Sigma70	lon	activator	[HIPP, IDA, IEP, RS-EPT-CBR]	Strong
+Sigma32, Sigma70	ptsH	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma32, Sigma70	ptsI	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma32, Sigma70	pyrF	activator	[AIPP, IDA, IEP, TIM]	Strong
+Sigma32, Sigma70	rapA	activator	[HIPP, IDA, IEP, RS-EPT-CBR, TIM]	Strong
+Sigma32, Sigma70	recJ	activator	[HIPP, IDA]	Strong
+Sigma32, Sigma70	rrfA	activator	[HIPP]	Weak
+Sigma32, Sigma70	rrfB	activator	[HIPP, TIM]	Strong
+Sigma32, Sigma70	rrfC	activator	[AIPP, HIPP]	Weak
+Sigma32, Sigma70	rrfD	activator	[HIPP, TIM]	Strong
+Sigma32, Sigma70	rrfE	activator	[HIPP]	Weak
+Sigma32, Sigma70	rrfF	activator	[HIPP, TIM]	Strong
+Sigma32, Sigma70	rrfG	activator	[HIPP]	Weak
+Sigma32, Sigma70	rrfH	activator	[HIPP, HTIM]	Strong
+Sigma32, Sigma70	rrlA	activator	[HIPP]	Weak
+Sigma32, Sigma70	rrlB	activator	[HIPP, TIM]	Strong
+Sigma32, Sigma70	rrlC	activator	[AIPP, HIPP]	Weak
+Sigma32, Sigma70	rrlD	activator	[HIPP, TIM]	Strong
+Sigma32, Sigma70	rrlE	activator	[HIPP]	Weak
+Sigma32, Sigma70	rrlG	activator	[HIPP]	Weak
+Sigma32, Sigma70	rrlH	activator	[HIPP, HTIM]	Strong
+Sigma32, Sigma70	rrsA	activator	[HIPP]	Weak
+Sigma32, Sigma70	rrsB	activator	[HIPP, TIM]	Strong
+Sigma32, Sigma70	rrsC	activator	[AIPP, HIPP]	Weak
+Sigma32, Sigma70	rrsD	activator	[HIPP, TIM]	Strong
+Sigma32, Sigma70	rrsE	activator	[HIPP]	Weak
+Sigma32, Sigma70	rrsG	activator	[HIPP]	Weak
+Sigma32, Sigma70	rrsH	activator	[HIPP, HTIM]	Strong
+Sigma32, Sigma70	thrV	activator	[HIPP, TIM]	Strong
+Sigma32, Sigma70	xerD	activator	[HIPP, IDA]	Strong
+Sigma32, Sigma70	ybeD	activator	[HIPP, IDA, IEP, RS-EPT-CBR]	Strong
+Sigma32, Sigma70	yceI	activator	[AIPP, IDA]	Strong
+Sigma32, Sigma70	yceJ	activator	[AIPP, IDA]	Strong
+Sigma32, Sigma70	yciH	activator	[AIPP, IDA, IEP, TIM]	Strong
+Sigma38	adhE	activator	[HIPP, TIM]	Strong
+Sigma38	aldB	activator	[TIM]	Strong
+Sigma38	ansP	activator	[TIM]	Strong
+Sigma38	appY	activator	[HTIM]	Strong
+Sigma38	araF	activator	[HTIM]	Strong
+Sigma38	araG	activator	[HTIM]	Strong
+Sigma38	araH	activator	[HTIM]	Strong
+Sigma38	artI	activator	[TIM]	Strong
+Sigma38	artM	activator	[TIM]	Strong
+Sigma38	artP	activator	[TIM]	Strong
+Sigma38	artQ	activator	[TIM]	Strong
+Sigma38	astA	activator	[CV(RPF/TIM), HIPP, RPF, TIM]	Confirmed
+Sigma38	astB	activator	[CV(RPF/TIM), HIPP, RPF, TIM]	Confirmed
+Sigma38	astC	activator	[CV(RPF/TIM), HIPP, RPF, TIM]	Confirmed
+Sigma38	astD	activator	[CV(RPF/TIM), HIPP, RPF, TIM]	Confirmed
+Sigma38	astE	activator	[CV(RPF/TIM), HIPP, RPF, TIM]	Confirmed
+Sigma38	baeR	activator	[AIPP]	Weak
+Sigma38	baeS	activator	[AIPP]	Weak
+Sigma38	blc	activator	[TIM]	Strong
+Sigma38	blr	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma38	bsmA	activator	[NAS]	Weak
+Sigma38	btsT	activator	[TIM]	Strong
+Sigma38	cbpA	activator	[CV(RPF/RS-EPT-CBR), CV(RPF/TIM), HIPP, RPF, RS-EPT-CBR, TIM]	Confirmed
+Sigma38	cbpM	activator	[CV(RPF/RS-EPT-CBR), CV(RPF/TIM), HIPP, RPF, RS-EPT-CBR, TIM]	Confirmed
+Sigma38	cfa	activator	[HIPP, TIM]	Strong
+Sigma38	crr	activator	[TIM]	Strong
+Sigma38	csrA	activator	[HIPP, HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma38	ddpA	activator	[HIPP]	Weak
+Sigma38	ddpB	activator	[HIPP]	Weak
+Sigma38	ddpC	activator	[HIPP]	Weak
+Sigma38	ddpD	activator	[HIPP]	Weak
+Sigma38	ddpF	activator	[HIPP]	Weak
+Sigma38	ddpX	activator	[HIPP]	Weak
+Sigma38	dgcC	activator	[HIPP, TIM]	Strong
+Sigma38	dhaK	activator	[AIPP]	Weak
+Sigma38	dhaL	activator	[AIPP]	Weak
+Sigma38	dhaM	activator	[AIPP]	Weak
+Sigma38	dhaR	activator	[AIPP]	Weak
+Sigma38	dkgA	activator	[HTIM]	Strong
+Sigma38	dkgB	activator	[AIPP]	Weak
+Sigma38	ecnB	activator	[TIM]	Strong
+Sigma38	elaB	activator	[ICA, IEP, RS-EPT-CBR, TIM]	Strong
+Sigma38	envC	activator	[HTIM]	Strong
+Sigma38	evgA	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma38	evgS	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma38	fadL	activator	[HIPP, TIM]	Strong
+Sigma38	fbaB	activator	[AIPP, TIM]	Strong
+Sigma38	fic	activator	[CV(RPF/RS-EPT-CBR), CV(RPF/TIM), HIPP, IEP, IMP, RPF, RS-EPT-CBR, TIM]	Confirmed
+Sigma38	folK	activator	[TIM]	Strong
+Sigma38	ftsQ	activator	[HIPP, TIM]	Strong
+Sigma38	fumC	activator	[TIM]	Strong
+Sigma38	gabD	activator	[HIPP, TIM]	Strong
+Sigma38	gabP	activator	[HIPP, TIM]	Strong
+Sigma38	gabT	activator	[HIPP, TIM]	Strong
+Sigma38	gadE	activator	[IEP, TIM]	Strong
+Sigma38	gadF	activator	[IEP, TIM]	Strong
+Sigma38	gadW	activator	[HIPP, TIM]	Strong
+Sigma38	gadX	activator	[HIPP, TIM]	Strong
+Sigma38	gadY	activator	[AIPP, IMP, TIM]	Strong
+Sigma38	glaH	activator	[TIM]	Strong
+Sigma38	glgA	activator	[TIM]	Strong
+Sigma38	glgC	activator	[TIM]	Strong
+Sigma38	glgP	activator	[TIM]	Strong
+Sigma38	glgS	activator	[HIPP, TIM]	Strong
+Sigma38	glsA	activator	[TIM]	Strong
+Sigma38	gpmM	activator	[HTIM]	Strong
+Sigma38	hchA	activator	[TIM]	Strong
+Sigma38	hdfR	activator	[IHBCE]	Weak
+Sigma38	hmp	activator	[CV(RPF/TIM), HIPP, RPF, TIM]	Confirmed
+Sigma38	hofM	activator	[AIPP]	Weak
+Sigma38	hofN	activator	[AIPP]	Weak
+Sigma38	hofO	activator	[AIPP]	Weak
+Sigma38	hofP	activator	[AIPP]	Weak
+Sigma38	htrE	activator	[HIPP, TIM]	Strong
+Sigma38	ihfA	activator	[HIPP, TIM]	Strong
+Sigma38	insC-5	activator	[HTIM]	Strong
+Sigma38	insCD-5	activator	[HTIM]	Strong
+Sigma38	insD-5	activator	[HTIM]	Strong
+Sigma38	insI-1	activator	[HTIM]	Strong
+Sigma38	insN	activator	[HTIM]	Strong
+Sigma38	katE	activator	[IMP, TIM]	Strong
+Sigma38	kbp	activator	[ICWHO]	Weak
+Sigma38	ldcC	activator	[IMP, TAS]	Weak
+Sigma38	lhgD	activator	[TIM]	Strong
+Sigma38	lsrA	activator	[AIPP]	Weak
+Sigma38	lsrB	activator	[AIPP]	Weak
+Sigma38	lsrC	activator	[AIPP]	Weak
+Sigma38	lsrD	activator	[AIPP]	Weak
+Sigma38	lsrF	activator	[AIPP]	Weak
+Sigma38	lsrG	activator	[AIPP]	Weak
+Sigma38	luxS	activator	[HIPP, TIM]	Strong
+Sigma38	mdtA	activator	[AIPP]	Weak
+Sigma38	mdtB	activator	[AIPP]	Weak
+Sigma38	mdtC	activator	[AIPP]	Weak
+Sigma38	mdtD	activator	[AIPP]	Weak
+Sigma38	mdtE	activator	[TIM]	Strong
+Sigma38	mdtF	activator	[TIM]	Strong
+Sigma38	msyB	activator	[TIM]	Strong
+Sigma38	mutS	activator	[TIM]	Strong
+Sigma38	narU	activator	[HIPP]	Weak
+Sigma38	nhaA	activator	[TIM]	Strong
+Sigma38	nhaR	activator	[TIM]	Strong
+Sigma38	ompN	activator	[ICWHO]	Weak
+Sigma38	osmB	activator	[TIM]	Strong
+Sigma38	osmC	activator	[HIPP, TIM]	Strong
+Sigma38	osmF	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma38	otsA	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma38	otsB	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma38	pabA	activator	[CV(RPF/RS-EPT-CBR), CV(RPF/TIM), HIPP, IEP, IMP, RPF, RS-EPT-CBR, TIM]	Confirmed
+Sigma38	patD	activator	[HIPP]	Weak
+Sigma38	pcnB	activator	[TIM]	Strong
+Sigma38	pdeC	activator	[HTIM]	Strong
+Sigma38	pdeR	activator	[HIPP, TIM]	Strong
+Sigma38	pfkB	activator	[HIPP, TIM]	Strong
+Sigma38	phr	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma38	pphA	activator	[HIPP, IMP, TIM]	Strong
+Sigma38	ppk	activator	[HTIM]	Strong
+Sigma38	ppx	activator	[HTIM]	Strong
+Sigma38	proP	activator	[HIPP, TIM]	Strong
+Sigma38	puuA	activator	[AIPP, IMP, TIM]	Strong
+Sigma38	puuB	activator	[HTIM, IMP, TIM]	Strong
+Sigma38	puuC	activator	[HTIM, IMP, TIM]	Strong
+Sigma38	puuD	activator	[HTIM, IMP, TIM]	Strong
+Sigma38	puuE	activator	[HTIM, IMP, TIM]	Strong
+Sigma38	puuP	activator	[AIPP, IMP, TIM]	Strong
+Sigma38	puuR	activator	[HTIM, IMP, TIM]	Strong
+Sigma38	ravA	activator	[HTIM]	Strong
+Sigma38	rpoE	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma38	rraA	activator	[HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma38	rsd	activator	[HIPP, TIM]	Strong
+Sigma38	rseA	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma38	rseB	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma38	rseC	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma38	rseD	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma38	rssA	activator	[IMP, RS-EPT-CBR, TIM]	Strong
+Sigma38	rssB	activator	[HIPP, IMP, RS-EPT-CBR, TIM]	Strong
+Sigma38	ryjA	activator	[TIM]	Strong
+Sigma38	sdsN	activator	[TIM]	Strong
+Sigma38	sdsR	activator	[HIPP, IMP, TIM]	Strong
+Sigma38	sodC	activator	[HTIM, TIM]	Strong
+Sigma38	speB	activator	[HIPP, TIM]	Strong
+Sigma38	speC	activator	[AIPP, HIPP]	Weak
+Sigma38	speG	activator	[HTIM]	Strong
+Sigma38	sra	activator	[TIM]	Strong
+Sigma38	sucA	activator	[TIM]	Strong
+Sigma38	sucB	activator	[TIM]	Strong
+Sigma38	sucC	activator	[TIM]	Strong
+Sigma38	sucD	activator	[TIM]	Strong
+Sigma38	talA	activator	[TIM]	Strong
+Sigma38	tam	activator	[AIPP, HTIM, IEP]	Strong
+Sigma38	tktB	activator	[HIPP, TIM]	Strong
+Sigma38	tolC	activator	[AIPP, RS-EPT-CBR, TIM]	Strong
+Sigma38	treA	activator	[HIPP, IMP, TIM]	Strong
+Sigma38	treF	activator	[HTIM]	Strong
+Sigma38	uspB	activator	[HIPP, TIM]	Strong
+Sigma38	viaA	activator	[HTIM]	Strong
+Sigma38	wrbA	activator	[HTIM, RS-EPT-CBR]	Strong
+Sigma38	xthA	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma38	yabI	activator	[HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma38	yadV	activator	[HIPP, TIM]	Strong
+Sigma38	ybaT	activator	[TIM]	Strong
+Sigma38	ybgA	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma38	ybiI	activator	[ICWHO]	Weak
+Sigma38	ybjP	activator	[TIM]	Strong
+Sigma38	yccJ	activator	[HTIM, RS-EPT-CBR]	Strong
+Sigma38	yciE	activator	[AIPP, HIPP]	Weak
+Sigma38	yciF	activator	[AIPP, HIPP]	Weak
+Sigma38	yciG	activator	[AIPP, HIPP]	Weak
+Sigma38	yciT	activator	[HTIM, TIM]	Strong
+Sigma38	yciZ	activator	[TIM]	Strong
+Sigma38	ydbD	activator	[AIPP, IEP]	Weak
+Sigma38	ydbK	activator	[ICWHO]	Weak
+Sigma38	ydcS	activator	[HIPP]	Weak
+Sigma38	ydcT	activator	[HIPP]	Weak
+Sigma38	ydcU	activator	[HIPP]	Weak
+Sigma38	ydcV	activator	[HIPP]	Weak
+Sigma38	yddG	activator	[TIM]	Strong
+Sigma38	ydhT	activator	[TIM]	Strong
+Sigma38	ydhU	activator	[TIM]	Strong
+Sigma38	ydhV	activator	[TIM]	Strong
+Sigma38	ydhW	activator	[TIM]	Strong
+Sigma38	ydhX	activator	[TIM]	Strong
+Sigma38	ydhY	activator	[TIM]	Strong
+Sigma38	yehW	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma38	yehX	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma38	yehY	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma38	yeiL	activator	[HIPP, TIM]	Strong
+Sigma38	yffO	activator	[HTIM]	Strong
+Sigma38	yffP	activator	[HTIM]	Strong
+Sigma38	yggE	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma38	ygiB	activator	[AIPP, RS-EPT-CBR, TIM]	Strong
+Sigma38	ygiC	activator	[AIPP, RS-EPT-CBR, TIM]	Strong
+Sigma38	yhfG	activator	[CV(RPF/RS-EPT-CBR), CV(RPF/TIM), HIPP, IEP, IMP, RPF, RS-EPT-CBR, TIM]	Confirmed
+Sigma38	yhiM	activator	[AIPP]	Weak
+Sigma38	yhjG	activator	[HTIM, IEP]	Strong
+Sigma38	yiaG	activator	[TIM]	Strong
+Sigma38	yibQ	activator	[HTIM]	Strong
+Sigma38	yihG	activator	[HIPP, TIM]	Strong
+Sigma38	ymjE	activator	[AIPP, IMP, TIM]	Strong
+Sigma38	ynfB	activator	[HTIM]	Strong
+Sigma38	yqiG	activator	[HTIM]	Strong
+Sigma38	yqiH	activator	[HTIM]	Strong
+Sigma38	yqiI	activator	[HTIM]	Strong
+Sigma38	ytfK	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma38	znuA	activator	[AIPP]	Weak
+Sigma38, Sigma38, Sigma70	csgD	activator	[TIM]	Strong
+Sigma38, Sigma38, Sigma70	csgE	activator	[TIM]	Strong
+Sigma38, Sigma38, Sigma70	csgF	activator	[TIM]	Strong
+Sigma38, Sigma38, Sigma70	csgG	activator	[TIM]	Strong
+Sigma38, Sigma54	patA	activator	[AIPP, TIM]	Strong
+Sigma38, Sigma70	acnA	activator	[HIPP, TIM]	Strong
+Sigma38, Sigma70	ada	activator	[TIM]	Strong
+Sigma38, Sigma70	adhE	activator	[IMP, TIM]	Strong
+Sigma38, Sigma70	alkA	activator	[CV(RPF/RS-EPT-CBR), RPF, RS-EPT-CBR]	Confirmed
+Sigma38, Sigma70	alkB	activator	[TIM]	Strong
+Sigma38, Sigma70	ariR	activator	[HIPP, TIM]	Strong
+Sigma38, Sigma70	asr	activator	[IMP, TIM]	Strong
+Sigma38, Sigma70	bolA	activator	[AIPP, CV(RPF/RS-EPT-CBR), CV(RPF/TIM), RPF, RS-EPT-CBR, TIM]	Confirmed
+Sigma38, Sigma70	cfa	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma38, Sigma70	cpxA	activator	[HIPP]	Weak
+Sigma38, Sigma70	cpxR	activator	[HIPP]	Weak
+Sigma38, Sigma70	csgD	activator	[TIM]	Strong
+Sigma38, Sigma70	csgE	activator	[TIM]	Strong
+Sigma38, Sigma70	csgF	activator	[TIM]	Strong
+Sigma38, Sigma70	csgG	activator	[TIM]	Strong
+Sigma38, Sigma70	dnaN	activator	[HIPP, TIM]	Strong
+Sigma38, Sigma70	fau	activator	[AIPP, RS-EPT-CBR, TIM]	Strong
+Sigma38, Sigma70	ftsA	activator	[HIPP, TIM]	Strong
+Sigma38, Sigma70	ftsQ	activator	[HIPP, TIM]	Strong
+Sigma38, Sigma70	ftsZ	activator	[HIPP, TIM]	Strong
+Sigma38, Sigma70	gltB	activator	[HIPP, TIM]	Strong
+Sigma38, Sigma70	gltD	activator	[HIPP, TIM]	Strong
+Sigma38, Sigma70	gltF	activator	[HIPP, TIM]	Strong
+Sigma38, Sigma70	hdeD	activator	[HIPP, IMP, MSI, RS-EPT-CBR, TIM]	Strong
+Sigma38, Sigma70	idlP	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma38, Sigma70	ihfB	activator	[HIPP, TIM]	Strong
+Sigma38, Sigma70	iraD	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma38, Sigma70	metK	activator	[HIPP, TIM]	Strong
+Sigma38, Sigma70	micF	activator	[HIPP, TIM]	Strong
+Sigma38, Sigma70	mnmG	activator	[TIM]	Strong
+Sigma38, Sigma70	mpl	activator	[HIPP]	Weak
+Sigma38, Sigma70	ompF	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma38, Sigma70	oxyR	activator	[HIPP, TIM]	Strong
+Sigma38, Sigma70	poxB	activator	[HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma38, Sigma70	pykF	activator	[HTIM, RS-EPT-CBR]	Strong
+Sigma38, Sigma70	recF	activator	[HIPP, TIM]	Strong
+Sigma38, Sigma70	rsmG	activator	[TIM]	Strong
+Sigma38, Sigma70	ssrS	activator	[AIPP, RS-EPT-CBR, TIM]	Strong
+Sigma38, Sigma70	ycgZ	activator	[HIPP, TIM]	Strong
+Sigma38, Sigma70	ymgA	activator	[HIPP, TIM]	Strong
+Sigma38, Sigma70	ymgC	activator	[HIPP, TIM]	Strong
+Sigma38, Sigma70	ymiC	activator	[HIPP, TIM]	Strong
+Sigma38, Sigma70, Sigma38	csgA	activator	[CV(RPF/TIM), RPF, TIM]	Confirmed
+Sigma38, Sigma70, Sigma38	csgB	activator	[CV(RPF/TIM), RPF, TIM]	Confirmed
+Sigma38, Sigma70, Sigma38	csgC	activator	[CV(RPF/TIM), RPF, TIM]	Confirmed
+Sigma38, Sigma70, Sigma38, Sigma70	gadA	activator	[HIPP, TIM]	Strong
+Sigma38, Sigma70, Sigma38, Sigma70	gadB	activator	[HIPP, TIM]	Strong
+Sigma38, Sigma70, Sigma38, Sigma70	gadC	activator	[HIPP, TIM]	Strong
+Sigma38, Sigma70, Sigma38, Sigma70	gadX	activator	[HIPP, TIM]	Strong
+Sigma38, Sigma70, Sigma70, Sigma38	hdeA	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma38, Sigma70, Sigma70, Sigma38	hdeB	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma38, Sigma70, Sigma70, Sigma38	yhiD	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma54	acrD	activator	[HIPP, IEP]	Weak
+Sigma54	actP	activator	[HIPP, IEP]	Weak
+Sigma54	amtB	activator	[AIPP, HIPP]	Weak
+Sigma54	argT	activator	[AIPP]	Weak
+Sigma54	aslB	activator	[AIPP, IEP]	Weak
+Sigma54	astA	activator	[CV(RPF/TIM), HIPP, RPF, TIM]	Confirmed
+Sigma54	astB	activator	[CV(RPF/TIM), HIPP, RPF, TIM]	Confirmed
+Sigma54	astC	activator	[CV(RPF/TIM), HIPP, RPF, TIM]	Confirmed
+Sigma54	astD	activator	[CV(RPF/TIM), HIPP, RPF, TIM]	Confirmed
+Sigma54	astE	activator	[CV(RPF/TIM), HIPP, RPF, TIM]	Confirmed
+Sigma54	atoA	activator	[AIPP, IMP]	Weak
+Sigma54	atoB	activator	[AIPP, IMP]	Weak
+Sigma54	atoD	activator	[AIPP, IMP]	Weak
+Sigma54	atoE	activator	[AIPP, IMP]	Weak
+Sigma54	chaC	activator	[AIPP, IEP]	Weak
+Sigma54	dcuD	activator	[HIPP]	Weak
+Sigma54	ddpA	activator	[AIPP, HIPP, IEP]	Weak
+Sigma54	ddpB	activator	[AIPP, HIPP, IEP]	Weak
+Sigma54	ddpC	activator	[AIPP, HIPP, IEP]	Weak
+Sigma54	ddpD	activator	[AIPP, HIPP, IEP]	Weak
+Sigma54	ddpF	activator	[AIPP, HIPP, IEP]	Weak
+Sigma54	ddpX	activator	[AIPP, HIPP, IEP]	Weak
+Sigma54	emrD	activator	[HIPP, IEP]	Weak
+Sigma54	fdhF	activator	[TIM]	Strong
+Sigma54	fhlA	activator	[TIM]	Strong
+Sigma54	flhC	activator	[HIPP, IEP]	Weak
+Sigma54	flhD	activator	[HIPP, IEP]	Weak
+Sigma54	focB	activator	[HIPP, TIM]	Strong
+Sigma54	glmY	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma54	glnA	activator	[TIM]	Strong
+Sigma54	glnG	activator	[TIM]	Strong
+Sigma54	glnH	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma54	glnK	activator	[AIPP, HIPP]	Weak
+Sigma54	glnL	activator	[TIM]	Strong
+Sigma54	glnP	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma54	glnQ	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma54	glpQ	activator	[RE, TIM]	Strong
+Sigma54	gltI	activator	[AIPP]	Weak
+Sigma54	gltJ	activator	[AIPP]	Weak
+Sigma54	gltK	activator	[AIPP]	Weak
+Sigma54	gltL	activator	[AIPP]	Weak
+Sigma54	gnsA	activator	[RE, TIM]	Strong
+Sigma54	hisJ	activator	[AIPP]	Weak
+Sigma54	hisM	activator	[AIPP]	Weak
+Sigma54	hisP	activator	[AIPP]	Weak
+Sigma54	hisQ	activator	[AIPP]	Weak
+Sigma54	htpG	activator	[HIPP, IEP]	Weak
+Sigma54	hycA	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma54	hycB	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma54	hycC	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma54	hycD	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma54	hycE	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma54	hycF	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma54	hycG	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma54	hycH	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma54	hycI	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma54	hydN	activator	[HIPP, TIM]	Strong
+Sigma54	hyfA	activator	[HIPP, TIM]	Strong
+Sigma54	hyfB	activator	[HIPP, TIM]	Strong
+Sigma54	hyfC	activator	[HIPP, TIM]	Strong
+Sigma54	hyfD	activator	[HIPP, TIM]	Strong
+Sigma54	hyfE	activator	[HIPP, TIM]	Strong
+Sigma54	hyfF	activator	[HIPP, TIM]	Strong
+Sigma54	hyfG	activator	[HIPP, TIM]	Strong
+Sigma54	hyfH	activator	[HIPP, TIM]	Strong
+Sigma54	hyfI	activator	[HIPP, TIM]	Strong
+Sigma54	hyfJ	activator	[HIPP, TIM]	Strong
+Sigma54	hyfR	activator	[HIPP, TIM]	Strong
+Sigma54	hypA	activator	[TIM]	Strong
+Sigma54	hypB	activator	[TIM]	Strong
+Sigma54	hypC	activator	[TIM]	Strong
+Sigma54	hypD	activator	[TIM]	Strong
+Sigma54	hypE	activator	[TIM]	Strong
+Sigma54	hypF	activator	[HIPP, TIM]	Strong
+Sigma54	ibpB	activator	[TIM]	Strong
+Sigma54	nac	activator	[HIPP, TIM]	Strong
+Sigma54	nikA	activator	[HIPP, IEP]	Weak
+Sigma54	nikB	activator	[HIPP, IEP]	Weak
+Sigma54	nikC	activator	[HIPP, IEP]	Weak
+Sigma54	nikD	activator	[HIPP, IEP]	Weak
+Sigma54	nikE	activator	[HIPP, IEP]	Weak
+Sigma54	nikR	activator	[HIPP, IEP]	Weak
+Sigma54	norV	activator	[AIPP, HIPP, IEP, TIM]	Strong
+Sigma54	norW	activator	[AIPP, HIPP, IEP, TIM]	Strong
+Sigma54	potF	activator	[AIPP]	Weak
+Sigma54	potG	activator	[AIPP]	Weak
+Sigma54	potH	activator	[AIPP]	Weak
+Sigma54	potI	activator	[AIPP]	Weak
+Sigma54	prpB	activator	[AIPP]	Weak
+Sigma54	prpC	activator	[AIPP]	Weak
+Sigma54	prpD	activator	[AIPP]	Weak
+Sigma54	prpE	activator	[AIPP]	Weak
+Sigma54	pspA	activator	[AIPP, RS-EPT-CBR, TIM]	Strong
+Sigma54	pspB	activator	[AIPP, RS-EPT-CBR, TIM]	Strong
+Sigma54	pspC	activator	[AIPP, RS-EPT-CBR, TIM]	Strong
+Sigma54	pspD	activator	[AIPP, RS-EPT-CBR, TIM]	Strong
+Sigma54	pspE	activator	[AIPP, RS-EPT-CBR, TIM]	Strong
+Sigma54	pspG	activator	[ICA, RPF]	Strong
+Sigma54	puuP	activator	[AIPP, HIPP, IEP]	Weak
+Sigma54	radD	activator	[HIPP, IEP]	Weak
+Sigma54	relA	activator	[TIM]	Strong
+Sigma54	rhaD	activator	[HIPP, IEP]	Weak
+Sigma54	rpoH	activator	[CV(RPF/TIM), HIPP, RPF, TIM]	Confirmed
+Sigma54	rtcA	activator	[HIPP, TIM]	Strong
+Sigma54	rtcB	activator	[HIPP, TIM]	Strong
+Sigma54	rtcR	activator	[HIPP]	Weak
+Sigma54	rutA	activator	[AIPP, HIPP, IEP]	Weak
+Sigma54	rutB	activator	[AIPP, HIPP, IEP]	Weak
+Sigma54	rutC	activator	[AIPP, HIPP, IEP]	Weak
+Sigma54	rutD	activator	[AIPP, HIPP, IEP]	Weak
+Sigma54	rutE	activator	[AIPP, HIPP, IEP]	Weak
+Sigma54	rutF	activator	[AIPP, HIPP, IEP]	Weak
+Sigma54	rutG	activator	[AIPP, HIPP, IEP]	Weak
+Sigma54	sroC	activator	[AIPP]	Weak
+Sigma54	ssnA	activator	[HIPP, IEP]	Weak
+Sigma54	xapB	activator	[RE, TIM]	Strong
+Sigma54	xdhA	activator	[HIPP, IEP, TIM]	Strong
+Sigma54	xdhB	activator	[HIPP, IEP, TIM]	Strong
+Sigma54	xdhC	activator	[HIPP, IEP, TIM]	Strong
+Sigma54	yaaU	activator	[HIPP, IEP]	Weak
+Sigma54	yahE	activator	[HIPP, IEP]	Weak
+Sigma54	yeaG	activator	[AIPP]	Weak
+Sigma54	yeaH	activator	[AIPP]	Weak
+Sigma54	ygfK	activator	[HIPP, IEP]	Weak
+Sigma54	yhdW	activator	[AIPP]	Weak
+Sigma54	yhdX	activator	[AIPP]	Weak
+Sigma54	yhdY	activator	[AIPP]	Weak
+Sigma54	yhdZ	activator	[AIPP]	Weak
+Sigma54	yhjC	activator	[HIPP, IEP]	Weak
+Sigma54	ymjE	activator	[AIPP, HIPP, IEP]	Weak
+Sigma54	zraP	activator	[AIPP, HIPP]	Weak
+Sigma54	zraR	activator	[AIPP, HIPP]	Weak
+Sigma54	zraS	activator	[AIPP, HIPP]	Weak
+Sigma70	3'ETS<sup><i>leuZ</i></sup>	activator	[HIPP]	Weak
+Sigma70	accA	activator	[TIM]	Strong
+Sigma70	accB	activator	[HIPP, TIM]	Strong
+Sigma70	accC	activator	[HIPP, TIM]	Strong
+Sigma70	accD	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	aceA	activator	[TIM]	Strong
+Sigma70	aceB	activator	[TIM]	Strong
+Sigma70	aceK	activator	[TIM]	Strong
+Sigma70	acnA	activator	[HIPP, TIM]	Strong
+Sigma70	acnB	activator	[GEA, HIPP, TIM]	Strong
+Sigma70	acpP	activator	[HIPP, TIM]	Strong
+Sigma70	acpS	activator	[HIPP, TIM]	Strong
+Sigma70	acrA	activator	[HIPP, TIM]	Strong
+Sigma70	acrB	activator	[HIPP, TIM]	Strong
+Sigma70	acrD	activator	[AIPP]	Weak
+Sigma70	acrE	activator	[AIPP]	Weak
+Sigma70	acrF	activator	[AIPP]	Weak
+Sigma70	acrR	activator	[AIPP]	Weak
+Sigma70	acrZ	activator	[TIM]	Strong
+Sigma70	acs	activator	[AIPP]	Weak
+Sigma70	actP	activator	[AIPP]	Weak
+Sigma70	add	activator	[ICWHO]	Weak
+Sigma70	adeD	activator	[HIPP, TIM]	Strong
+Sigma70	adiA	activator	[HIPP, IMP, TIM]	Strong
+Sigma70	agaA	activator	[TIM]	Strong
+Sigma70	agaB	activator	[HIPP, TIM]	Strong
+Sigma70	agaC	activator	[HIPP, TIM]	Strong
+Sigma70	agaD	activator	[HIPP, TIM]	Strong
+Sigma70	agaI	activator	[HIPP, TIM]	Strong
+Sigma70	agaR	activator	[HIPP, TIM]	Strong
+Sigma70	agaS	activator	[HIPP, TIM]	Strong
+Sigma70	agaV	activator	[TIM]	Strong
+Sigma70	agaW	activator	[TIM]	Strong
+Sigma70	ahpC	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	ahpF	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	alaC	activator	[AIPP]	Weak
+Sigma70	alaE	activator	[TIM]	Strong
+Sigma70	alaT	activator	[HIPP, RS-EPT-CBR]	Strong
+Sigma70	alaU	activator	[HIPP, TIM]	Strong
+Sigma70	alaV	activator	[HIPP, HTIM]	Strong
+Sigma70	alaW	activator	[HIPP]	Weak
+Sigma70	alaX	activator	[HIPP]	Weak
+Sigma70	aldA	activator	[HIPP, TIM]	Strong
+Sigma70	alkB	activator	[HIPP]	Weak
+Sigma70	allB	activator	[AIPP, RE, TIM]	Strong
+Sigma70	allC	activator	[AIPP]	Weak
+Sigma70	allD	activator	[AIPP]	Weak
+Sigma70	allE	activator	[AIPP]	Weak
+Sigma70	alsA	activator	[HIPP, TIM]	Strong
+Sigma70	alsB	activator	[HIPP, TIM]	Strong
+Sigma70	alsC	activator	[HIPP, TIM]	Strong
+Sigma70	alsE	activator	[HIPP, TIM]	Strong
+Sigma70	alsR	activator	[HIPP, TIM]	Strong
+Sigma70	amiA	activator	[HIPP, TIM]	Strong
+Sigma70	amiB	activator	[HIPP, HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	ampC	activator	[IMP, RS-EPT-CBR]	Strong
+Sigma70	ampG	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	amyA	activator	[HIPP]	Weak
+Sigma70	ansB	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	appY	activator	[AIPP, TIM]	Strong
+Sigma70	apt	activator	[HIPP, TIM]	Strong
+Sigma70	araA	activator	[TIM]	Strong
+Sigma70	araB	activator	[TIM]	Strong
+Sigma70	araC	activator	[HIPP, TIM]	Strong
+Sigma70	araD	activator	[TIM]	Strong
+Sigma70	araE	activator	[TIM]	Strong
+Sigma70	araJ	activator	[TIM]	Strong
+Sigma70	arcA	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	arfA	activator	[ICWHO, TIM]	Strong
+Sigma70	argA	activator	[AIPP]	Weak
+Sigma70	argB	activator	[TIM]	Strong
+Sigma70	argC	activator	[TIM]	Strong
+Sigma70	argD	activator	[RS-EPT-CBR, TAS]	Strong
+Sigma70	argE	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	argF	activator	[CV(RPF/RS-EPT-CBR), CV(RPF/TIM), RPF, RS-EPT-CBR, TIM]	Confirmed
+Sigma70	argG	activator	[AIPP]	Weak
+Sigma70	argH	activator	[TIM]	Strong
+Sigma70	argI	activator	[TIM]	Strong
+Sigma70	argO	activator	[CV(RPF/TIM), HIPP, HTIM, RPF, TIM]	Confirmed
+Sigma70	argQ	activator	[HIPP]	Weak
+Sigma70	argR	activator	[AIPP, TIM]	Strong
+Sigma70	argS	activator	[ICWHO, TIM]	Strong
+Sigma70	argU	activator	[HIPP]	Weak
+Sigma70	argV	activator	[HIPP]	Weak
+Sigma70	argW	activator	[HIPP]	Weak
+Sigma70	argX	activator	[CV(RPF/TIM), HIPP, IMP, RPF, TIM]	Confirmed
+Sigma70	argY	activator	[HIPP]	Weak
+Sigma70	argZ	activator	[HIPP]	Weak
+Sigma70	aroA	activator	[TIM]	Strong
+Sigma70	aroB	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	aroD	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	aroF	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	aroG	activator	[CV(RPF/RS-EPT-CBR), CV(RPF/TIM), HIPP, RPF, RS-EPT-CBR, TIM]	Confirmed
+Sigma70	aroH	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	aroK	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	aroL	activator	[TIM]	Strong
+Sigma70	aroM	activator	[RE, TIM]	Strong
+Sigma70	aroP	activator	[HIPP, TIM]	Strong
+Sigma70	arsB	activator	[HIPP, TIM]	Strong
+Sigma70	arsC	activator	[HIPP, TIM]	Strong
+Sigma70	arsR	activator	[HIPP, TIM]	Strong
+Sigma70	artI	activator	[HIPP, TIM]	Strong
+Sigma70	artJ	activator	[CV(RPF/RS-EPT-CBR), CV(RPF/TIM), HIPP, HTIM, RPF, RS-EPT-CBR, TIM]	Confirmed
+Sigma70	artM	activator	[HIPP, TIM]	Strong
+Sigma70	artP	activator	[HIPP, TIM]	Strong
+Sigma70	artQ	activator	[HIPP, TIM]	Strong
+Sigma70	ascB	activator	[AIPP, TIM]	Strong
+Sigma70	ascF	activator	[AIPP, TIM]	Strong
+Sigma70	asnA	activator	[HIPP, TIM]	Strong
+Sigma70	asnC	activator	[TIM]	Strong
+Sigma70	asnT	activator	[HIPP]	Weak
+Sigma70	asnU	activator	[HIPP]	Weak
+Sigma70	asnV	activator	[HIPP]	Weak
+Sigma70	aspA	activator	[TIM]	Strong
+Sigma70	aspV	activator	[HIPP]	Weak
+Sigma70	astA	activator	[HIPP]	Weak
+Sigma70	astB	activator	[HIPP]	Weak
+Sigma70	astC	activator	[HIPP]	Weak
+Sigma70	astD	activator	[HIPP]	Weak
+Sigma70	astE	activator	[HIPP]	Weak
+Sigma70	atpA	activator	[TIM]	Strong
+Sigma70	atpB	activator	[TIM]	Strong
+Sigma70	atpC	activator	[TIM]	Strong
+Sigma70	atpD	activator	[TIM]	Strong
+Sigma70	atpE	activator	[TIM]	Strong
+Sigma70	atpF	activator	[TIM]	Strong
+Sigma70	atpG	activator	[TIM]	Strong
+Sigma70	atpH	activator	[TIM]	Strong
+Sigma70	atpI	activator	[TIM]	Strong
+Sigma70	azoR	activator	[HIPP, TIM]	Strong
+Sigma70	azuC	activator	[TIM]	Strong
+Sigma70	bamC	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	bcp	activator	[HIPP, TIM]	Strong
+Sigma70	bcsB	activator	[AIPP]	Weak
+Sigma70	bcsE	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	bcsF	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	bcsG	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	bcsZ	activator	[AIPP]	Weak
+Sigma70	bdcA	activator	[AIPP]	Weak
+Sigma70	betA	activator	[HIPP, TIM]	Strong
+Sigma70	betB	activator	[HIPP, TIM]	Strong
+Sigma70	betI	activator	[HIPP, TIM]	Strong
+Sigma70	betT	activator	[HIPP, TIM]	Strong
+Sigma70	bglJ	activator	[HIPP, TIM]	Strong
+Sigma70	bglX	activator	[HIPP]	Weak
+Sigma70	bhsA	activator	[ICWHO, TIM]	Strong
+Sigma70	bioA	activator	[HIPP]	Weak
+Sigma70	bioB	activator	[GEA, HIPP]	Weak
+Sigma70	bioC	activator	[GEA, HIPP]	Weak
+Sigma70	bioD	activator	[GEA, HIPP]	Weak
+Sigma70	bioF	activator	[GEA, HIPP]	Weak
+Sigma70	bluF	activator	[TIM]	Strong
+Sigma70	bluR	activator	[HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	bolA	activator	[AIPP, TIM]	Strong
+Sigma70	bssS	activator	[HTIM, RS-EPT-CBR]	Strong
+Sigma70	btuB	activator	[TIM]	Strong
+Sigma70	btuD	activator	[RE, TIM]	Strong
+Sigma70	btuE	activator	[RE, TIM]	Strong
+Sigma70	cadA	activator	[HIPP, IMP, TIM]	Strong
+Sigma70	cadB	activator	[HIPP, IMP, TIM]	Strong
+Sigma70	cadC	activator	[HIPP, TIM]	Strong
+Sigma70	caiA	activator	[TIM]	Strong
+Sigma70	caiB	activator	[TIM]	Strong
+Sigma70	caiC	activator	[TIM]	Strong
+Sigma70	caiD	activator	[TIM]	Strong
+Sigma70	caiE	activator	[TIM]	Strong
+Sigma70	caiF	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	caiT	activator	[TIM]	Strong
+Sigma70	carA	activator	[HIPP, TIM]	Strong
+Sigma70	carB	activator	[HIPP, TIM]	Strong
+Sigma70	cas1	activator	[TIM]	Strong
+Sigma70	cas2	activator	[TIM]	Strong
+Sigma70	casA	activator	[TIM]	Strong
+Sigma70	casB	activator	[TIM]	Strong
+Sigma70	casC	activator	[TIM]	Strong
+Sigma70	casD	activator	[TIM]	Strong
+Sigma70	casE	activator	[TIM]	Strong
+Sigma70	cbl	activator	[HIPP, TIM]	Strong
+Sigma70	cbpA	activator	[CV(RPF/TIM), HIPP, RPF, TIM]	Confirmed
+Sigma70	cbpM	activator	[CV(RPF/TIM), HIPP, RPF, TIM]	Confirmed
+Sigma70	ccmA	activator	[HIPP, TIM]	Strong
+Sigma70	ccmB	activator	[HIPP, TIM]	Strong
+Sigma70	ccmC	activator	[HIPP, TIM]	Strong
+Sigma70	ccmD	activator	[HIPP, TIM]	Strong
+Sigma70	ccmE	activator	[HIPP, TIM]	Strong
+Sigma70	ccmF	activator	[HIPP, TIM]	Strong
+Sigma70	ccmG	activator	[HIPP, TIM]	Strong
+Sigma70	ccmH	activator	[HIPP, TIM]	Strong
+Sigma70	ccp	activator	[TIM]	Strong
+Sigma70	cdd	activator	[HIPP, TIM]	Strong
+Sigma70	cecR	activator	[HIPP]	Weak
+Sigma70	cedA	activator	[HIPP]	Weak
+Sigma70	chiA	activator	[HIPP, TIM]	Strong
+Sigma70	chiX	activator	[TIM]	Strong
+Sigma70	cho	activator	[AIPP]	Weak
+Sigma70	chpB	activator	[HIPP, IMP, TIM]	Strong
+Sigma70	chpS	activator	[HIPP, IMP, TIM]	Strong
+Sigma70	cirA	activator	[HIPP, TIM]	Strong
+Sigma70	clpA	activator	[HIPP, TIM]	Strong
+Sigma70	clpP	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	clpX	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	cmk	activator	[HIPP, TIM]	Strong
+Sigma70	cmoM	activator	[HIPP]	Weak
+Sigma70	coaD	activator	[TIM]	Strong
+Sigma70	cobS	activator	[HIPP, RPF, TIM]	Strong
+Sigma70	cobT	activator	[HIPP, RPF, TIM]	Strong
+Sigma70	cobU	activator	[HIPP, RPF, TIM]	Strong
+Sigma70	codA	activator	[HIPP, TIM]	Strong
+Sigma70	codB	activator	[HIPP, TIM]	Strong
+Sigma70	copA	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	corA	activator	[HIPP]	Weak
+Sigma70	cpdB	activator	[TIM]	Strong
+Sigma70	cpxP	activator	[HIPP, HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	cpxQ	activator	[HIPP, HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	creA	activator	[HIPP]	Weak
+Sigma70	creB	activator	[HIPP]	Weak
+Sigma70	creC	activator	[HIPP]	Weak
+Sigma70	creD	activator	[HIPP]	Weak
+Sigma70	crp	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	crr	activator	[TIM]	Strong
+Sigma70	csgA	activator	[TIM]	Strong
+Sigma70	cspA	activator	[HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	cspC	activator	[TIM]	Strong
+Sigma70	cspD	activator	[HIPP, TIM]	Strong
+Sigma70	cspE	activator	[AIPP, TIM]	Strong
+Sigma70	csqR	activator	[AIPP, ICWHO, IHBCE, RE, TIM]	Strong
+Sigma70	csrA	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	csrB	activator	[HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	cstA	activator	[TIM]	Strong
+Sigma70	cusA	activator	[HIPP, TIM]	Strong
+Sigma70	cusB	activator	[HIPP, TIM]	Strong
+Sigma70	cusC	activator	[HIPP, TIM]	Strong
+Sigma70	cusF	activator	[HIPP, TIM]	Strong
+Sigma70	cusR	activator	[HIPP, TIM]	Strong
+Sigma70	cusS	activator	[HIPP, TIM]	Strong
+Sigma70	cutA	activator	[TIM]	Strong
+Sigma70	cvpA	activator	[HIPP, HTIM, TIM]	Strong
+Sigma70	cyaA	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	cydA	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	cydB	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	cydC	activator	[TIM]	Strong
+Sigma70	cydD	activator	[TIM]	Strong
+Sigma70	cynR	activator	[HIPP, TIM]	Strong
+Sigma70	cynS	activator	[HIPP, TIM]	Strong
+Sigma70	cynT	activator	[HIPP, TIM]	Strong
+Sigma70	cynX	activator	[HIPP, TIM]	Strong
+Sigma70	cyoA	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	cyoB	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	cyoC	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	cyoD	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	cyoE	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	cysA	activator	[MSI, TIM]	Strong
+Sigma70	cysB	activator	[HIPP]	Weak
+Sigma70	cysC	activator	[HIPP, TIM]	Strong
+Sigma70	cysD	activator	[HIPP, TIM]	Strong
+Sigma70	cysG	activator	[CV(RPF/TIM), HIPP, IMP, RPF, RS-EPT-CBR, TIM]	Confirmed
+Sigma70	cysH	activator	[TIM]	Strong
+Sigma70	cysI	activator	[TIM]	Strong
+Sigma70	cysJ	activator	[TIM]	Strong
+Sigma70	cysK	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	cysM	activator	[MSI, TIM]	Strong
+Sigma70	cysN	activator	[HIPP, TIM]	Strong
+Sigma70	cysP	activator	[MSI, TIM]	Strong
+Sigma70	cysT	activator	[HIPP]	Weak
+Sigma70	cysU	activator	[MSI, TIM]	Strong
+Sigma70	cysW	activator	[MSI, TIM]	Strong
+Sigma70	cytR	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	dacC	activator	[AIPP]	Weak
+Sigma70	dadA	activator	[TIM]	Strong
+Sigma70	dadX	activator	[TIM]	Strong
+Sigma70	dam	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	damX	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	dapA	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	dapB	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	dapD	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	dapE	activator	[HIPP, IDA]	Strong
+Sigma70	dapF	activator	[HIPP, TIM]	Strong
+Sigma70	dctA	activator	[TIM]	Strong
+Sigma70	dctR	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	dcuA	activator	[TIM]	Strong
+Sigma70	dcuB	activator	[TIM]	Strong
+Sigma70	dcuD	activator	[HIPP]	Weak
+Sigma70	dcuR	activator	[HIPP, TIM]	Strong
+Sigma70	dcuS	activator	[HIPP, TIM]	Strong
+Sigma70	ddlB	activator	[HIPP, TIM]	Strong
+Sigma70	deaD	activator	[TIM]	Strong
+Sigma70	decR	activator	[AIPP]	Weak
+Sigma70	def	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	degQ	activator	[TIM]	Strong
+Sigma70	degS	activator	[TIM]	Strong
+Sigma70	deoA	activator	[TIM]	Strong
+Sigma70	deoB	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	deoC	activator	[TIM]	Strong
+Sigma70	deoD	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	dgcN	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	dgcT	activator	[TIM]	Strong
+Sigma70	dgcZ	activator	[HIPP, HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	dgoA	activator	[AIPP, IDA]	Strong
+Sigma70	dgoD	activator	[AIPP, IDA]	Strong
+Sigma70	dgoK	activator	[AIPP, IDA]	Strong
+Sigma70	dgoR	activator	[AIPP, IDA]	Strong
+Sigma70	dgoT	activator	[AIPP, IDA]	Strong
+Sigma70	dicB	activator	[HIPP, TASES]	Weak
+Sigma70	dicC	activator	[HIPP, TIM]	Strong
+Sigma70	dinF	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	dinG	activator	[AIPP, HIPP]	Weak
+Sigma70	dinI	activator	[HTIM, IHBCE]	Strong
+Sigma70	dinJ	activator	[AIPP]	Weak
+Sigma70	dinQ	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	dkgA	activator	[TIM]	Strong
+Sigma70	dksA	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	dmsA	activator	[NAS, RS-EPT-CBR, TIM]	Strong
+Sigma70	dmsB	activator	[NAS, RS-EPT-CBR, TIM]	Strong
+Sigma70	dmsC	activator	[NAS, RE, RS-EPT-CBR, TIM]	Strong
+Sigma70	dnaA	activator	[TIM]	Strong
+Sigma70	dnaG	activator	[HIPP, HTIM, IMP, RS-EPT-CBR, TIM]	Strong
+Sigma70	dnaN	activator	[HIPP, TIM]	Strong
+Sigma70	dppA	activator	[HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	dppB	activator	[HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	dppC	activator	[HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	dppD	activator	[HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	dppF	activator	[HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	dsbA	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	dsdA	activator	[TIM]	Strong
+Sigma70	dsdC	activator	[AIPP]	Weak
+Sigma70	dsdX	activator	[TIM]	Strong
+Sigma70	dsrA	activator	[HIPP, TIM]	Strong
+Sigma70	dtpA	activator	[TIM]	Strong
+Sigma70	dusB	activator	[CV(RPF/TIM), HIPP, RPF, TIM]	Confirmed
+Sigma70	dut	activator	[HIPP]	Weak
+Sigma70	dxs	activator	[HIPP]	Weak
+Sigma70	ebgA	activator	[AIPP]	Weak
+Sigma70	ebgC	activator	[AIPP]	Weak
+Sigma70	ecpA	activator	[ICWHO]	Weak
+Sigma70	eda	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	edd	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	efeU	activator	[HIPP, TIM]	Strong
+Sigma70	efp	activator	[HIPP]	Weak
+Sigma70	emrA	activator	[HIPP, TIM]	Strong
+Sigma70	emrB	activator	[HIPP, TIM]	Strong
+Sigma70	entA	activator	[HIPP, IMP, TIM]	Strong
+Sigma70	entB	activator	[HIPP, IMP, TIM]	Strong
+Sigma70	entC	activator	[HIPP, IMP, TIM]	Strong
+Sigma70	entD	activator	[TIM]	Strong
+Sigma70	entE	activator	[HIPP, IMP, TIM]	Strong
+Sigma70	entF	activator	[TIM]	Strong
+Sigma70	entH	activator	[HIPP, IMP, TIM]	Strong
+Sigma70	entS	activator	[HIPP, TIM]	Strong
+Sigma70	envZ	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	era	activator	[HIPP, TIM]	Strong
+Sigma70	esrE	activator	[TIM]	Strong
+Sigma70	evgA	activator	[TIM]	Strong
+Sigma70	evgS	activator	[TIM]	Strong
+Sigma70	exbB	activator	[HIPP]	Weak
+Sigma70	exbD	activator	[HIPP]	Weak
+Sigma70	exuR	activator	[TIM]	Strong
+Sigma70	fabA	activator	[HIPP]	Weak
+Sigma70	fabB	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	fabD	activator	[ICWHO, TIM]	Strong
+Sigma70	fabF	activator	[HIPP, TIM]	Strong
+Sigma70	fabG	activator	[ICWHO, TIM]	Strong
+Sigma70	fabH	activator	[ICWHO, TIM]	Strong
+Sigma70	fadA	activator	[TIM]	Strong
+Sigma70	fadB	activator	[TIM]	Strong
+Sigma70	fadD	activator	[TIM]	Strong
+Sigma70	fadI	activator	[AIPP]	Weak
+Sigma70	fadJ	activator	[AIPP]	Weak
+Sigma70	fadR	activator	[TIM]	Strong
+Sigma70	fau	activator	[HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	fbaA	activator	[HTIM, IMP, RS-EPT-CBR, TIM]	Strong
+Sigma70	fdnG	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	fdnH	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	fdnI	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	fdx	activator	[TIM]	Strong
+Sigma70	feaB	activator	[TIM]	Strong
+Sigma70	feaR	activator	[TIM]	Strong
+Sigma70	fecI	activator	[CV(RPF/TIM), HIPP, RPF, TIM]	Confirmed
+Sigma70	fecR	activator	[CV(RPF/TIM), HIPP, RPF, TIM]	Confirmed
+Sigma70	feoA	activator	[AIPP]	Weak
+Sigma70	feoB	activator	[AIPP]	Weak
+Sigma70	feoC	activator	[AIPP]	Weak
+Sigma70	fepA	activator	[TIM]	Strong
+Sigma70	fepB	activator	[HIPP, IMP, TIM]	Strong
+Sigma70	fepC	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	fepD	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	fepE	activator	[TIM]	Strong
+Sigma70	fepG	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	fes	activator	[TIM]	Strong
+Sigma70	fhuA	activator	[AIPP]	Weak
+Sigma70	fhuB	activator	[AIPP]	Weak
+Sigma70	fhuC	activator	[AIPP]	Weak
+Sigma70	fhuD	activator	[AIPP]	Weak
+Sigma70	fhuF	activator	[HIPP, HTIM, TIM]	Strong
+Sigma70	fimA	activator	[HIPP, TIM]	Strong
+Sigma70	fimB	activator	[TIM]	Strong
+Sigma70	fimC	activator	[HIPP, TIM]	Strong
+Sigma70	fimD	activator	[HIPP, TIM]	Strong
+Sigma70	fimE	activator	[HIPP, TIM]	Strong
+Sigma70	fimF	activator	[HIPP, TIM]	Strong
+Sigma70	fimG	activator	[HIPP, TIM]	Strong
+Sigma70	fimH	activator	[HIPP, TIM]	Strong
+Sigma70	fimI	activator	[HIPP, TIM]	Strong
+Sigma70	fis	activator	[CV(RPF/TIM), HIPP, RPF, TIM]	Confirmed
+Sigma70	fiu	activator	[HIPP]	Weak
+Sigma70	fixA	activator	[HIPP, TIM]	Strong
+Sigma70	fixB	activator	[HIPP, TIM]	Strong
+Sigma70	fixC	activator	[HIPP, TIM]	Strong
+Sigma70	fixX	activator	[HIPP, TIM]	Strong
+Sigma70	fkpB	activator	[CV(RPF/RS-EPT-CBR), CV(RPF/TIM), HIPP, ICWHO, IDA, RPF, RS-EPT-CBR, TIM]	Confirmed
+Sigma70	fldB	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	flgA	activator	[HIPP]	Weak
+Sigma70	flgB	activator	[HIPP]	Weak
+Sigma70	flgC	activator	[HIPP]	Weak
+Sigma70	flgD	activator	[HIPP]	Weak
+Sigma70	flgE	activator	[HIPP]	Weak
+Sigma70	flgF	activator	[HIPP]	Weak
+Sigma70	flgG	activator	[HIPP]	Weak
+Sigma70	flgH	activator	[HIPP]	Weak
+Sigma70	flgI	activator	[HIPP]	Weak
+Sigma70	flgJ	activator	[HIPP]	Weak
+Sigma70	flgM	activator	[HIPP]	Weak
+Sigma70	flgN	activator	[HIPP]	Weak
+Sigma70	flhA	activator	[HIPP, TAS]	Weak
+Sigma70	flhB	activator	[HIPP, TAS]	Weak
+Sigma70	flhC	activator	[TIM]	Strong
+Sigma70	flhD	activator	[TIM]	Strong
+Sigma70	flhE	activator	[HIPP, TAS]	Weak
+Sigma70	fliA	activator	[GEA, RS-EPT-CBR, TIM]	Strong
+Sigma70	fliD	activator	[HIPP]	Weak
+Sigma70	fliE	activator	[HIPP]	Weak
+Sigma70	fliF	activator	[HIPP]	Weak
+Sigma70	fliG	activator	[HIPP]	Weak
+Sigma70	fliH	activator	[HIPP]	Weak
+Sigma70	fliI	activator	[HIPP]	Weak
+Sigma70	fliJ	activator	[HIPP]	Weak
+Sigma70	fliK	activator	[HIPP]	Weak
+Sigma70	fliL	activator	[TIM]	Strong
+Sigma70	fliM	activator	[TIM]	Strong
+Sigma70	fliN	activator	[TIM]	Strong
+Sigma70	fliO	activator	[TIM]	Strong
+Sigma70	fliP	activator	[TIM]	Strong
+Sigma70	fliQ	activator	[TIM]	Strong
+Sigma70	fliR	activator	[TIM]	Strong
+Sigma70	fliS	activator	[HIPP]	Weak
+Sigma70	fliT	activator	[HIPP]	Weak
+Sigma70	fliZ	activator	[GEA, RS-EPT-CBR, TIM]	Strong
+Sigma70	flu	activator	[HIPP, TIM]	Strong
+Sigma70	fmt	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	fnr	activator	[HIPP, RS-EPT-CBR]	Strong
+Sigma70	fnrS	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	focA	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	folA	activator	[HIPP, RS-EPT-CBR]	Strong
+Sigma70	folE	activator	[ICA]	Weak
+Sigma70	folK	activator	[TIM]	Strong
+Sigma70	fpr	activator	[HIPP]	Weak
+Sigma70	frc	activator	[HIPP, TIM]	Strong
+Sigma70	frlR	activator	[RE, RS-EPT-CBR, TIM]	Strong
+Sigma70	frr	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	frsA	activator	[HIPP, RS-EPT-CBR]	Strong
+Sigma70	fruA	activator	[AIPP]	Weak
+Sigma70	fruB	activator	[AIPP]	Weak
+Sigma70	fruK	activator	[AIPP]	Weak
+Sigma70	ftnA	activator	[HIPP, RS-EPT-CBR]	Strong
+Sigma70	ftnB	activator	[HIPP, TIM]	Strong
+Sigma70	ftsA	activator	[HIPP, TIM]	Strong
+Sigma70	ftsH	activator	[HIPP, TIM]	Strong
+Sigma70	ftsI	activator	[HIPP, TIM]	Strong
+Sigma70	ftsK	activator	[AIPP, HIPP, TIM]	Strong
+Sigma70	ftsL	activator	[HIPP, TIM]	Strong
+Sigma70	ftsQ	activator	[HIPP, TIM]	Strong
+Sigma70	ftsW	activator	[HIPP, TIM]	Strong
+Sigma70	ftsZ	activator	[HIPP, TIM]	Strong
+Sigma70	fucA	activator	[AIPP]	Weak
+Sigma70	fucI	activator	[NAS]	Weak
+Sigma70	fucK	activator	[NAS]	Weak
+Sigma70	fucO	activator	[AIPP, TIM]	Strong
+Sigma70	fucP	activator	[NAS]	Weak
+Sigma70	fucR	activator	[NAS]	Weak
+Sigma70	fucU	activator	[NAS, RE, TIM]	Strong
+Sigma70	fumA	activator	[HIPP, TIM]	Strong
+Sigma70	fumB	activator	[ICA, TIM]	Strong
+Sigma70	fumC	activator	[HIPP, TAS, TIM]	Strong
+Sigma70	fur	activator	[HIPP, IMP, MSI, RS-EPT-CBR, TIM]	Strong
+Sigma70	gadE	activator	[HIPP, IEP, RS-EPT-CBR, TIM]	Strong
+Sigma70	gadF	activator	[HIPP, IEP, RS-EPT-CBR, TIM]	Strong
+Sigma70	galE	activator	[CV(RPF/TIM), RPF, TIM]	Confirmed
+Sigma70	galK	activator	[CV(RPF/TIM), RPF, TIM]	Confirmed
+Sigma70	galM	activator	[CV(RPF/TIM), RPF, TIM]	Confirmed
+Sigma70	galP	activator	[HIPP, NAS, RS-EPT-CBR, TIM]	Strong
+Sigma70	galR	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	galS	activator	[HIPP, TIM]	Strong
+Sigma70	galT	activator	[CV(RPF/TIM), RPF, TIM]	Confirmed
+Sigma70	gapA	activator	[HIPP, TIM]	Strong
+Sigma70	garK	activator	[AIPP, IC]	Weak
+Sigma70	garL	activator	[AIPP, IC]	Weak
+Sigma70	garP	activator	[AIPP, IC]	Weak
+Sigma70	garR	activator	[AIPP, IC]	Weak
+Sigma70	gatA	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	gatB	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	gatC	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	gatD	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	gatY	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	gatZ	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	gcd	activator	[HIPP, TIM]	Strong
+Sigma70	gcl	activator	[AIPP]	Weak
+Sigma70	gcvA	activator	[HIPP, TIM]	Strong
+Sigma70	gcvB	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	gcvH	activator	[TIM]	Strong
+Sigma70	gcvP	activator	[TIM]	Strong
+Sigma70	gcvR	activator	[HIPP, IMP, RS-EPT-CBR, TIM]	Strong
+Sigma70	gcvT	activator	[TIM]	Strong
+Sigma70	gdhA	activator	[HIPP, HTIM, IMP, RS-EPT-CBR, TIM]	Strong
+Sigma70	gfcA	activator	[TIM]	Strong
+Sigma70	glcA	activator	[HIPP, TIM]	Strong
+Sigma70	glcB	activator	[HIPP, TIM]	Strong
+Sigma70	glcC	activator	[HIPP, TIM]	Strong
+Sigma70	glcD	activator	[HIPP, TIM]	Strong
+Sigma70	glcE	activator	[HIPP, TIM]	Strong
+Sigma70	glcF	activator	[HIPP, TIM]	Strong
+Sigma70	glcG	activator	[HIPP, TIM]	Strong
+Sigma70	glgA	activator	[HIPP, TIM]	Strong
+Sigma70	glgB	activator	[HIPP, TIM]	Strong
+Sigma70	glgC	activator	[HIPP, TIM]	Strong
+Sigma70	glgP	activator	[HIPP, TIM]	Strong
+Sigma70	glgX	activator	[HIPP, TIM]	Strong
+Sigma70	glmS	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	glmU	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	glmY	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	glmZ	activator	[HIPP, IMP, RS-EPT-CBR, TIM]	Strong
+Sigma70	glnA	activator	[TIM]	Strong
+Sigma70	glnB	activator	[TIM]	Strong
+Sigma70	glnG	activator	[TIM]	Strong
+Sigma70	glnL	activator	[TIM]	Strong
+Sigma70	glnQ	activator	[AIPP]	Weak
+Sigma70	glnU	activator	[HIPP]	Weak
+Sigma70	glnV	activator	[HIPP]	Weak
+Sigma70	glnW	activator	[HIPP]	Weak
+Sigma70	glnX	activator	[HIPP]	Weak
+Sigma70	gloA	activator	[HIPP, TIM]	Strong
+Sigma70	glpA	activator	[HIPP]	Weak
+Sigma70	glpB	activator	[HIPP]	Weak
+Sigma70	glpC	activator	[HIPP]	Weak
+Sigma70	glpD	activator	[TIM]	Strong
+Sigma70	glpF	activator	[HIPP, TIM]	Strong
+Sigma70	glpK	activator	[HIPP, TIM]	Strong
+Sigma70	glpQ	activator	[HIPP]	Weak
+Sigma70	glpT	activator	[HIPP]	Weak
+Sigma70	glpX	activator	[HIPP, TIM]	Strong
+Sigma70	glrK	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	gltA	activator	[GEA, IMP, TIM]	Strong
+Sigma70	gltI	activator	[HIPP, IC]	Weak
+Sigma70	gltJ	activator	[HIPP, IC]	Weak
+Sigma70	gltK	activator	[HIPP, IC]	Weak
+Sigma70	gltL	activator	[HIPP, IC]	Weak
+Sigma70	gltT	activator	[AIPP, TIM]	Strong
+Sigma70	gltU	activator	[HIPP]	Weak
+Sigma70	gltV	activator	[HIPP]	Weak
+Sigma70	gltW	activator	[HIPP]	Weak
+Sigma70	gltX	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	gluQ	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	glxK	activator	[AIPP]	Weak
+Sigma70	glxR	activator	[AIPP]	Weak
+Sigma70	glyA	activator	[CV(RPF/TIM), HIPP, RPF, TIM]	Confirmed
+Sigma70	glyQ	activator	[HIPP, RS-EPT-CBR]	Strong
+Sigma70	glyS	activator	[HIPP, RS-EPT-CBR]	Strong
+Sigma70	glyT	activator	[HIPP, IMP]	Weak
+Sigma70	glyU	activator	[HIPP]	Weak
+Sigma70	glyV	activator	[HIPP]	Weak
+Sigma70	glyW	activator	[HIPP]	Weak
+Sigma70	glyX	activator	[HIPP]	Weak
+Sigma70	glyY	activator	[HIPP]	Weak
+Sigma70	gmk	activator	[RS-EPT-CBR, TAS]	Strong
+Sigma70	gnd	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	gnsA	activator	[RE, TIM]	Strong
+Sigma70	gntK	activator	[TIM]	Strong
+Sigma70	gntP	activator	[TIM]	Strong
+Sigma70	gntR	activator	[HIPP, TIM]	Strong
+Sigma70	gntT	activator	[TIM]	Strong
+Sigma70	gntU	activator	[TIM]	Strong
+Sigma70	gph	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	gpsA	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	gpt	activator	[HIPP]	Weak
+Sigma70	grcA	activator	[CV(RPF/TIM), HIPP, IMP, RPF, TIM]	Confirmed
+Sigma70	greA	activator	[TIM]	Strong
+Sigma70	grxB	activator	[AIPP, GEA, IMP]	Weak
+Sigma70	grxC	activator	[HIPP, TIM]	Strong
+Sigma70	grxD	activator	[AIPP]	Weak
+Sigma70	gspA	activator	[HIPP, TIM]	Strong
+Sigma70	gspB	activator	[HIPP, TIM]	Strong
+Sigma70	gspC	activator	[HIPP, TIM]	Strong
+Sigma70	gspD	activator	[HIPP, TIM]	Strong
+Sigma70	gspE	activator	[HIPP, TIM]	Strong
+Sigma70	gspF	activator	[HIPP, TIM]	Strong
+Sigma70	gspG	activator	[HIPP, TIM]	Strong
+Sigma70	gspH	activator	[HIPP, TIM]	Strong
+Sigma70	gspI	activator	[HIPP, TIM]	Strong
+Sigma70	gspJ	activator	[HIPP, TIM]	Strong
+Sigma70	gspK	activator	[HIPP, TIM]	Strong
+Sigma70	gspL	activator	[HIPP, TIM]	Strong
+Sigma70	gspM	activator	[HIPP, TIM]	Strong
+Sigma70	gspO	activator	[HIPP, TIM]	Strong
+Sigma70	guaA	activator	[HIPP, TIM]	Strong
+Sigma70	guaB	activator	[HIPP, TIM]	Strong
+Sigma70	gutM	activator	[TIM]	Strong
+Sigma70	gutQ	activator	[TIM]	Strong
+Sigma70	gyrA	activator	[IMP, RS-EPT-CBR, TIM]	Strong
+Sigma70	hchA	activator	[TIM]	Strong
+Sigma70	hemA	activator	[TIM]	Strong
+Sigma70	hemB	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	hemF	activator	[HIPP, TIM]	Strong
+Sigma70	hemH	activator	[TIM]	Strong
+Sigma70	hemN	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	hflC	activator	[HIPP, HTIM, IDA, IEP, RS-EPT-CBR, TIM]	Strong
+Sigma70	hflD	activator	[TIM]	Strong
+Sigma70	hflK	activator	[HIPP, HTIM, IDA, IEP, RS-EPT-CBR, TIM]	Strong
+Sigma70	hflX	activator	[HIPP, HTIM, IDA, IEP, RS-EPT-CBR, TIM]	Strong
+Sigma70	hfq	activator	[HIPP, HTIM, IDA, IEP, RS-EPT-CBR, TIM]	Strong
+Sigma70	hha	activator	[HIPP, TIM]	Strong
+Sigma70	hicA	activator	[HIPP, TIM]	Strong
+Sigma70	hicB	activator	[HIPP, TIM]	Strong
+Sigma70	higA	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	higB	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	hipA	activator	[TIM]	Strong
+Sigma70	hipB	activator	[TIM]	Strong
+Sigma70	hisA	activator	[TIM]	Strong
+Sigma70	hisB	activator	[TIM]	Strong
+Sigma70	hisF	activator	[TIM]	Strong
+Sigma70	hisH	activator	[TIM]	Strong
+Sigma70	hisI	activator	[TIM]	Strong
+Sigma70	hisJ	activator	[IEP, RS-EPT-CBR, TIM]	Strong
+Sigma70	hisM	activator	[IEP, RS-EPT-CBR, TIM]	Strong
+Sigma70	hisP	activator	[IEP, RS-EPT-CBR, TIM]	Strong
+Sigma70	hisQ	activator	[IEP, RS-EPT-CBR, TIM]	Strong
+Sigma70	hisR	activator	[CV(RPF/TIM), HIPP, IMP, RPF, TIM]	Confirmed
+Sigma70	hisS	activator	[TIM]	Strong
+Sigma70	hiuH	activator	[ICWHO]	Weak
+Sigma70	hns	activator	[HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	hofB	activator	[AIPP]	Weak
+Sigma70	hofC	activator	[AIPP]	Weak
+Sigma70	hokD	activator	[TIM]	Strong
+Sigma70	hpf	activator	[HIPP]	Weak
+Sigma70	hpt	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	hscA	activator	[TIM]	Strong
+Sigma70	hscB	activator	[TIM]	Strong
+Sigma70	hslJ	activator	[TIM]	Strong
+Sigma70	htrE	activator	[HIPP, TIM]	Strong
+Sigma70	hupB	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	hybA	activator	[HIPP, HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	hybB	activator	[HIPP, HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	hybC	activator	[HIPP, HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	hybD	activator	[HIPP, HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	hybE	activator	[HIPP, HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	hybF	activator	[HIPP, HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	hybG	activator	[HIPP, HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	hybO	activator	[HIPP, HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	hyi	activator	[AIPP]	Weak
+Sigma70	hypF	activator	[IDA]	Strong
+Sigma70	icd	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	idlP	activator	[HIPP, TIM]	Strong
+Sigma70	idnK	activator	[TIM]	Strong
+Sigma70	idnR	activator	[AIPP]	Weak
+Sigma70	ihfB	activator	[HIPP, TIM]	Strong
+Sigma70	ileS	activator	[CV(RPF/RS-EPT-CBR), CV(RPF/TIM), HIPP, RPF, RS-EPT-CBR, TIM]	Confirmed
+Sigma70	ileT	activator	[HIPP, RS-EPT-CBR]	Strong
+Sigma70	ileU	activator	[HIPP, TIM]	Strong
+Sigma70	ileV	activator	[HIPP, HTIM]	Strong
+Sigma70	ileX	activator	[HIPP]	Weak
+Sigma70	ilvA	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	ilvB	activator	[HIPP, TIM]	Strong
+Sigma70	ilvC	activator	[HIPP, IEP, IMP, TIM]	Strong
+Sigma70	ilvD	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	ilvE	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	ilvG	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	ilvH	activator	[HIPP, TASES, TIM]	Strong
+Sigma70	ilvI	activator	[HIPP, TASES, TIM]	Strong
+Sigma70	ilvL	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	ilvM	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	ilvN	activator	[HIPP, TIM]	Strong
+Sigma70	ilvX	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	inaA	activator	[HIPP]	Weak
+Sigma70	infA	activator	[AIPP, TIM]	Strong
+Sigma70	infB	activator	[HIPP, HTIM, IEP, RS-EPT-CBR, TIM]	Strong
+Sigma70	infC	activator	[AIPP, TIM]	Strong
+Sigma70	insD-7	activator	[HIPP, TASES]	Weak
+Sigma70	intQ	activator	[HIPP, TASES]	Weak
+Sigma70	intS	activator	[TIM]	Strong
+Sigma70	iraD	activator	[HIPP, TIM]	Strong
+Sigma70	iraM	activator	[TIM]	Strong
+Sigma70	iraP	activator	[NAS, RS-EPT-CBR, TIM]	Strong
+Sigma70	iscA	activator	[TIM]	Strong
+Sigma70	iscR	activator	[TIM]	Strong
+Sigma70	iscS	activator	[TIM]	Strong
+Sigma70	iscU	activator	[TIM]	Strong
+Sigma70	iscX	activator	[TIM]	Strong
+Sigma70	ispA	activator	[HIPP]	Weak
+Sigma70	ispH	activator	[CV(RPF/RS-EPT-CBR), CV(RPF/TIM), HIPP, ICWHO, IDA, RPF, RS-EPT-CBR, TIM]	Confirmed
+Sigma70	isrC	activator	[HIPP, TIM]	Strong
+Sigma70	istR	activator	[TIM]	Strong
+Sigma70	ivbL	activator	[HIPP, TIM]	Strong
+Sigma70	katG	activator	[HIPP, TIM]	Strong
+Sigma70	kbaY	activator	[HIPP, TIM]	Strong
+Sigma70	kbaZ	activator	[TIM]	Strong
+Sigma70	kbl	activator	[TIM]	Strong
+Sigma70	kdpA	activator	[TIM]	Strong
+Sigma70	kdpB	activator	[TIM]	Strong
+Sigma70	kdpC	activator	[TIM]	Strong
+Sigma70	kdpF	activator	[TIM]	Strong
+Sigma70	kdsA	activator	[HIPP, TIM]	Strong
+Sigma70	kdsB	activator	[HIPP, TIM]	Strong
+Sigma70	kdsC	activator	[HIPP, IMP, RS-EPT-CBR, TIM]	Strong
+Sigma70	kdsD	activator	[TIM]	Strong
+Sigma70	lacA	activator	[TIM]	Strong
+Sigma70	lacI	activator	[HIPP, TIM]	Strong
+Sigma70	lacY	activator	[TIM]	Strong
+Sigma70	lacZ	activator	[TIM]	Strong
+Sigma70	lamB	activator	[IMP, TASES]	Weak
+Sigma70	lapA	activator	[TIM]	Strong
+Sigma70	lapB	activator	[TIM]	Strong
+Sigma70	ldtC	activator	[HIPP, TIM]	Strong
+Sigma70	leuA	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	leuB	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	leuC	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	leuD	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	leuL	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	leuO	activator	[HIPP, TIM]	Strong
+Sigma70	leuP	activator	[HIPP]	Weak
+Sigma70	leuQ	activator	[HIPP]	Weak
+Sigma70	leuT	activator	[CV(RPF/TIM), HIPP, IMP, RPF, TIM]	Confirmed
+Sigma70	leuU	activator	[HIPP, TIM]	Strong
+Sigma70	leuV	activator	[HIPP]	Weak
+Sigma70	leuW	activator	[HIPP]	Weak
+Sigma70	leuX	activator	[HIPP]	Weak
+Sigma70	leuZ	activator	[HIPP]	Weak
+Sigma70	lexA	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	lgt	activator	[TIM]	Strong
+Sigma70	livF	activator	[HIPP, TIM]	Strong
+Sigma70	livG	activator	[HIPP, TIM]	Strong
+Sigma70	livH	activator	[HIPP, TIM]	Strong
+Sigma70	livJ	activator	[TIM]	Strong
+Sigma70	livK	activator	[HIPP, TIM]	Strong
+Sigma70	livM	activator	[HIPP, TIM]	Strong
+Sigma70	lldD	activator	[TIM]	Strong
+Sigma70	lldP	activator	[TIM]	Strong
+Sigma70	lldR	activator	[TIM]	Strong
+Sigma70	loiP	activator	[HIPP, TIM]	Strong
+Sigma70	lolA	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	lpd	activator	[HIPP, TIM]	Strong
+Sigma70	lptA	activator	[HIPP, IMP, RS-EPT-CBR, TIM]	Strong
+Sigma70	lptB	activator	[HIPP, IMP, RS-EPT-CBR, TIM]	Strong
+Sigma70	lptC	activator	[HIPP, IMP, RS-EPT-CBR, TIM]	Strong
+Sigma70	lptD	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	lpxC	activator	[HIPP, NAS, TIM]	Strong
+Sigma70	lpxT	activator	[RE, TIM]	Strong
+Sigma70	lrp	activator	[TIM]	Strong
+Sigma70	lspA	activator	[CV(RPF/RS-EPT-CBR), CV(RPF/TIM), HIPP, ICWHO, IDA, RPF, RS-EPT-CBR, TIM]	Confirmed
+Sigma70	lsrK	activator	[AIPP, IEP]	Weak
+Sigma70	lsrR	activator	[AIPP, IEP]	Weak
+Sigma70	lysA	activator	[AIPP]	Weak
+Sigma70	lysC	activator	[HIPP, TIM]	Strong
+Sigma70	lysO	activator	[HIPP, IMP, TIM]	Strong
+Sigma70	lysP	activator	[TIM]	Strong
+Sigma70	lysR	activator	[AIPP]	Weak
+Sigma70	lysT	activator	[HIPP]	Weak
+Sigma70	lysU	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	lysV	activator	[HIPP]	Weak
+Sigma70	lysW	activator	[HIPP]	Weak
+Sigma70	lyxK	activator	[IMP, TIM]	Strong
+Sigma70	malE	activator	[GEA, IMP, RS-EPT-CBR, TIM]	Strong
+Sigma70	malF	activator	[GEA, IMP, RS-EPT-CBR, TIM]	Strong
+Sigma70	malG	activator	[GEA, IMP, RS-EPT-CBR, TIM]	Strong
+Sigma70	malI	activator	[TIM]	Strong
+Sigma70	malK	activator	[IMP, TASES]	Weak
+Sigma70	malM	activator	[IMP, TASES]	Weak
+Sigma70	malP	activator	[AIPP, IMP, RS-EPT-CBR]	Strong
+Sigma70	malQ	activator	[AIPP, IMP, RS-EPT-CBR]	Strong
+Sigma70	malS	activator	[TIM]	Strong
+Sigma70	malT	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	malX	activator	[ICA, TIM]	Strong
+Sigma70	malY	activator	[ICA, RE, RS-EPT-CBR, TIM]	Strong
+Sigma70	manA	activator	[TIM]	Strong
+Sigma70	manX	activator	[HIPP, TIM]	Strong
+Sigma70	manY	activator	[HIPP, TIM]	Strong
+Sigma70	manZ	activator	[HIPP, TIM]	Strong
+Sigma70	marA	activator	[HIPP]	Weak
+Sigma70	marB	activator	[HIPP]	Weak
+Sigma70	marR	activator	[HIPP]	Weak
+Sigma70	mazE	activator	[CV(SM/TIM), HTIM, SM, TIM]	Confirmed
+Sigma70	mazF	activator	[CV(SM/TIM), HTIM, SM, TIM]	Confirmed
+Sigma70	mcbA	activator	[ICWHO]	Weak
+Sigma70	mdh	activator	[ICWHO, TIM]	Strong
+Sigma70	mdtE	activator	[HIPP, TIM]	Strong
+Sigma70	mdtF	activator	[HIPP, TIM]	Strong
+Sigma70	mdtI	activator	[TIM]	Strong
+Sigma70	mdtJ	activator	[TIM]	Strong
+Sigma70	melA	activator	[IMP, TIM]	Strong
+Sigma70	melB	activator	[IMP, TIM]	Strong
+Sigma70	melR	activator	[TIM]	Strong
+Sigma70	menA	activator	[HIPP, TIM]	Strong
+Sigma70	mepH	activator	[AIPP]	Weak
+Sigma70	metA	activator	[TIM]	Strong
+Sigma70	metB	activator	[TIM]	Strong
+Sigma70	metC	activator	[AIPP]	Weak
+Sigma70	metF	activator	[TIM]	Strong
+Sigma70	metG	activator	[HIPP, HTIM, TIM]	Strong
+Sigma70	metH	activator	[HIPP, TIM]	Strong
+Sigma70	metI	activator	[HIPP, ICA, RS-EPT-CBR]	Strong
+Sigma70	metJ	activator	[TIM]	Strong
+Sigma70	metL	activator	[TIM]	Strong
+Sigma70	metN	activator	[HIPP, ICA, RS-EPT-CBR]	Strong
+Sigma70	metQ	activator	[HIPP, ICA, RS-EPT-CBR]	Strong
+Sigma70	metT	activator	[HIPP]	Weak
+Sigma70	metU	activator	[HIPP]	Weak
+Sigma70	metV	activator	[HIPP, TIM]	Strong
+Sigma70	metW	activator	[HIPP, TIM]	Strong
+Sigma70	metY	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	metZ	activator	[HIPP, TIM]	Strong
+Sigma70	mfd	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	mglA	activator	[AIPP]	Weak
+Sigma70	mglC	activator	[AIPP]	Weak
+Sigma70	mgrR	activator	[TIM]	Strong
+Sigma70	mgtA	activator	[HIPP, TIM]	Strong
+Sigma70	mgtL	activator	[HIPP, TIM]	Strong
+Sigma70	mgtS	activator	[TIM]	Strong
+Sigma70	mhpA	activator	[HIPP, TIM]	Strong
+Sigma70	mhpB	activator	[HIPP, TIM]	Strong
+Sigma70	mhpC	activator	[HIPP, TIM]	Strong
+Sigma70	mhpD	activator	[HIPP, TIM]	Strong
+Sigma70	mhpE	activator	[HIPP, TIM]	Strong
+Sigma70	mhpF	activator	[HIPP, TIM]	Strong
+Sigma70	mhpR	activator	[HIPP, TIM]	Strong
+Sigma70	miaA	activator	[HIPP, HTIM, IDA, IEP, RS-EPT-CBR, TIM]	Strong
+Sigma70	micC	activator	[HTIM, TIM]	Strong
+Sigma70	mioC	activator	[TIM]	Strong
+Sigma70	mlc	activator	[HIPP, TIM]	Strong
+Sigma70	mltF	activator	[AIPP]	Weak
+Sigma70	mngB	activator	[RE, TIM]	Strong
+Sigma70	mngR	activator	[HIPP]	Weak
+Sigma70	mnmG	activator	[TIM]	Strong
+Sigma70	mntP	activator	[TIM]	Strong
+Sigma70	mntS	activator	[TIM]	Strong
+Sigma70	modA	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	modB	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	modC	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	moeA	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	moeB	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	mpl	activator	[HIPP, RS-EPT-CBR]	Strong
+Sigma70	mprA	activator	[HIPP, TIM]	Strong
+Sigma70	mqsA	activator	[TIM]	Strong
+Sigma70	mqsR	activator	[TIM]	Strong
+Sigma70	mraY	activator	[HIPP, TIM]	Strong
+Sigma70	mraZ	activator	[HIPP, TIM]	Strong
+Sigma70	mreB	activator	[HIPP, TIM]	Strong
+Sigma70	mreC	activator	[HIPP, TIM]	Strong
+Sigma70	mreD	activator	[HIPP, TIM]	Strong
+Sigma70	mrp	activator	[TIM]	Strong
+Sigma70	msrB	activator	[ICWHO, RS-EPT-CBR, TIM]	Strong
+Sigma70	mtlA	activator	[HIPP]	Weak
+Sigma70	mtlD	activator	[HIPP]	Weak
+Sigma70	mtlR	activator	[HIPP]	Weak
+Sigma70	mtr	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	mukB	activator	[HIPP]	Weak
+Sigma70	mukE	activator	[HIPP]	Weak
+Sigma70	mukF	activator	[HIPP]	Weak
+Sigma70	murC	activator	[HIPP, TIM]	Strong
+Sigma70	murD	activator	[HIPP, TIM]	Strong
+Sigma70	murE	activator	[HIPP, TIM]	Strong
+Sigma70	murF	activator	[HIPP, TIM]	Strong
+Sigma70	murG	activator	[HIPP, TIM]	Strong
+Sigma70	murI	activator	[TIM]	Strong
+Sigma70	murP	activator	[TIM]	Strong
+Sigma70	murQ	activator	[TIM]	Strong
+Sigma70	mutL	activator	[HIPP, HTIM, IDA, RS-EPT-CBR, TIM]	Strong
+Sigma70	mzrA	activator	[HIPP, TIM]	Strong
+Sigma70	nadB	activator	[AIPP]	Weak
+Sigma70	nadE	activator	[HIPP, TIM]	Strong
+Sigma70	nagA	activator	[TIM]	Strong
+Sigma70	nagB	activator	[TIM]	Strong
+Sigma70	nagC	activator	[HIPP, IMP, RS-EPT-CBR, TIM]	Strong
+Sigma70	nagE	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	nanA	activator	[TIM]	Strong
+Sigma70	nanE	activator	[TIM]	Strong
+Sigma70	nanK	activator	[TIM]	Strong
+Sigma70	nanT	activator	[TIM]	Strong
+Sigma70	napA	activator	[HIPP, TIM]	Strong
+Sigma70	napB	activator	[HIPP, TIM]	Strong
+Sigma70	napC	activator	[HIPP, TIM]	Strong
+Sigma70	napD	activator	[HIPP, TIM]	Strong
+Sigma70	napF	activator	[HIPP, TIM]	Strong
+Sigma70	napG	activator	[HIPP, TIM]	Strong
+Sigma70	napH	activator	[HIPP, TIM]	Strong
+Sigma70	narG	activator	[HIPP, TIM]	Strong
+Sigma70	narH	activator	[HIPP, TIM]	Strong
+Sigma70	narI	activator	[HIPP, TIM]	Strong
+Sigma70	narJ	activator	[HIPP, TIM]	Strong
+Sigma70	narK	activator	[HIPP, TIM]	Strong
+Sigma70	narL	activator	[HIPP]	Weak
+Sigma70	narU	activator	[HIPP]	Weak
+Sigma70	narX	activator	[HIPP]	Weak
+Sigma70	ndh	activator	[HIPP, TIM]	Strong
+Sigma70	nei	activator	[RE, TIM]	Strong
+Sigma70	nemA	activator	[TIM]	Strong
+Sigma70	nemR	activator	[TIM]	Strong
+Sigma70	nfeF	activator	[HIPP, IHBCE]	Weak
+Sigma70	nfo	activator	[HIPP, TIM]	Strong
+Sigma70	nfsA	activator	[HIPP, TIM]	Strong
+Sigma70	nfsB	activator	[HIPP, RS-EPT-CBR]	Strong
+Sigma70	nfuA	activator	[AIPP]	Weak
+Sigma70	nhaA	activator	[TIM]	Strong
+Sigma70	nhaR	activator	[TIM]	Strong
+Sigma70	nirB	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	nirC	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	nirD	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	nlpD	activator	[TIM]	Strong
+Sigma70	nnr	activator	[HIPP, HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	nohA	activator	[AIPP]	Weak
+Sigma70	npr	activator	[HIPP]	Weak
+Sigma70	nrdA	activator	[TIM]	Strong
+Sigma70	nrdB	activator	[TIM]	Strong
+Sigma70	nrdD	activator	[TIM]	Strong
+Sigma70	nrdE	activator	[HIPP, TIM]	Strong
+Sigma70	nrdF	activator	[HIPP, TIM]	Strong
+Sigma70	nrdG	activator	[TIM]	Strong
+Sigma70	nrdH	activator	[HIPP, TIM]	Strong
+Sigma70	nrdI	activator	[HIPP, TIM]	Strong
+Sigma70	nrdR	activator	[HIPP, RS-EPT-CBR]	Strong
+Sigma70	nrfA	activator	[IMP, TIM]	Strong
+Sigma70	nrfB	activator	[IMP, TIM]	Strong
+Sigma70	nrfC	activator	[IMP, TIM]	Strong
+Sigma70	nrfD	activator	[IMP, TIM]	Strong
+Sigma70	nrfE	activator	[IMP, TIM]	Strong
+Sigma70	nrfF	activator	[IMP, TIM]	Strong
+Sigma70	nrfG	activator	[IMP, TIM]	Strong
+Sigma70	nudB	activator	[HIPP]	Weak
+Sigma70	nuoA	activator	[TIM]	Strong
+Sigma70	nuoB	activator	[TIM]	Strong
+Sigma70	nuoC	activator	[TIM]	Strong
+Sigma70	nuoE	activator	[TIM]	Strong
+Sigma70	nuoF	activator	[TIM]	Strong
+Sigma70	nuoG	activator	[TIM]	Strong
+Sigma70	nuoH	activator	[TIM]	Strong
+Sigma70	nuoI	activator	[TIM]	Strong
+Sigma70	nuoJ	activator	[TIM]	Strong
+Sigma70	nuoK	activator	[TIM]	Strong
+Sigma70	nuoL	activator	[TIM]	Strong
+Sigma70	nuoM	activator	[TIM]	Strong
+Sigma70	nuoN	activator	[TIM]	Strong
+Sigma70	nupC	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	nupG	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	nusA	activator	[HIPP, HTIM, IEP, RS-EPT-CBR, TIM]	Strong
+Sigma70	nusB	activator	[HIPP, RS-EPT-CBR]	Strong
+Sigma70	obgE	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	ohsC	activator	[TIM]	Strong
+Sigma70	ompA	activator	[TIM]	Strong
+Sigma70	ompC	activator	[HTIM, TIM]	Strong
+Sigma70	ompN	activator	[IC]	Weak
+Sigma70	ompR	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	ompX	activator	[TIM]	Strong
+Sigma70	opgG	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	opgH	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	osmC	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	oxc	activator	[HIPP, TIM]	Strong
+Sigma70	oxyS	activator	[HIPP]	Weak
+Sigma70	paaA	activator	[HIPP, MSI, TIM]	Strong
+Sigma70	paaB	activator	[HIPP, MSI, TIM]	Strong
+Sigma70	paaC	activator	[HIPP, MSI, TIM]	Strong
+Sigma70	paaD	activator	[HIPP, MSI, TIM]	Strong
+Sigma70	paaE	activator	[HIPP, MSI, TIM]	Strong
+Sigma70	paaF	activator	[HIPP, MSI, TIM]	Strong
+Sigma70	paaG	activator	[HIPP, MSI, TIM]	Strong
+Sigma70	paaH	activator	[HIPP, MSI, TIM]	Strong
+Sigma70	paaI	activator	[HIPP, MSI, TIM]	Strong
+Sigma70	paaJ	activator	[HIPP, MSI, TIM]	Strong
+Sigma70	paaK	activator	[HIPP, MSI, TIM]	Strong
+Sigma70	paaX	activator	[HIPP, TIM]	Strong
+Sigma70	paaY	activator	[HIPP, TIM]	Strong
+Sigma70	pabA	activator	[IMP, TIM]	Strong
+Sigma70	panB	activator	[HIPP, RS-EPT-CBR]	Strong
+Sigma70	panC	activator	[HIPP, RS-EPT-CBR]	Strong
+Sigma70	panD	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	panF	activator	[TIM]	Strong
+Sigma70	patZ	activator	[HTIM, TASES]	Strong
+Sigma70	pck	activator	[HIPP, IDA, IMP]	Strong
+Sigma70	pcm	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	pcnB	activator	[TIM]	Strong
+Sigma70	pdeL	activator	[HTIM, IDA, TIM]	Strong
+Sigma70	pdxJ	activator	[HIPP, TIM]	Strong
+Sigma70	pepA	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	pepD	activator	[HIPP, TIM]	Strong
+Sigma70	pepP	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	pflA	activator	[TIM]	Strong
+Sigma70	pflB	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	pgk	activator	[HTIM, IMP, RS-EPT-CBR, TIM]	Strong
+Sigma70	pgpA	activator	[HIPP, RS-EPT-CBR]	Strong
+Sigma70	pgpB	activator	[TIM]	Strong
+Sigma70	pheA	activator	[TIM]	Strong
+Sigma70	pheL	activator	[TIM]	Strong
+Sigma70	pheP	activator	[TIM]	Strong
+Sigma70	pheU	activator	[HIPP]	Weak
+Sigma70	pheV	activator	[HIPP]	Weak
+Sigma70	phnC	activator	[HIPP, TIM]	Strong
+Sigma70	phnD	activator	[HIPP, TIM]	Strong
+Sigma70	phnE	activator	[HIPP, TIM]	Strong
+Sigma70	phnF	activator	[HIPP, TIM]	Strong
+Sigma70	phnG	activator	[HIPP, TIM]	Strong
+Sigma70	phnH	activator	[HIPP, TIM]	Strong
+Sigma70	phnI	activator	[HIPP, TIM]	Strong
+Sigma70	phnJ	activator	[HIPP, TIM]	Strong
+Sigma70	phnK	activator	[HIPP, TIM]	Strong
+Sigma70	phnL	activator	[HIPP, TIM]	Strong
+Sigma70	phnM	activator	[HIPP, TIM]	Strong
+Sigma70	phnN	activator	[HIPP, TIM]	Strong
+Sigma70	phnO	activator	[HIPP, TIM]	Strong
+Sigma70	phnP	activator	[HIPP, TIM]	Strong
+Sigma70	phoA	activator	[HIPP, IMP, MSI, NAS]	Weak
+Sigma70	phoB	activator	[HIPP, NAS]	Weak
+Sigma70	phoE	activator	[TIM]	Strong
+Sigma70	phoH	activator	[TIM]	Strong
+Sigma70	phoR	activator	[HIPP, NAS]	Weak
+Sigma70	phoU	activator	[HIPP, IMP, TIM]	Strong
+Sigma70	pitB	activator	[HIPP]	Weak
+Sigma70	pldA	activator	[HIPP]	Weak
+Sigma70	plsX	activator	[ICWHO, TIM]	Strong
+Sigma70	pncB	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	pnp	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	pntA	activator	[HIPP]	Weak
+Sigma70	pntB	activator	[HIPP]	Weak
+Sigma70	polB	activator	[AIPP]	Weak
+Sigma70	ppdD	activator	[AIPP]	Weak
+Sigma70	ppiA	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	ppiD	activator	[TIM]	Strong
+Sigma70	ppsA	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	preA	activator	[HTIM]	Strong
+Sigma70	preT	activator	[HTIM]	Strong
+Sigma70	prfA	activator	[TIM]	Strong
+Sigma70	priB	activator	[HTIM, RS-EPT-CBR]	Strong
+Sigma70	prlF	activator	[HIPP, RS-EPT-CBR]	Strong
+Sigma70	prmA	activator	[TIM]	Strong
+Sigma70	prmC	activator	[TIM]	Strong
+Sigma70	proK	activator	[HIPP]	Weak
+Sigma70	proL	activator	[HIPP]	Weak
+Sigma70	proM	activator	[CV(RPF/TIM), HIPP, IMP, RPF, TIM]	Confirmed
+Sigma70	proP	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	proS	activator	[TIM]	Strong
+Sigma70	proV	activator	[TIM]	Strong
+Sigma70	proW	activator	[TIM]	Strong
+Sigma70	proX	activator	[TIM]	Strong
+Sigma70	prpR	activator	[HIPP]	Weak
+Sigma70	prs	activator	[TIM]	Strong
+Sigma70	psiE	activator	[HIPP, TIM]	Strong
+Sigma70	psiF	activator	[HIPP, IMP, MSI, NAS, RE, TIM]	Strong
+Sigma70	pspF	activator	[HIPP, TIM]	Strong
+Sigma70	pssA	activator	[HIPP, HTIM, ICWHO, IMP, RS-EPT-CBR]	Strong
+Sigma70	pstB	activator	[HIPP]	Weak
+Sigma70	pta	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	pth	activator	[HIPP, TIM]	Strong
+Sigma70	ptrA	activator	[TIM]	Strong
+Sigma70	ptsG	activator	[HIPP, TIM]	Strong
+Sigma70	ptsH	activator	[TIM]	Strong
+Sigma70	ptsI	activator	[TIM]	Strong
+Sigma70	ptsN	activator	[HIPP]	Weak
+Sigma70	purA	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	purB	activator	[TIM]	Strong
+Sigma70	purC	activator	[TIM]	Strong
+Sigma70	purD	activator	[TIM]	Strong
+Sigma70	purE	activator	[IMP, TIM]	Strong
+Sigma70	purF	activator	[HIPP, HTIM, TIM]	Strong
+Sigma70	purH	activator	[TIM]	Strong
+Sigma70	purK	activator	[IMP, TIM]	Strong
+Sigma70	purL	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	purM	activator	[TIM]	Strong
+Sigma70	purN	activator	[TIM]	Strong
+Sigma70	purR	activator	[TIM]	Strong
+Sigma70	purT	activator	[AIBSPD, IC]	Weak
+Sigma70	putA	activator	[HIPP, TIM]	Strong
+Sigma70	putP	activator	[HIPP, TIM]	Strong
+Sigma70	pykF	activator	[HIPP]	Weak
+Sigma70	pyrC	activator	[HIPP, TIM]	Strong
+Sigma70	pyrD	activator	[TIM]	Strong
+Sigma70	pyrF	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	pyrH	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	qseB	activator	[TIM]	Strong
+Sigma70	qseC	activator	[TIM]	Strong
+Sigma70	rapA	activator	[AIPP, HIPP, TIM]	Strong
+Sigma70	rapZ	activator	[HIPP]	Weak
+Sigma70	rarA	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	rbfA	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	rbsA	activator	[TIM]	Strong
+Sigma70	rbsB	activator	[TIM]	Strong
+Sigma70	rbsC	activator	[TIM]	Strong
+Sigma70	rbsD	activator	[TIM]	Strong
+Sigma70	rbsK	activator	[TIM]	Strong
+Sigma70	rbsR	activator	[TIM]	Strong
+Sigma70	rcnA	activator	[TIM]	Strong
+Sigma70	rcnB	activator	[TIM]	Strong
+Sigma70	rcnR	activator	[TIM]	Strong
+Sigma70	rcsA	activator	[HIPP, TIM]	Strong
+Sigma70	rcsB	activator	[TIM]	Strong
+Sigma70	rcsD	activator	[TIM]	Strong
+Sigma70	rdlD	activator	[HIPP, TIM]	Strong
+Sigma70	recA	activator	[HIPP, TIM]	Strong
+Sigma70	recB	activator	[TIM]	Strong
+Sigma70	recC	activator	[HIPP, TIM]	Strong
+Sigma70	recD	activator	[TIM]	Strong
+Sigma70	recF	activator	[HIPP, TIM]	Strong
+Sigma70	recG	activator	[RS-EPT-CBR, TAS]	Strong
+Sigma70	recN	activator	[HIPP]	Weak
+Sigma70	recO	activator	[HIPP, TIM]	Strong
+Sigma70	recQ	activator	[IHBCE]	Weak
+Sigma70	recX	activator	[HIPP, TIM]	Strong
+Sigma70	relA	activator	[CV(SM/TIM), HTIM, SM, TIM]	Confirmed
+Sigma70	relB	activator	[TIM]	Strong
+Sigma70	relE	activator	[TIM]	Strong
+Sigma70	rep	activator	[HIPP, TIM]	Strong
+Sigma70	rfaD	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	rfe	activator	[AIPP]	Weak
+Sigma70	rffC	activator	[AIPP]	Weak
+Sigma70	rffG	activator	[AIPP]	Weak
+Sigma70	rffH	activator	[AIPP]	Weak
+Sigma70	rffM	activator	[AIPP]	Weak
+Sigma70	rhaA	activator	[TIM]	Strong
+Sigma70	rhaB	activator	[TIM]	Strong
+Sigma70	rhaD	activator	[TIM]	Strong
+Sigma70	rhaT	activator	[HIPP, TIM]	Strong
+Sigma70	ribA	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	ribD	activator	[HIPP, RS-EPT-CBR]	Strong
+Sigma70	ribE	activator	[HIPP, RS-EPT-CBR]	Strong
+Sigma70	ribF	activator	[CV(RPF/RS-EPT-CBR), CV(RPF/TIM), RPF, RS-EPT-CBR, TIM]	Confirmed
+Sigma70	rihB	activator	[HIPP, TIM]	Strong
+Sigma70	rimK	activator	[HIPP, IMP, TIM]	Strong
+Sigma70	rimM	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	rimP	activator	[HIPP, HTIM, IEP, RS-EPT-CBR, TIM]	Strong
+Sigma70	rirA	activator	[HTIM, TIM]	Strong
+Sigma70	rlmE	activator	[HIPP, TIM]	Strong
+Sigma70	rluA	activator	[AIPP, HIPP, TIM]	Strong
+Sigma70	rnb	activator	[HIPP, TIM]	Strong
+Sigma70	rnc	activator	[HIPP, TIM]	Strong
+Sigma70	rnd	activator	[TIM]	Strong
+Sigma70	rne	activator	[HIPP, TIM]	Strong
+Sigma70	rnlA	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	rnlB	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	rnpB	activator	[AIPP, IC]	Weak
+Sigma70	rpe	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	rpiB	activator	[HIPP, TIM]	Strong
+Sigma70	rplB	activator	[RPF]	Strong
+Sigma70	rplC	activator	[RPF]	Strong
+Sigma70	rplD	activator	[RPF]	Strong
+Sigma70	rplI	activator	[HTIM, RS-EPT-CBR]	Strong
+Sigma70	rplM	activator	[AIPP]	Weak
+Sigma70	rplP	activator	[RPF]	Strong
+Sigma70	rplQ	activator	[HIPP, HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	rplS	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	rplT	activator	[AIPP, HTIM, TIM]	Strong
+Sigma70	rplU	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	rplV	activator	[RPF]	Strong
+Sigma70	rplW	activator	[RPF]	Strong
+Sigma70	rplY	activator	[AIPP]	Weak
+Sigma70	rpmA	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	rpmC	activator	[RPF]	Strong
+Sigma70	rpmI	activator	[AIPP, HTIM, TIM]	Strong
+Sigma70	rpoA	activator	[HIPP, HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	rpoD	activator	[HIPP, HTIM, IMP, RS-EPT-CBR, TIM]	Strong
+Sigma70	rpoE	activator	[TIM]	Strong
+Sigma70	rpoH	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	rpoN	activator	[HIPP]	Weak
+Sigma70	rpoS	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	rpoZ	activator	[RS-EPT-CBR, TAS]	Strong
+Sigma70	rpsA	activator	[HIPP, TIM]	Strong
+Sigma70	rpsB	activator	[HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	rpsC	activator	[RPF]	Strong
+Sigma70	rpsD	activator	[HIPP, HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	rpsF	activator	[HTIM, RS-EPT-CBR]	Strong
+Sigma70	rpsI	activator	[AIPP]	Weak
+Sigma70	rpsJ	activator	[RPF]	Strong
+Sigma70	rpsK	activator	[HIPP, HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	rpsM	activator	[HIPP, HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	rpsO	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	rpsP	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	rpsQ	activator	[RPF]	Strong
+Sigma70	rpsR	activator	[HTIM, RS-EPT-CBR]	Strong
+Sigma70	rpsS	activator	[RPF]	Strong
+Sigma70	rpsU	activator	[HIPP, HTIM, IMP, RS-EPT-CBR, TIM]	Strong
+Sigma70	rraA	activator	[HIPP, TIM]	Strong
+Sigma70	rraB	activator	[HIPP, TIM]	Strong
+Sigma70	rrfA	activator	[HIPP, RS-EPT-CBR]	Strong
+Sigma70	rrfB	activator	[AIPP, TIM]	Strong
+Sigma70	rrfC	activator	[HIPP]	Weak
+Sigma70	rrfD	activator	[HIPP, TIM]	Strong
+Sigma70	rrfE	activator	[HIPP]	Weak
+Sigma70	rrfF	activator	[HIPP, TIM]	Strong
+Sigma70	rrfG	activator	[HIPP]	Weak
+Sigma70	rrfH	activator	[HIPP, HTIM]	Strong
+Sigma70	rrlA	activator	[HIPP, RS-EPT-CBR]	Strong
+Sigma70	rrlB	activator	[AIPP, TIM]	Strong
+Sigma70	rrlC	activator	[HIPP]	Weak
+Sigma70	rrlD	activator	[HIPP, TIM]	Strong
+Sigma70	rrlE	activator	[HIPP]	Weak
+Sigma70	rrlG	activator	[HIPP]	Weak
+Sigma70	rrlH	activator	[HIPP, HTIM]	Strong
+Sigma70	rrsA	activator	[HIPP, RS-EPT-CBR]	Strong
+Sigma70	rrsB	activator	[AIPP, TIM]	Strong
+Sigma70	rrsC	activator	[HIPP]	Weak
+Sigma70	rrsD	activator	[HIPP, TIM]	Strong
+Sigma70	rrsE	activator	[HIPP]	Weak
+Sigma70	rrsG	activator	[HIPP]	Weak
+Sigma70	rrsH	activator	[HIPP, HTIM]	Strong
+Sigma70	rsd	activator	[HIPP, TIM]	Strong
+Sigma70	rseA	activator	[TIM]	Strong
+Sigma70	rseB	activator	[TIM]	Strong
+Sigma70	rseC	activator	[TIM]	Strong
+Sigma70	rseD	activator	[TIM]	Strong
+Sigma70	rsmH	activator	[HIPP, TIM]	Strong
+Sigma70	rutR	activator	[HIPP, RPF]	Strong
+Sigma70	ruvC	activator	[HIPP]	Weak
+Sigma70	rybA	activator	[TIM]	Strong
+Sigma70	rydC	activator	[HIPP, TIM]	Strong
+Sigma70	ryeA	activator	[HIPP, IMP, TIM]	Strong
+Sigma70	ryfD	activator	[TIM]	Strong
+Sigma70	ryhB	activator	[HTIM, ICWHO]	Strong
+Sigma70	ryjB	activator	[TIM]	Strong
+Sigma70	safA	activator	[HIPP, TIM]	Strong
+Sigma70	sbcC	activator	[HIPP]	Weak
+Sigma70	sbcD	activator	[HIPP]	Weak
+Sigma70	sdhA	activator	[GEA, HIPP, TIM]	Strong
+Sigma70	sdhB	activator	[GEA, HIPP, TIM]	Strong
+Sigma70	sdhC	activator	[GEA, HIPP, TIM]	Strong
+Sigma70	sdhD	activator	[GEA, HIPP, TIM]	Strong
+Sigma70	sdhX	activator	[GEA, HIPP, TIM]	Strong
+Sigma70	sdiA	activator	[ICWHO, TIM]	Strong
+Sigma70	sdsN	activator	[TIM]	Strong
+Sigma70	secB	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	secG	activator	[HIPP, TIM]	Strong
+Sigma70	serA	activator	[HIPP, IMP, TIM]	Strong
+Sigma70	serC	activator	[TIM]	Strong
+Sigma70	serT	activator	[HIPP, HTIM]	Strong
+Sigma70	serU	activator	[HIPP]	Weak
+Sigma70	serV	activator	[HIPP]	Weak
+Sigma70	serW	activator	[HIPP, TIM]	Strong
+Sigma70	serX	activator	[HIPP]	Weak
+Sigma70	sfsA	activator	[HIPP]	Weak
+Sigma70	sgbE	activator	[IMP, TIM]	Strong
+Sigma70	sgbH	activator	[IMP, TIM]	Strong
+Sigma70	sgbU	activator	[IMP, TIM]	Strong
+Sigma70	sgrR	activator	[AIPP]	Weak
+Sigma70	shiA	activator	[HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	shoB	activator	[TIM]	Strong
+Sigma70	sibA	activator	[TIM]	Strong
+Sigma70	sibB	activator	[TIM]	Strong
+Sigma70	sibD	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	sibE	activator	[TIM]	Strong
+Sigma70	slmA	activator	[HIPP]	Weak
+Sigma70	slp	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	sodA	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	sodB	activator	[HTIM, IMP, TIM]	Strong
+Sigma70	sohB	activator	[HIPP, RS-EPT-CBR]	Strong
+Sigma70	sokB	activator	[TIM]	Strong
+Sigma70	soxR	activator	[HIPP, TIM]	Strong
+Sigma70	soxS	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	speA	activator	[HIPP]	Weak
+Sigma70	speB	activator	[HIPP]	Weak
+Sigma70	speD	activator	[HIPP, RE, RS-EPT-CBR, TIM]	Strong
+Sigma70	speE	activator	[HIPP, RE, RS-EPT-CBR, TIM]	Strong
+Sigma70	spf	activator	[HTIM, IMP, RS-EPT-CBR]	Strong
+Sigma70	spoT	activator	[RS-EPT-CBR, TAS]	Strong
+Sigma70	spy	activator	[HIPP, TIM]	Strong
+Sigma70	sraG	activator	[HIPP, IMP, TIM]	Strong
+Sigma70	srkA	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	srlA	activator	[TIM]	Strong
+Sigma70	srlB	activator	[TIM]	Strong
+Sigma70	srlD	activator	[TIM]	Strong
+Sigma70	srlE	activator	[TIM]	Strong
+Sigma70	srlR	activator	[TIM]	Strong
+Sigma70	sroA	activator	[AIPP]	Weak
+Sigma70	sroC	activator	[HIPP, IC]	Weak
+Sigma70	sroD	activator	[TIM]	Strong
+Sigma70	ssb	activator	[GEA, IMP, TIM]	Strong
+Sigma70	ssnA	activator	[TIM]	Strong
+Sigma70	ssrA	activator	[TIM]	Strong
+Sigma70	ssrS	activator	[HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	ssuA	activator	[HIPP, TIM]	Strong
+Sigma70	ssuB	activator	[HIPP, TIM]	Strong
+Sigma70	ssuC	activator	[HIPP, TIM]	Strong
+Sigma70	ssuD	activator	[HIPP, TIM]	Strong
+Sigma70	ssuE	activator	[HIPP, TIM]	Strong
+Sigma70	stfQ	activator	[AIPP]	Weak
+Sigma70	stpA	activator	[HIPP, TIM]	Strong
+Sigma70	sucA	activator	[GEA, HIPP, TIM]	Strong
+Sigma70	sucB	activator	[GEA, HIPP, TIM]	Strong
+Sigma70	sucC	activator	[GEA, HIPP, TIM]	Strong
+Sigma70	sucD	activator	[GEA, HIPP, TIM]	Strong
+Sigma70	sufA	activator	[HIPP, IMP, TIM]	Strong
+Sigma70	sufB	activator	[HIPP, IMP, TIM]	Strong
+Sigma70	sufC	activator	[HIPP, IMP, TIM]	Strong
+Sigma70	sufD	activator	[HIPP, IMP, TIM]	Strong
+Sigma70	sufE	activator	[HIPP, IMP, TIM]	Strong
+Sigma70	sufS	activator	[HIPP, IMP, TIM]	Strong
+Sigma70	sulA	activator	[CV(RPF/TIM), HIPP, HTIM, RPF, TIM]	Confirmed
+Sigma70	sutR	activator	[TIM]	Strong
+Sigma70	sxy	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	symE	activator	[HIPP, TAS]	Weak
+Sigma70	symR	activator	[HIPP, TAS, TIM]	Strong
+Sigma70	tatA	activator	[ICWHO, RS-EPT-CBR]	Strong
+Sigma70	tatB	activator	[ICWHO, RS-EPT-CBR]	Strong
+Sigma70	tatC	activator	[ICWHO, RS-EPT-CBR]	Strong
+Sigma70	tatD	activator	[ICWHO, RS-EPT-CBR]	Strong
+Sigma70	tcyJ	activator	[GEA, RS-EPT-CBR, TIM]	Strong
+Sigma70	tdh	activator	[TIM]	Strong
+Sigma70	tfaQ	activator	[AIPP]	Weak
+Sigma70	tff	activator	[HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	thiB	activator	[AIPP]	Weak
+Sigma70	thiL	activator	[HIPP, RS-EPT-CBR]	Strong
+Sigma70	thiP	activator	[AIPP]	Weak
+Sigma70	thiQ	activator	[AIPP]	Weak
+Sigma70	thrA	activator	[IMP, RS-EPT-CBR, TIM]	Strong
+Sigma70	thrB	activator	[IMP, RS-EPT-CBR, TIM]	Strong
+Sigma70	thrC	activator	[IMP, RS-EPT-CBR, TIM]	Strong
+Sigma70	thrL	activator	[IMP, RS-EPT-CBR, TIM]	Strong
+Sigma70	thrT	activator	[HIPP, IMP]	Weak
+Sigma70	thrU	activator	[HIPP, IMP]	Weak
+Sigma70	thrV	activator	[HIPP, TIM]	Strong
+Sigma70	thrW	activator	[HIPP]	Weak
+Sigma70	thyA	activator	[TIM]	Strong
+Sigma70	tnaA	activator	[GEA, IMP, RS-EPT-CBR, TIM]	Strong
+Sigma70	tnaB	activator	[GEA, IMP, RS-EPT-CBR, TIM]	Strong
+Sigma70	tnaC	activator	[GEA, IMP, RS-EPT-CBR, TIM]	Strong
+Sigma70	tomB	activator	[HIPP, TIM]	Strong
+Sigma70	tonB	activator	[TIM]	Strong
+Sigma70	topA	activator	[AIPP, HIPP, IMP, RS-EPT-CBR, TIM]	Strong
+Sigma70	torA	activator	[HIPP, TIM]	Strong
+Sigma70	torC	activator	[HIPP, TIM]	Strong
+Sigma70	torD	activator	[HIPP, TIM]	Strong
+Sigma70	torR	activator	[HIPP, TIM]	Strong
+Sigma70	tpr	activator	[CV(RPF/TIM), HIPP, HTIM, IMP, RPF, TIM]	Confirmed
+Sigma70	tpx	activator	[HIPP, IMP, TIM]	Strong
+Sigma70	treB	activator	[HIPP, TIM]	Strong
+Sigma70	treC	activator	[HIPP, TIM]	Strong
+Sigma70	treR	activator	[HIPP, IMP, TIM]	Strong
+Sigma70	trmD	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	trmH	activator	[RS-EPT-CBR, TAS]	Strong
+Sigma70	trpA	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	trpB	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	trpC	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	trpD	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	trpE	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	trpL	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	trpR	activator	[CV(RPF/TIM), HIPP, RPF, TIM]	Confirmed
+Sigma70	trpS	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	truB	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	trxA	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	trxC	activator	[HIPP, TIM]	Strong
+Sigma70	tsaE	activator	[HIPP, HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	tsf	activator	[HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70	tsr	activator	[HIPP]	Weak
+Sigma70	tsx	activator	[HIPP, IHBCE, TIM]	Strong
+Sigma70	ttdA	activator	[HIPP]	Weak
+Sigma70	ttdB	activator	[HIPP]	Weak
+Sigma70	ttdT	activator	[HIPP]	Weak
+Sigma70	tufA	activator	[HIPP, IEP, RS-EPT-CBR, TIM]	Strong
+Sigma70	tufB	activator	[HIPP, IMP]	Weak
+Sigma70	tynA	activator	[TIM]	Strong
+Sigma70	tyrA	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	tyrB	activator	[CV(RPF/RS-EPT-CBR), CV(RPF/TIM), HIPP, RPF, RS-EPT-CBR, TIM]	Confirmed
+Sigma70	tyrP	activator	[HIPP, TIM]	Strong
+Sigma70	tyrR	activator	[HIPP, TIM]	Strong
+Sigma70	tyrT	activator	[CV(RPF/TIM), HIPP, HTIM, IMP, RPF, TIM]	Confirmed
+Sigma70	tyrU	activator	[HIPP, IMP]	Weak
+Sigma70	tyrV	activator	[CV(RPF/TIM), HIPP, HTIM, IMP, RPF, TIM]	Confirmed
+Sigma70	ubiA	activator	[HIPP]	Weak
+Sigma70	ubiC	activator	[HIPP]	Weak
+Sigma70	ubiG	activator	[HIPP, RS-EPT-CBR]	Strong
+Sigma70	ubiH	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	ubiI	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	ubiX	activator	[HIPP, HTIM, TIM]	Strong
+Sigma70	udp	activator	[TIM]	Strong
+Sigma70	ugpA	activator	[GEA, HIPP, IMP, TIM]	Strong
+Sigma70	ugpB	activator	[GEA, HIPP, IMP, TIM]	Strong
+Sigma70	ugpC	activator	[GEA, HIPP, IMP, TIM]	Strong
+Sigma70	ugpE	activator	[GEA, HIPP, IMP, TIM]	Strong
+Sigma70	ugpQ	activator	[GEA, HIPP, IMP, TIM]	Strong
+Sigma70	uhpT	activator	[HIPP, TIM]	Strong
+Sigma70	uidR	activator	[AIPP]	Weak
+Sigma70	ulaA	activator	[TIM]	Strong
+Sigma70	ulaB	activator	[TIM]	Strong
+Sigma70	ulaC	activator	[TIM]	Strong
+Sigma70	ulaD	activator	[TIM]	Strong
+Sigma70	ulaE	activator	[TIM]	Strong
+Sigma70	ulaF	activator	[TIM]	Strong
+Sigma70	umpG	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	umpH	activator	[TIM]	Strong
+Sigma70	umuC	activator	[HIPP, TIM]	Strong
+Sigma70	umuD	activator	[HIPP, TIM]	Strong
+Sigma70	upp	activator	[HIPP, TIM]	Strong
+Sigma70	uraA	activator	[HIPP, TIM]	Strong
+Sigma70	uspA	activator	[GEA, HIPP, IMP, TIM]	Strong
+Sigma70	uvrA	activator	[TIM]	Strong
+Sigma70	uvrB	activator	[TIM]	Strong
+Sigma70	uvrC	activator	[HIPP, TIM]	Strong
+Sigma70	uvrD	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	uvrY	activator	[HIPP, TIM]	Strong
+Sigma70	uxaA	activator	[AIPP]	Weak
+Sigma70	uxaB	activator	[TIM]	Strong
+Sigma70	uxaC	activator	[AIPP]	Weak
+Sigma70	uxuA	activator	[HIPP, TIM]	Strong
+Sigma70	uxuB	activator	[HIPP, TIM]	Strong
+Sigma70	uxuR	activator	[AIPP]	Weak
+Sigma70	valS	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	valT	activator	[HIPP]	Weak
+Sigma70	valU	activator	[HIPP]	Weak
+Sigma70	valV	activator	[HIPP, TIM]	Strong
+Sigma70	valW	activator	[HIPP, TIM]	Strong
+Sigma70	valX	activator	[HIPP]	Weak
+Sigma70	valY	activator	[HIPP]	Weak
+Sigma70	waaA	activator	[HIPP, TIM]	Strong
+Sigma70	waaB	activator	[HTIM, TIM]	Strong
+Sigma70	waaC	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	waaF	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	waaG	activator	[HTIM, TIM]	Strong
+Sigma70	waaH	activator	[AIPP]	Weak
+Sigma70	waaJ	activator	[HTIM, TIM]	Strong
+Sigma70	waaL	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	waaO	activator	[HTIM, TIM]	Strong
+Sigma70	waaP	activator	[HTIM, TIM]	Strong
+Sigma70	waaQ	activator	[HTIM, TIM]	Strong
+Sigma70	waaS	activator	[HTIM, TIM]	Strong
+Sigma70	waaU	activator	[HTIM, TIM]	Strong
+Sigma70	waaY	activator	[HTIM, TIM]	Strong
+Sigma70	waaZ	activator	[HTIM, TIM]	Strong
+Sigma70	wcaA	activator	[HIPP, TIM]	Strong
+Sigma70	wcaB	activator	[HIPP, TIM]	Strong
+Sigma70	wecB	activator	[AIPP]	Weak
+Sigma70	wecC	activator	[AIPP]	Weak
+Sigma70	wecE	activator	[AIPP]	Weak
+Sigma70	wecF	activator	[AIPP]	Weak
+Sigma70	wza	activator	[HIPP, TIM]	Strong
+Sigma70	wzb	activator	[HIPP, TIM]	Strong
+Sigma70	wzc	activator	[HIPP, TIM]	Strong
+Sigma70	wzxE	activator	[AIPP]	Weak
+Sigma70	wzyE	activator	[AIPP]	Weak
+Sigma70	wzzE	activator	[AIPP]	Weak
+Sigma70	xapB	activator	[RE, TIM]	Strong
+Sigma70	xapR	activator	[HIPP, TIM]	Strong
+Sigma70	xerC	activator	[HIPP, TIM]	Strong
+Sigma70	xseA	activator	[HIPP, RS-EPT-CBR]	Strong
+Sigma70	xseB	activator	[HIPP]	Weak
+Sigma70	xylE	activator	[AIBSPD, IC]	Weak
+Sigma70	yacC	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	yadV	activator	[HIPP, TIM]	Strong
+Sigma70	yafN	activator	[IEP, TIM]	Strong
+Sigma70	yafO	activator	[IEP, TIM]	Strong
+Sigma70	yafP	activator	[IEP, TIM]	Strong
+Sigma70	yafQ	activator	[AIPP]	Weak
+Sigma70	yagK	activator	[ICWHO]	Weak
+Sigma70	yaiA	activator	[TIM]	Strong
+Sigma70	yajG	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	yajO	activator	[HIPP]	Weak
+Sigma70	ybbW	activator	[AIPP]	Weak
+Sigma70	ybbY	activator	[AIPP]	Weak
+Sigma70	ybdN	activator	[AIPP]	Weak
+Sigma70	ybdZ	activator	[TIM]	Strong
+Sigma70	ybhF	activator	[HIPP]	Weak
+Sigma70	ybhG	activator	[HIPP]	Weak
+Sigma70	ybhL	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	ybhR	activator	[HIPP]	Weak
+Sigma70	ybhS	activator	[HIPP]	Weak
+Sigma70	ybiB	activator	[AIPP, HIPP]	Weak
+Sigma70	ybjC	activator	[HIPP, TIM]	Strong
+Sigma70	ybjN	activator	[HIPP, IMP, TIM]	Strong
+Sigma70	ycaR	activator	[HIPP, TIM]	Strong
+Sigma70	yccA	activator	[HIPP, TIM]	Strong
+Sigma70	ycdZ	activator	[ICWHO]	Weak
+Sigma70	ychA	activator	[HIPP, TIM]	Strong
+Sigma70	ychF	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	ychH	activator	[AIPP, HTIM, RS-EPT-CBR]	Strong
+Sigma70	ychO	activator	[AIPP]	Weak
+Sigma70	ychQ	activator	[HIPP, TIM]	Strong
+Sigma70	yciB	activator	[HIPP]	Weak
+Sigma70	yciC	activator	[HIPP]	Weak
+Sigma70	yciE	activator	[HIPP]	Weak
+Sigma70	yciH	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	yciW	activator	[AIPP]	Weak
+Sigma70	yciX	activator	[TIM]	Strong
+Sigma70	ydeI	activator	[ICWHO]	Weak
+Sigma70	ydeJ	activator	[AIPP]	Weak
+Sigma70	ydeM	activator	[ICWHO, TIM]	Strong
+Sigma70	ydeN	activator	[ICWHO, TIM]	Strong
+Sigma70	ydeO	activator	[HIPP, TIM]	Strong
+Sigma70	ydeP	activator	[IHBCE, TIM]	Strong
+Sigma70	ydfA	activator	[ICWHO, TIM]	Strong
+Sigma70	ydfB	activator	[ICWHO, TIM]	Strong
+Sigma70	ydfC	activator	[ICWHO, TIM]	Strong
+Sigma70	ydfD	activator	[HIPP, TASES]	Weak
+Sigma70	ydfE	activator	[HIPP, TASES]	Weak
+Sigma70	ydfW	activator	[HIPP, TIM]	Strong
+Sigma70	ydfX	activator	[HIPP, TIM]	Strong
+Sigma70	ydjM	activator	[AIPP]	Weak
+Sigma70	yeaE	activator	[AIPP]	Weak
+Sigma70	yeaR	activator	[TIM]	Strong
+Sigma70	yebB	activator	[HIPP]	Weak
+Sigma70	yebC	activator	[HIPP]	Weak
+Sigma70	yebE	activator	[HIPP, TIM]	Strong
+Sigma70	yebG	activator	[HIPP]	Weak
+Sigma70	yefM	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	yegR	activator	[HIPP, TIM]	Strong
+Sigma70	yegZ	activator	[HIPP, TIM]	Strong
+Sigma70	yehF	activator	[AIPP, TIM]	Strong
+Sigma70	yeiB	activator	[ICA]	Weak
+Sigma70	yfaE	activator	[TIM]	Strong
+Sigma70	yfdE	activator	[HIPP, TIM]	Strong
+Sigma70	yfdV	activator	[HIPP, TIM]	Strong
+Sigma70	yfdX	activator	[HIPP, TIM]	Strong
+Sigma70	yffB	activator	[IDA]	Strong
+Sigma70	yfiB	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	yfiR	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	ygeA	activator	[TIM]	Strong
+Sigma70	ygeH	activator	[ICWHO]	Weak
+Sigma70	ygfB	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	yhaV	activator	[HIPP, RS-EPT-CBR]	Strong
+Sigma70	yhbE	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	yhcH	activator	[TIM]	Strong
+Sigma70	yhdT	activator	[TIM]	Strong
+Sigma70	yhfA	activator	[TIM]	Strong
+Sigma70	yhgH	activator	[AIPP]	Weak
+Sigma70	yhhY	activator	[AIPP]	Weak
+Sigma70	yhjR	activator	[TIM]	Strong
+Sigma70	yhjX	activator	[TIM]	Strong
+Sigma70	yiaJ	activator	[TIM]	Strong
+Sigma70	yiaK	activator	[IMP, TIM]	Strong
+Sigma70	yiaL	activator	[IMP, TIM]	Strong
+Sigma70	yiaM	activator	[IMP, TIM]	Strong
+Sigma70	yiaN	activator	[IMP, TIM]	Strong
+Sigma70	yiaO	activator	[IMP, TIM]	Strong
+Sigma70	yibN	activator	[HIPP, TIM]	Strong
+Sigma70	yifL	activator	[HIPP, TIM]	Strong
+Sigma70	yigA	activator	[HIPP, TIM]	Strong
+Sigma70	yigB	activator	[HIPP, TIM]	Strong
+Sigma70	yihI	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	yihS	activator	[AIPP, RE, TIM]	Strong
+Sigma70	yihT	activator	[AIPP, RE, TIM]	Strong
+Sigma70	yihU	activator	[AIPP, RE, TIM]	Strong
+Sigma70	yihV	activator	[AIPP, ICWHO, RE, TIM]	Strong
+Sigma70	yjbE	activator	[TIM]	Strong
+Sigma70	yjbF	activator	[TIM]	Strong
+Sigma70	yjbG	activator	[TIM]	Strong
+Sigma70	yjbH	activator	[TIM]	Strong
+Sigma70	yjcH	activator	[AIPP]	Weak
+Sigma70	yjeV	activator	[TIM]	Strong
+Sigma70	yjhC	activator	[RE, TIM]	Strong
+Sigma70	yjjQ	activator	[HIPP, TIM]	Strong
+Sigma70	yjjZ	activator	[ICWHO, TIM]	Strong
+Sigma70	ykgM	activator	[AIPP]	Weak
+Sigma70	ykgO	activator	[AIPP]	Weak
+Sigma70	ykgR	activator	[TIM]	Strong
+Sigma70	yliM	activator	[TIM]	Strong
+Sigma70	ymiA	activator	[TIM]	Strong
+Sigma70	yoaE	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	yoaG	activator	[TIM]	Strong
+Sigma70	yobF	activator	[TIM]	Strong
+Sigma70	yoeB	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70	yojI	activator	[HIPP]	Weak
+Sigma70	ypfN	activator	[HIPP, IDA]	Strong
+Sigma70	yqhD	activator	[TIM]	Strong
+Sigma70	yqjA	activator	[HIPP, TIM]	Strong
+Sigma70	yrbG	activator	[TIM]	Strong
+Sigma70	yrbN	activator	[TIM]	Strong
+Sigma70	ysgA	activator	[AIPP]	Weak
+Sigma70	ytiC	activator	[HIPP, TIM]	Strong
+Sigma70	ytiD	activator	[HIPP, TIM]	Strong
+Sigma70	zinT	activator	[HIPP, TIM]	Strong
+Sigma70	zntA	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70	znuB	activator	[TIM]	Strong
+Sigma70	znuC	activator	[TIM]	Strong
+Sigma70	zwf	activator	[TIM]	Strong
+Sigma70, Sigma24	opgG	activator	[HIPP, IDA, TIM]	Strong
+Sigma70, Sigma24	opgH	activator	[HIPP, IDA, TIM]	Strong
+Sigma70, Sigma24	rpoE	activator	[HIPP, TIM]	Strong
+Sigma70, Sigma24	rseA	activator	[HIPP, TIM]	Strong
+Sigma70, Sigma24	rseB	activator	[HIPP, TIM]	Strong
+Sigma70, Sigma24	rseC	activator	[HIPP, TIM]	Strong
+Sigma70, Sigma24	sixA	activator	[AIPP, IDA, TIM]	Strong
+Sigma70, Sigma32	mlc	activator	[AIPP, TIM]	Strong
+Sigma70, Sigma32	ynfK	activator	[AIPP, TIM]	Strong
+Sigma70, Sigma38	aceE	activator	[HIPP, HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70, Sigma38	aceF	activator	[HIPP, HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70, Sigma38	acs	activator	[AIPP, HTIM]	Strong
+Sigma70, Sigma38	actP	activator	[AIPP, HTIM]	Strong
+Sigma70, Sigma38	aidB	activator	[TIM]	Strong
+Sigma70, Sigma38	appA	activator	[HIPP]	Weak
+Sigma70, Sigma38	appB	activator	[HIPP]	Weak
+Sigma70, Sigma38	appC	activator	[HIPP]	Weak
+Sigma70, Sigma38	appX	activator	[HIPP]	Weak
+Sigma70, Sigma38	araF	activator	[TIM]	Strong
+Sigma70, Sigma38	araG	activator	[TIM]	Strong
+Sigma70, Sigma38	araH	activator	[TIM]	Strong
+Sigma70, Sigma38	arrS	activator	[HIPP]	Weak
+Sigma70, Sigma38	btuF	activator	[HIPP, TIM]	Strong
+Sigma70, Sigma38	cbpA	activator	[TIM]	Strong
+Sigma70, Sigma38	cbpM	activator	[TIM]	Strong
+Sigma70, Sigma38	csiE	activator	[HIPP, TIM]	Strong
+Sigma70, Sigma38	csrA	activator	[HIPP, TIM]	Strong
+Sigma70, Sigma38	dinB	activator	[AIPP]	Weak
+Sigma70, Sigma38	dmsD	activator	[AIPP, RPF]	Strong
+Sigma70, Sigma38	dnaN	activator	[HIPP, TIM]	Strong
+Sigma70, Sigma38	dps	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70, Sigma38	eno	activator	[HTIM, RS-EPT-CBR]	Strong
+Sigma70, Sigma38	epd	activator	[HIPP, HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70, Sigma38	fbaA	activator	[HIPP, HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70, Sigma38	folK	activator	[HIPP, TIM]	Strong
+Sigma70, Sigma38	frdA	activator	[TIM]	Strong
+Sigma70, Sigma38	frdB	activator	[TIM]	Strong
+Sigma70, Sigma38	frdC	activator	[TIM]	Strong
+Sigma70, Sigma38	frdD	activator	[TIM]	Strong
+Sigma70, Sigma38	gabD	activator	[HIPP, TIM]	Strong
+Sigma70, Sigma38	gabP	activator	[HIPP, TIM]	Strong
+Sigma70, Sigma38	gabT	activator	[HIPP, TIM]	Strong
+Sigma70, Sigma38	galE	activator	[CV(RPF/TIM), RPF, TIM]	Confirmed
+Sigma70, Sigma38	galK	activator	[CV(RPF/TIM), RPF, TIM]	Confirmed
+Sigma70, Sigma38	galM	activator	[CV(RPF/TIM), RPF, TIM]	Confirmed
+Sigma70, Sigma38	galT	activator	[CV(RPF/TIM), RPF, TIM]	Confirmed
+Sigma70, Sigma38	gapA	activator	[HIPP, HTIM, IMP, RS-EPT-CBR, TIM]	Strong
+Sigma70, Sigma38	glk	activator	[HIPP, HTIM, RS-EPT-CBR]	Strong
+Sigma70, Sigma38	gor	activator	[AIPP]	Weak
+Sigma70, Sigma38	gpmA	activator	[AIPP, HTIM, RS-EPT-CBR]	Strong
+Sigma70, Sigma38	gyrB	activator	[HIPP, IMP, TIM]	Strong
+Sigma70, Sigma38	hyaA	activator	[HIPP, IMP, TIM]	Strong
+Sigma70, Sigma38	hyaB	activator	[HIPP, IMP, TIM]	Strong
+Sigma70, Sigma38	hyaC	activator	[HIPP, IMP, TIM]	Strong
+Sigma70, Sigma38	hyaD	activator	[HIPP, IMP, TIM]	Strong
+Sigma70, Sigma38	hyaE	activator	[HIPP, IMP, TIM]	Strong
+Sigma70, Sigma38	hyaF	activator	[HIPP, IMP, TIM]	Strong
+Sigma70, Sigma38	ilvY	activator	[HIPP, IEP, IMP, TIM]	Strong
+Sigma70, Sigma38	lpd	activator	[HIPP, HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70, Sigma38	mglA	activator	[HIPP, IMP]	Weak
+Sigma70, Sigma38	mglB	activator	[HIPP, IMP]	Weak
+Sigma70, Sigma38	mglC	activator	[HIPP, IMP]	Weak
+Sigma70, Sigma38	mlrA	activator	[HIPP, TIM]	Strong
+Sigma70, Sigma38	mtn	activator	[HIPP, TIM]	Strong
+Sigma70, Sigma38	murP	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70, Sigma38	murQ	activator	[RS-EPT-CBR, TIM]	Strong
+Sigma70, Sigma38	murR	activator	[TIM]	Strong
+Sigma70, Sigma38	osmB	activator	[HIPP, TIM]	Strong
+Sigma70, Sigma38	osmE	activator	[HIPP, RS-EPT-CBR, TIM]	Strong
+Sigma70, Sigma38	osmY	activator	[HIPP, TIM]	Strong
+Sigma70, Sigma38	pcnB	activator	[HIPP, TIM]	Strong
+Sigma70, Sigma38	pdhR	activator	[HIPP, HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70, Sigma38	pfkA	activator	[HIPP, HTIM, RS-EPT-CBR]	Strong
+Sigma70, Sigma38	pgi	activator	[HIPP, HTIM, TIM]	Strong
+Sigma70, Sigma38	pgk	activator	[HIPP, HTIM, RS-EPT-CBR, TIM]	Strong
+Sigma70, Sigma38	phoU	activator	[HIPP, IMP, TIM]	Strong
+Sigma70, Sigma38	pqiA	activator	[HIPP, TIM]	Strong
+Sigma70, Sigma38	pqiB	activator	[HIPP, TIM]	Strong
+Sigma70, Sigma38	pqiC	activator	[HIPP, TIM]	Strong
+Sigma70, Sigma38	proV	activator	[TIM]	Strong
+Sigma70, Sigma38	proW	activator	[TIM]	Strong
+Sigma70, Sigma38	proX	activator	[TIM]	Strong
+Sigma70, Sigma38	pstA	activator	[HIPP, IMP, TIM]	Strong
+Sigma70, Sigma38	pstB	activator	[HIPP, IMP, TIM]	Strong
+Sigma70, Sigma38	pstC	activator	[HIPP, IMP, TIM]	Strong
+Sigma70, Sigma38	pstS	activator	[HIPP, TIM]	Strong
+Sigma70, Sigma38	pykA	activator	[HTIM, RS-EPT-CBR]	Strong
+Sigma70, Sigma38	pykF	activator	[HTIM]	Strong
+Sigma70, Sigma38	recF	activator	[HIPP, TIM]	Strong
+Sigma70, Sigma38	rhaR	activator	[TIM]	Strong
+Sigma70, Sigma38	rhaS	activator	[TIM]	Strong
+Sigma70, Sigma38	rpoH	activator	[HIPP, TIM]	Strong
+Sigma70, Sigma38	setA	activator	[AIPP, TIM]	Strong
+Sigma70, Sigma38	sgrS	activator	[AIPP, TIM]	Strong
+Sigma70, Sigma38	sgrT	activator	[AIPP, TIM]	Strong
+Sigma70, Sigma38	sohB	activator	[HIPP]	Weak
+Sigma70, Sigma38	topA	activator	[HIPP, TIM]	Strong
+Sigma70, Sigma38	tpiA	activator	[HTIM, RS-EPT-CBR]	Strong
+Sigma70, Sigma38	xapA	activator	[HIPP, TIM]	Strong
+Sigma70, Sigma38	xapB	activator	[HIPP, TIM]	Strong
+Sigma70, Sigma38	yadS	activator	[HIPP, TIM]	Strong
+Sigma70, Sigma38	yafN	activator	[AIPP]	Weak
+Sigma70, Sigma38	yafO	activator	[AIPP]	Weak
+Sigma70, Sigma38	yafP	activator	[AIPP]	Weak
+Sigma70, Sigma38	yjcH	activator	[AIPP, HTIM]	Strong
+Sigma70, Sigma38	ynfE	activator	[AIPP, RPF]	Strong
+Sigma70, Sigma38	ynfF	activator	[AIPP, RPF]	Strong
+Sigma70, Sigma38	ynfG	activator	[AIPP, RPF]	Strong
+Sigma70, Sigma38	ynfH	activator	[AIPP, RPF]	Strong
+Sigma70, Sigma54	rpoE	activator	[TIM]	Strong
+Sigma70, Sigma54	rseA	activator	[TIM]	Strong
+Sigma70, Sigma54	rseB	activator	[TIM]	Strong
+Sigma70, Sigma54	rseC	activator	[TIM]	Strong
+Sigma70, Sigma54	rseD	activator	[TIM]	Strong
+Sigma70, Sigma70	mntH	activator	[HIPP, TIM]	Strong

@@ -1,0 +1,276 @@
+# Copies and Copyright-Notice
+#
+#      RegulonDB is free for academic/noncommercial use
+#
+#      User is not entitled to change or erase data sets of the RegulonDB
+#      database or to eliminate copyright notices from RegulonDB. Furthermore,
+#      User is not entitled to expand RegulonDB or to integrate RegulonDB partly
+#      or as a whole into other databank systems, without prior written consent
+#      from CCG-UNAM.
+#
+#      Please check the license at http://regulondb.ccg.unam.mx/menu/download/full_version/terms_and_conditions.jsp
+#
+# Citation
+#
+#      Santos-Zavaleta A et al. (2019). RegulonDB v 10.5: tackling challenges to unify classic and high throughput knowledge of gene regulation in E. coli K-12.,
+#      Nucleic Acids Res. 2019 Jan 8;47(D1):D212-D220. doi: 10.1093/nar/gky1077.
+#
+#
+# Contact
+#
+#      Person: RegulonDB Team
+#      Web Page: http://regulondb.ccg.unam.mx/menu/about_regulondb/contact_us/index.jsp
+#          (regulondb@ccg.unam.mx)
+#
+#
+# Release: 10.7 Date: 05/04/2020
+# Genome version: U00096.3, Refseq version: NC_000913.3; GI:556503834
+# ___________________________________________________________________________
+# Columns:
+# (1) Identifier assigned by RegulonDB to the small RNA interaction (temporal identifier)
+# (2) Gene regulator related to small RNA
+# (3) Gene regulated by the small RNA
+# (4) Binding site left end position in the genome
+# (5) Binding site right end position in the genome
+# (6) DNA strand of the regulated gene
+# (7) Function (+ activation, - repression, +- dual, ? unknown)
+# (8) Binding site sequence
+# (9) Regulation type
+# (10) Mechanism
+# (11) Evidence that supports the existence of the small RNA
+# (12) Evidence confidence level (Confirmed, Strong, Weak)
+sRNA000121  	ryhB	sodB			forward	-		antisense	post-transcriptional regulation		
+sRNA000122  	ryhB	uof			reverse	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000123  	ryhB	sdhD			forward	-		antisense	post-transcriptional regulation	[GEA|W|Gene expression analysis],[IMP|W|Inferred from mutant phenotype],[HIFS|W|Human inference of function from sequence]	Weak
+sRNA000124  	ryhB	bfr			reverse	-		antisense	post-transcriptional regulation		
+sRNA000125  	ryhB	fumA			reverse	-		antisense	post-transcriptional regulation	[GEA|W|Gene expression analysis],[IMP|W|Inferred from mutant phenotype],[HIFS|W|Human inference of function from sequence]	Weak
+sRNA000126  	ryhB	acnA			forward	-		antisense	post-transcriptional regulation	[GEA|W|Gene expression analysis],[IMP|W|Inferred from mutant phenotype],[HIFS|W|Human inference of function from sequence]	Weak
+sRNA000127  	ryhB	shiA			forward	+		antisense	translational regulation	[GEA|W|Gene expression analysis],[IMP|W|Inferred from mutant phenotype],[HIFS|W|Human inference of function from sequence]	Weak
+sRNA000128  	ryhB	acnB			forward	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000129  	ryhB	cueO			forward	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000130  	ryhB	cydA			forward	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000131  	ryhB	pflA			reverse	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000132  	ryhB	ydbK			reverse	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000133  	ryhB	grxD			reverse	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000134  	ryhB	yeaC			reverse	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000135  	ryhB	msrB			reverse	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000136  	ryhB	mrp			reverse	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000137  	ryhB	nuoM			reverse	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000138  	ryhB	sseB			reverse	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000139  	ryhB	pepB			reverse	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000140  	ryhB	iscR			reverse	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000141  	ryhB	hscB			reverse	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000142  	ryhB	loiP			forward	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000143  	ryhB	hybO			reverse	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000144  	ryhB	fdoG			reverse	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000145  	ryhB	frdA			reverse	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000146  	glmY	glmS			reverse	+		unknown	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000147  	glmZ	glmS	3913690	3913708	reverse	+	ACAGGTTGACCGACAACG	base-pairing	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000148  	gadY	gadX	3665727	3665792	reverse	+	AATTGTCTAATTGCGTATGCAAGACATAAATATATTCTCACCATGGTTAATGGTGAATATCGCTA	base-pairing	post-transcriptional regulation	[GEA|W|Gene expression analysis],[IMP|W|Inferred from mutant phenotype],[IPI|W|Inferred from physical interaction],[HIFS|W|Human inference of function from sequence]	Weak
+sRNA000149  	spf	galK	789924	789998	reverse	-	CGAATCCGGAGTGTAAGAAATGAGTCTGAAAGAAAAAACACAATCTCTGTTTGCCAACGCATTTGGCTACCCTG	antisense	translational regulation	[GEA|W|Gene expression analysis],[IMP|W|Inferred from mutant phenotype],[IPI|W|Inferred from physical interaction]	Weak
+sRNA000150  	csrC	csrA			reverse	-		antagonist	post-translational regulation	[GEA|W|Gene expression analysis],[IPI|W|Inferred from physical interaction]	Weak
+sRNA000151  	oxyS	fhlA	2854323	2854329	forward	-	CCTGGA	antisense	translational regulation		
+sRNA000152  	oxyS	fhlA	2854371	2854379	forward	-	AAGGGTTG	antisense	translational regulation		
+sRNA000153  	oxyS	uhpT			reverse	+		antisense	post-transcriptional regulation	[GEA|W|Gene expression analysis],[IMP|W|Inferred from mutant phenotype],[IPI|W|Inferred from physical interaction]	Weak
+sRNA000154  	oxyS	pqqL			reverse	+		antisense	post-transcriptional regulation	[GEA|W|Gene expression analysis],[IMP|W|Inferred from mutant phenotype],[IPI|W|Inferred from physical interaction]	Weak
+sRNA000155  	oxyS	rpoS			reverse	-		antisense	post-transcriptional regulation		
+sRNA000156  	oxyS	hdeA			reverse	-		antisense	post-transcriptional regulation	[GEA|W|Gene expression analysis],[IMP|W|Inferred from mutant phenotype],[IPI|W|Inferred from physical interaction]	Weak
+sRNA000157  	oxyS	yhiM			forward	-		antisense	post-transcriptional regulation	[GEA|W|Gene expression analysis],[IMP|W|Inferred from mutant phenotype],[IPI|W|Inferred from physical interaction]	Weak
+sRNA000158  	oxyS	dps			reverse	-		antisense	post-transcriptional regulation	[GEA|W|Gene expression analysis],[IMP|W|Inferred from mutant phenotype],[IPI|W|Inferred from physical interaction]	Weak
+sRNA000159  	oxyS	gadB			reverse	-		antisense	post-transcriptional regulation	[GEA|W|Gene expression analysis],[IMP|W|Inferred from mutant phenotype],[IPI|W|Inferred from physical interaction]	Weak
+sRNA000160  	oxyS	yobF			reverse	-		antisense	post-transcriptional regulation		
+sRNA000161  	oxyS	yaiZ			forward	-		antisense	post-transcriptional regulation		
+sRNA000162  	oxyS	rlmD			reverse	-		antisense	post-transcriptional regulation		
+sRNA000163  	oxyS	wrbA			reverse	-		antisense	post-transcriptional regulation		
+sRNA000164  	oxyS	ybaY			forward	-		antisense	post-transcriptional regulation		
+sRNA000165  	sokB	mokB			reverse	-		antisense	translational regulation	[HIFS|W|Human inference of function from sequence]	Weak
+sRNA000166  	sokC	mokC			reverse	-		inactivated	inactivated	[HIFS|W|Human inference of function from sequence]	Weak
+sRNA000167  	rdlA	ldrA			reverse	-		antisense	translational regulation	[HIFS|W|Human inference of function from sequence]	Weak
+sRNA000168  	rdlB	ldrB			reverse	-		antisense	translational regulation	[HIFS|W|Human inference of function from sequence]	Weak
+sRNA000169  	rdlC	ldrC			reverse	-		antisense	translational regulation	[HIFS|W|Human inference of function from sequence]	Weak
+sRNA000170  	rdlD	ldrD			reverse	-		antisense	translational regulation		
+sRNA000171  	sgrS	ptsG	1157840	1157872	forward	-	GCACCCATACTCAGGAGCACTCTCAATTATGT	antisense	post-transcriptional regulation		
+sRNA000172  	rydC	yejA			forward	-		antisense	post-transcriptional regulation		
+sRNA000173  	rydC	yejB			forward	-		antisense	post-transcriptional regulation		
+sRNA000174  	rydC	yejE			forward	-		antisense	post-transcriptional regulation		
+sRNA000175  	rydC	yejF			forward	-		antisense	post-transcriptional regulation		
+sRNA000176  	istR	tisA	3853418	3853461	forward	-	AACCCCGCGTGAGCACACTGTGTTATGTCAACAAGCACAACGT	antisense	post-transcriptional regulation		
+sRNA000177  	istR	tisB	3853528	3853571	forward	-	GCTCCTGAACCACAGGAGACGCGTATGAACCTGGTGGATATCG	antisense	post-transcriptional regulation		
+sRNA000178  	symR	symE			reverse	-		antisense	post-transcriptional regulation		
+sRNA000179  	ipeX	ompF			reverse	-		unknown	post-transcriptional regulation	[GEA|W|Gene expression analysis],[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000229  	omrA	csgD			reverse	-					
+sRNA000230  	omrB	csgD			reverse	-					
+sRNA000231  	agrA	dinQ			reverse	-					
+sRNA000180  	ipeX	ompC			reverse	-		unknown	post-transcriptional regulation	[GEA|W|Gene expression analysis],[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000181  	rseX	ompC	2312750	2312780	reverse	-	AAATAAAGGCATATAACAGAGGGTTAATAA	antisense	post-transcriptional regulation	[GEA|W|Gene expression analysis],[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000182  	rseX	ompA	1020061	1020075	reverse	-	GGATGATAACGAGG	antisense	post-transcriptional regulation	[IE|W|Inferred from experiment],[IPI|W|Inferred from physical interaction],[IMP|W|Inferred from mutant phenotype],[HIFS|W|Human inference of function from sequence]	Weak
+sRNA000183  	glmY	glmZ			forward	-		represses processing	post-transcriptional regulation		
+sRNA000184  	C0614	IS128			forward	?		antisense	post-transcriptional regulation		
+sRNA000185  	IS128	C0614			reverse	?		antisense	post-transcriptional regulation		
+sRNA000186  	IS128	IS129			reverse	?		antisense	post-transcriptional regulation		
+sRNA000187  	IS129	IS128			forward	?		antisense	post-transcriptional regulation		
+sRNA000188  	IS129	ryfA			forward	?		antisense	post-transcriptional regulation		
+sRNA000189  	ryfA	IS129			reverse	?		antisense	post-transcriptional regulation		
+sRNA000190  	ryfA	sseB			reverse	?		antisense	post-transcriptional regulation		
+sRNA000191  	rnpB	rnpA			forward	+		catalytic part of RNase P	post-transcriptional regulation	[IE|W|Inferred from experiment],[IPI|W|Inferred from physical interaction]	Weak
+sRNA000192  	ffs	ffh			reverse	+		translocation	post-transcriptional regulation		
+sRNA000193  	ohsC	shoB	2700273	2700291	reverse	-	GTGCAGCATGCACCCTCA	antisense	post-transcriptional regulation	[GEA|W|Gene expression analysis],[IMP|W|Inferred from mutant phenotype],[HIFS|W|Human inference of function from sequence]	Weak
+sRNA000194  	ryfD	clpB	2734156	2734178	reverse	-	GAGTTATGCGTCTGGATCGTCT	antisense	post-transcriptional regulation	[HIFS|W|Human inference of function from sequence]	Weak
+sRNA000195  	cyaR	ompX	850441	850449	forward	-	AGGTGGTT	antisense	post-transcriptional regulation		
+sRNA000196  	micA	ompX	850450	850472	forward	-	TGAAAAAAATTGCATGTCTTTC	antisense	post-transcriptional regulation	[IPI|W|Inferred from physical interaction],[IMP|W|Inferred from mutant phenotype],[HIFS|W|Human inference of function from sequence]	Weak
+sRNA000197  	sibA	ibsA	2153349	2153408	reverse	-	ATGATGAAGCACGTCATCATACTGGTGATACTCTTAGTGATTAGCTTCCAGGCTTACTA	antisense	post-transcriptional regulation	[IPI|W|Inferred from physical interaction],[IMP|W|Inferred from mutant phenotype],[HIFS|W|Human inference of function from sequence]	Weak
+sRNA000198  	sibB	ibsB	2153681	2153737	reverse	-	ATGATGAAGCTACTCATCATCGTGGTGCTCTTAGTCATAAGCTTCCCCGCTTACTA	antisense	post-transcriptional regulation	[IPI|W|Inferred from physical interaction],[IMP|W|Inferred from mutant phenotype],[HIFS|W|Human inference of function from sequence]	Weak
+sRNA000199  	sibC	ibsC	3056890	3056949	reverse	-	ATGATGCGACTTGTCATCATACTGATTGTACTGTTACTCATAAGTTTCAGCGCTTATTA	antisense	post-transcriptional regulation	[IPI|W|Inferred from physical interaction],[IMP|W|Inferred from mutant phenotype],[HIFS|W|Human inference of function from sequence]	Weak
+sRNA000200  	sibD	ibsD	3194766	3194825	forward	-	TGATGAAGCTCGTCATCATACTGATTGTGTTGTTACTCGTAAGTTTCGCAGCTTATTAA	antisense	post-transcriptional regulation	[IPI|W|Inferred from physical interaction],[IMP|W|Inferred from mutant phenotype],[HIFS|W|Human inference of function from sequence]	Weak
+sRNA000201  	sibE	ibsE	3195141	3195200	forward	-	TGATGAAGCTCGTCATCATACTGGTTGTGTTGTTACTGTTAAGTTTCCCGACTTACTAA	antisense	post-transcriptional regulation	[IPI|W|Inferred from physical interaction],[IMP|W|Inferred from mutant phenotype],[HIFS|W|Human inference of function from sequence]	Weak
+sRNA000202  	cyaR	yqaE	2797013	2797032	reverse	-	ACATATGGGTTTCTGGAGA	antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000203  	cyaR	luxS	2814731	2814745	reverse	-	GGAGGTGGCTAAAT	antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000204  	cyaR	nadE	1822447	1822460	forward	-	GAGGGGTTCAATG	antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000205  	dsrA	rbsD			forward	+		antisense	post-transcriptional regulation	[HIFS|W|Human inference of function from sequence]	Weak
+sRNA000206  	dsrA	argR			forward	-		antisense	post-transcriptional regulation		
+sRNA000207  	dsrA	ilvI			forward	-		antisense	post-transcriptional regulation	[HIFS|W|Human inference of function from sequence]	Weak
+sRNA000208  	fnrS	sodB	1735348	1735381	forward	-	ATGCAAATTAATAATAAAGGAGAGTAGCAATGT	antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000209  	fnrS	cydD			reverse	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000210  	fnrS	yobA	1924952	1924986	reverse	-	AAAAAGGAATAGATAATATGGCTTCAACTGCACG	antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000211  	fnrS	sodA			forward	-		antisense	post-transcriptional regulation		
+sRNA000212  	arcZ	rpoS	2867642	2867673	reverse	+	TTTGAAATTCGTTACAAGGGGAAATCCGTAA	base-pairing	post-transcriptional regulation	[GEA|W|Gene expression analysis],[IMP|W|Inferred from mutant phenotype],[IPI|W|Inferred from physical interaction],[HIFS|W|Human inference of function from sequence]	Weak
+sRNA000213  	mgrR	eptB	3710468	3710482	reverse	-	TGTTTGCATGAGAT	base-pairing	post-transcriptional regulation	[GEA|W|Gene expression analysis],[IMP|W|Inferred from mutant phenotype],[IPI|W|Inferred from physical interaction],[HIFS|W|Human inference of function from sequence]	Weak
+sRNA000214  	mgrR	ygdQ	2970426	2970437	forward	-	TTGCATGGATA	base-pairing	post-transcriptional regulation	[GEA|W|Gene expression analysis],[IMP|W|Inferred from mutant phenotype],[IPI|W|Inferred from physical interaction],[HIFS|W|Human inference of function from sequence]	Weak
+sRNA000215  	sdsR	ryeA	1921128	1921231	forward		TTCTTCGTTGCTCGTCTGCGTAAAACTCAGGCGATTCCCGCCTTACCCGCCCCCAAATACAAAGTCGGTAATTTTCCGTTCAGCCCGGTGAAAGATCGCGAAG	antisense	post-transcriptional regulation	[GEA|W|Gene expression analysis],[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000216  	ryhB	entC			forward	+		remains elusive			
+sRNA000217  	ryhB	entE			forward	+		remains elusive			
+sRNA000218  	ryhB	entB			forward	+		remains elusive			
+sRNA000219  	ryhB	entA			forward	+		remains elusive			
+sRNA000220  	ryhB	entH			forward	+		remains elusive			
+sRNA000221  	ryhB	cysE	3782555	3782566	reverse	-	AGCAATGTCGT	base-pairing			
+sRNA000222  	ryhB	iscS			reverse	-		stability of the transcript			
+sRNA000223  	ryhB	iscU			reverse	-		stability of the transcript			
+sRNA000224  	ryhB	iscA			reverse	-		stability of the transcript			
+sRNA000225  	ryhB	iscR			reverse	+		stability of the transcript			
+sRNA000226  	mcaS	csgD			reverse	-					
+sRNA000227  	mcaS	flhD			reverse	+					
+sRNA000228  	mcaS	pgaA			reverse						
+sRNA000232  	agrB	dinQ			reverse	-					
+sRNA000233  	rirA	rfaH			reverse	-					
+sRNA000234  	cpxQ	skp			forward	-					
+sRNA000235  	pspH	spf			forward	-					
+sRNA000001  	rybB	ompC	2312750	2312782	reverse	-	GCAAATAAAGGCATATAACAGAGGGTTAATAA	antisense	translational regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000002  	rybB	ompW	1314007	1314039	forward	-	GACGGAGCGGATATGAAAAAGTTAACAGTGGC	antisense	translational regulation	[GEA|W|Gene expression analysis],[IMP|W|Inferred from mutant phenotype],[HIFS|W|Human inference of function from sequence]	Weak
+sRNA000003  	micC	ompC	2312764	2312790	reverse	-	ATAAAAAAGCAAATAAAGGCATATAA	antisense	translational regulation	[GEA|W|Gene expression analysis],[IMP|W|Inferred from mutant phenotype],[HIFS|W|Human inference of function from sequence]	Weak
+sRNA000004  	dicF	ftsZ	105277	105306	forward	-	GCGACAGGCACAAATCGGAGAGAAACTAT	antisense	translational regulation		
+sRNA000005  	rprA	rpoS	2867645	2867668	reverse	+	AATTCGTTACAAGGGGAAATCCG	antisense	translational regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000006  	dsrA	rpoS	2867648	2867670	reverse	+	GAAATTCGTTACAAGGGGAAAT	antisense	translational regulation		
+sRNA000007  	dsrA	hns	1292904	1292916	reverse	-	GAAGCACTTAAA	antisense	translational regulation	[GEA|W|Gene expression analysis]	Weak
+sRNA000008  	micF	ompF	986973	986998	reverse	-	ATGAGGGTAATAAATAATGATGAAG	antisense	translational regulation		
+sRNA000009  	micA	ompA	1020060	1020075	reverse	-	GGATGATAACGAGGC	antisense	translational regulation	[GEA|W|Gene expression analysis],[IMP|W|Inferred from mutant phenotype],[IPI|W|Inferred from physical interaction],[HIFS|W|Human inference of function from sequence]	Weak
+sRNA000010  	gcvB	dppA	3707708	3707736	reverse	-	AAACAACAAACATCACAATTGGAGCAGA	antisense	transcriptional regulation		
+sRNA000011  	gcvB	oppA	1301175	1301195	forward	-	AAAACAATGACCAACATCAC	antisense	translational regulation		
+sRNA000012  	gcvB	gltI	687791	687824	reverse	-	AGTTGCAGACGATAACAACACAAACACTCACAA	antisense	translational regulation		
+sRNA000013  	gcvB	livJ	3599680	3599703	reverse	-	AACATCACAACACACGTAATAAC	antisense	translational regulation		
+sRNA000014  	gcvB	livK	3597577	3597600	reverse	-	AAACAAAGCAACACAACATCACG	antisense	translational regulation		
+sRNA000015  	gcvB	argT	2427824	2427849	reverse	-	TGCAAACACACAACACAATACACAA	antisense	translational regulation		
+sRNA000016  	gcvB	sstT	3239918	3239944	forward	-	GACAACACAATGAAAGGATCGAAAAA	antisense	post-transcriptional regulation		
+sRNA000017  	gcvB	cycA	4429838	4429870	forward	-	CAGACAGGTACAGGAAGAAAAAAACATGGTAG	antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000018  	gcvB	rfbA			reverse	+		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000019  	gcvB	opgB			reverse	+		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000020  	gcvB	adhE			reverse	+		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000021  	gcvB	gdhA			forward	+		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000022  	gcvB	glf			reverse	+		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000023  	gcvB	ilvB			reverse	+		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000024  	gcvB	ilvC			forward	+		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000025  	gcvB	serA			reverse	+		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000026  	gcvB	ssuE			reverse	+		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000027  	gcvB	wbbH			reverse	+		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000028  	gcvB	gatZ			reverse	-		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000029  	gcvB	srlD			forward	-		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000030  	gcvB	lon			forward	-		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000031  	gcvB	cysD			reverse	-		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000032  	gcvB	wbbJ			reverse	+		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000033  	gcvB	gatZ			reverse	-		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000034  	gcvB	srlB			forward	-		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000035  	gcvB	rfbX			reverse	+		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000036  	gcvB	yifK			forward	+		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000037  	gcvB	emrY			reverse	-		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000038  	gcvB	adeQ			reverse	-		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000039  	gcvB	fimZ			reverse	-		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000040  	gcvB	yafU			reverse	-		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000041  	gcvB	ybfB			forward	-		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000042  	gcvB	clpB			reverse	+		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000043  	gcvB	ibpA			reverse	+		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000044  	gcvB	dnaK			forward	+		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000045  	gcvB	htpG			forward	+		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000046  	gcvB	groS			forward	+		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000047  	gcvB	hdeB			reverse	-		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000048  	gcvB	sfmH			forward	-		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000049  	gcvB	ydhU			reverse	-		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000050  	gcvB	ygeG			forward	-		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000051  	gcvB	slp			forward	+		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000052  	gcvB	yddL			reverse	-		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000053  	gcvB	ymgG			reverse	-		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000054  	gcvB	yncH			forward	-		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000055  	gcvB	yedN			reverse	-		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000056  	gcvB	ypjC			reverse	-		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000057  	gcvB	casD			reverse	-		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000058  	gcvB	yqeK			reverse	-		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000059  	gcvB	ygeF			forward	-		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000060  	gcvB	ygeI			forward	-		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000061  	gcvB	ygeL			reverse	-		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000062  	gcvB	ygeN			reverse	-		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000063  	gcvB	yhaC			forward	-		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000064  	gcvB	yrhA				-		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000065  	gcvB	yhiL			reverse	-		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000066  	gcvB	yibG			forward	-		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000068  	gcvB	yebB			forward	-		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000069  	omrA	cirA	2246779	2246804	reverse	-	ATTTTATTTTCGTAGTTACCTCATG	antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000070  	omrA	fecA			reverse	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000071  	omrA	fepA			reverse	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000072  	omrA	ompT	585614	585645	reverse	-	TGGAGAACTTTTATGCGGGCGAAACTTCTGG	antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000073  	omrA	gntP			reverse	-		antisense	post-transcriptional regulation		
+sRNA000074  	omrA	yjcH			reverse	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000075  	omrA	actP			reverse	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000076  	omrA	yahO			forward	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000077  	omrA	dld			forward	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000078  	omrA	fimA			forward	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000079  	omrA	rcnB			forward	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000080  	omrA	btuB			forward	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000081  	omrA	tcyJ			reverse	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000082  	omrA	sdaC			forward	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000083  	omrA	sdaB			forward	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000084  	omrA	csgF			reverse	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000085  	omrA	folP			reverse	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000086  	omrA	ykfB			reverse	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000087  	omrA	osmB			reverse	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000088  	omrA	yiaL			forward	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000089  	omrA	tsaD			reverse	+		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000090  	omrA	dppB			reverse	+		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000091  	omrA	dppF			reverse	+		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000092  	omrA	ybeT			reverse	+		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000093  	omrA	ompX			forward	+		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000094  	omrA	rclA			reverse	+		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000095  	omrA	ompR	3536595	3536613	reverse	-	ATTGTTGCGAACCTTTGG	antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000096  	omrB	cirA	2246779	2246804	reverse	-	ATTTTATTTTCGTAGTTACCTCATG	antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000097  	omrB	fecA			reverse	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000098  	omrB	ompT	585614	585645	reverse	-	TGGAGAACTTTTATGCGGGCGAAACTTCTGG	antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000099  	omrB	gntP			reverse	-		antisense	post-transcriptional regulation		
+sRNA000100  	omrB	yjcH			reverse	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000101  	omrB	actP			reverse	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000102  	omrB	yahO			forward	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000103  	omrB	dld			forward	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000104  	omrB	fimA			forward	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000105  	omrB	rcnB			forward	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000106  	omrB	btuB			forward	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000107  	omrB	tcyJ			reverse	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000108  	omrB	sdaC			forward	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000109  	omrB	sdaB			forward	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000110  	omrB	csgF			reverse	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000111  	omrB	folP			reverse	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000112  	omrB	yiaL			forward	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000113  	omrB	essD			forward	-		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000114  	omrB	dppB			reverse	+		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000115  	omrB	dppF			reverse	+		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000116  	omrB	ompX			forward	+		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000117  	omrB	rclB			reverse	+		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000118  	omrB	rclC			reverse	+		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000119  	omrB	rclA			reverse	+		antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000120  	omrB	ompR	3536595	3536613	reverse	-	ATTGTTGCGAACCTTTGG	antisense	post-transcriptional regulation	[IMP|W|Inferred from mutant phenotype]	Weak
+sRNA000067  	gcvB	yjbM			forward	-		unknown	unknown	[IMP|W|Inferred from mutant phenotype]	Weak

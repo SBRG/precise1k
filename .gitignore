@@ -1,0 +1,15 @@
+# PyCharm configs
+*.pyc
+
+# Jupyter notebook saved checkpoints
+.ipynb_checkpoints
+
+# large log TPMs
+data/k12_modulome/log_tpm*
+
+# pairwise DEG calculations
+data/precise1k/deg
+
+# OptICA full results
+*/*/optica/*
+*/*/optica*/*

@@ -8,6 +8,8 @@ To analyze new data with the PRECISE-1K knowledgebase, we recommend starting wit
 
 For an overview of iModulons, we recommend [iModulonDB's About Page](https://imodulondb.org/about.html).
 
+[![DOI](https://zenodo.org/badge/533906640.svg)](https://zenodo.org/badge/latestdoi/533906640)
+
 ## Setup
 
 Ensure you have Python 3.6+, Jupyter (`pip install jupyterlab`), and the iModulon analysis package `pymodulon` installed (`pip install pymodulon`). 
